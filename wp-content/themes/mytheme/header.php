@@ -10,4 +10,5 @@
 <header id="header">
 <?php mytheme_logo(); ?>
 <?php mytheme_menu('primary-menu' ); ?>
+<?php echo "Duy Khanh commit"; ?>
 </header>
