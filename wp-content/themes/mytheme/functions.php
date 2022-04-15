@@ -16,12 +16,12 @@ if (!function_exists('mytheme_logo')) {
                 get_bloginfo('description'),
                 get_bloginfo('sitename')
             );
-        } // endif 
             ?>
             </div>
             <div class="site-description"><?php bloginfo('description'); ?></div>
         </div>
     <?php }
+}
 
 /**
 @ Thiết lập hàm hiển thị menu
@@ -49,11 +49,14 @@ function my_styles()
     * Hàm get_stylesheet_uri() sẽ trả về giá trị dẫn đến file style.css của theme
     * Nếu sử dụng child theme, thì file style.css này vẫn load ra từ theme mẹ
     */
-    wp_register_style(
-        'main-style',
-        get_template_directory_uri() . '/style.css',
-        'all'
-    );
+    wp_register_style('main-style',get_template_directory_uri() . './css/style.css','all');
     wp_enqueue_style('main-style');
+
+    wp_register_style('index', get_template_directory_uri() . './css/layout.css', 'all');
+    wp_enqueue_style('index');
+
+    wp_enqueue_script( 'script', get_template_directory_uri() . '/js/jquery.min.js', array ( 'jquery' ), 1.1, true);
+    wp_enqueue_script( 'script1', get_template_directory_uri() . '/js/jquery.backtotop.js', array ( 'jquery' ), 1.1, true);
+    wp_enqueue_script( 'script2', get_template_directory_uri() . '/js/jquery.mobilemenu.js', array ( 'jquery' ), 1.1, true);
 }
 add_action('wp_enqueue_scripts', 'my_styles');
