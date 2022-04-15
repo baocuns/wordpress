@@ -1,0 +1,18 @@
+/*
+Theme Name: My theme
+Theme URI: https://wordpress.org/
+Author: Phuong Thao
+Author URI: https://wordpress.org/
+Description: My first basic theme
+Tags: theme, basic theme
+Version: 1.0
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+Text Domain: mytheme
+Languages Folder: /languages
+*/
+body {
+    color: red;
+}
+
