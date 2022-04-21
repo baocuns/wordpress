@@ -1,7 +1,7 @@
 /*
-Theme Name: My theme
+Theme Name: Group 4
 Theme URI: https://wordpress.org/
-Author: Phuong Thao
+Author: Nguyen Van Bao
 Author URI: https://wordpress.org/
 Description: My first basic theme
 Tags: theme, basic theme
@@ -12,7 +12,3 @@ Requires PHP: 7.0
 Text Domain: mytheme
 Languages Folder: /languages
 */
-body {
-    color: yellow;
-}
-
