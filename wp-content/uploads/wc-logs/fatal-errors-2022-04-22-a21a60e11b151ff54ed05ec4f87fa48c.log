@@ -1,0 +1,4 @@
+2022-04-22T03:47:39+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\wamp\www\group_4\wp-includes\Requests\Transport\cURL.php on line 483
+
+2022-04-22T03:51:02+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\wamp\www\group_4\wp-includes\Requests\Transport\cURL.php on line 483
+

@@ -1,88 +1,3 @@
-<?php
-// Bước 1: Xem thông tin tất cả bài post.
-// Kết quả của query sẽ được lưu vào đối tượng $wp_query.
-// Kiểm tra đối tượng $wp_query bằng cách chèn đoạn code dưới đây vào file template index.php trong theme:
-// echo "<b>Bước 1</b>";
-// echo "<pre>";
-// print_r($wp_query);
-// echo "</pre>";
-?>
-
-<!-- Để xem dữ liệu của posts ta trỏ tới thuộc tính posts như ví dụ bên dưới: -->
-<?php
-// echo "<b>Bước 2</b>";
-// echo "<pre>";
-// print_r($wp_query->posts);
-// echo "</pre>";
-?>
-<!-- hoặc sử dụng biến $posts như sau: -->
-<?php
-// echo "<b>Bước 2.2</b>";
-// echo "<pre>";
-// print_r($posts);
-// echo "</pre>";
-?>
-
-<!-- Để lấy ra chi tiết một bài post, ta dùng biến $post -->
-
-
-<!-- 
-Bước 3: Lấy ra thông tin tất cả bài post
-Để hiển thị toàn bộ bài viết, ta phải dùng vòng lặp while như sau: -->
-<?php
-// if ($wp_query->have_posts()) {
-//     while ($wp_query->have_posts()) {
-//         $wp_query->the_post();
-//         echo $post->post_title . '<br>';
-//     }
-// }
-?>
-<!-- Trong đó:
-have_posts() là một phương thức của class WP_Query, dùng kiểm tra xem còn bài viết nào trong query hay không.
-the_post() chỉ mục để gọi post kế tiếp trong vòng lặp, nếu không khai báo phương thức này thì vòng lặp sẽ bị lặp không có điểm dừng.
-post_title là tiêu đề bài viết -->
-
-
-<!-- Ngoài ra, ta có thể viết ngắn gọn như sau: -->
-<?php
-// if (have_posts()): while (have_posts()): the_post();
-//        echo $post->post_title . '<br>';
-//    endwhile;endif;
-
-?>
-
-<!-- Bước 4: Sử dụng template tags để lấy thông tin bài post
-Ở bước 3, để lấy ra tiêu đề bài post, ta dùng $post->post_title
-Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông tin bài viết nhanh hơn như sau: -->
-<?php
-// if (have_posts()): while (have_posts()): the_post();
-//        echo the_title('<br>');
-//    endwhile;endif;
-?>
-<!-- Xem thêm các template tags: https://codex.wordpress.org/Template_Tags -->
-
-
-
-<?php
-// $args = array(
-//     'post_type' => 'post', //Loại là post
-//     'orderby' => 'rand', //Lấy ngẫu nhiên
-//     'posts_per_page' => 5 //Lấy 5 bài post 1 trang
-// );
-
-// $the_query = new WP_Query($args);
-// if ($the_query->have_posts()) :
-//     while ($the_query->have_posts()) :
-//         $the_query->the_post();
-//         echo the_title("<br>");
-//     endwhile;
-// endif;
-?>
-
-<?php
-// echo "<br>Xin chào " . the_author();
-?>
-
 <?php get_header() ; ?>
 
 <!-- Page Preloder -->
@@ -93,7 +8,7 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
     <div class="humberger__menu__overlay"></div>
     <div class="humberger__menu__wrapper">
         <div class="humberger__menu__logo">
-            <a href="#"><img src="./img/logo.png" alt=""></a>
+            <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt=""></a>
         </div>
         <div class="humberger__menu__cart">
             <ul>
@@ -104,7 +19,7 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
         </div>
         <div class="humberger__menu__widget">
             <div class="header__top__right__language">
-                <img src="./img/language.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/language.png" alt="">
                 <div>English</div>
                 <span class="arrow_carrot-down"></span>
                 <ul>
@@ -170,7 +85,7 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
                                 <a href="#"><i class="fa fa-pinterest-p"></i></a>
                             </div>
                             <div class="header__top__right__language">
-                                <img src="./img/language.png" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/language.png" alt="">
                                 <div>English</div>
                                 <span class="arrow_carrot-down"></span>
                                 <ul>
@@ -190,7 +105,7 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
             <div class="row">
                 <div class="col-lg-3">
                     <div class="header__logo">
-                        <a href="./index.html"><img src="./img/logo.png" alt=""></a>
+                        <a href="./index.html"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt=""></a>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -275,7 +190,7 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
                             </div>
                         </div>
                     </div>
-                    <div class="hero__item set-bg" data-setbg="./img/hero/banner.jpg">
+                    <div class="hero__item set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/img/hero/banner.jpg">
                         <div class="hero__text">
                             <span>FRUIT FRESH</span>
                             <h2>Vegetable <br />100% Organic</h2>
@@ -295,27 +210,27 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
             <div class="row">
                 <div class="categories__slider owl-carousel">
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="./img/categories/cat-1.jpg">
+                        <div class="categories__item set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/img/categories/cat-1.jpg">
                             <h5><a href="#">Fresh Fruit</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="./img/categories/cat-2.jpg">
+                        <div class="categories__item set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/img/categories/cat-2.jpg">
                             <h5><a href="#">Dried Fruit</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="./img/categories/cat-3.jpg">
+                        <div class="categories__item set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/img/categories/cat-3.jpg">
                             <h5><a href="#">Vegetables</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="./img/categories/cat-4.jpg">
+                        <div class="categories__item set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/img/categories/cat-4.jpg">
                             <h5><a href="#">drink fruits</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="./img/categories/cat-5.jpg">
+                        <div class="categories__item set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/img/categories/cat-5.jpg">
                             <h5><a href="#">drink fruits</a></h5>
                         </div>
                     </div>
@@ -345,9 +260,10 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
                 </div>
             </div>
             <div class="row featured__filter">
+                
                 <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fresh-meat">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="./img/featured/feature-1.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/img/featured/feature-1.jpg">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -362,7 +278,7 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mix vegetables fastfood">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="./img/featured/feature-2.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/img/featured/feature-2.jpg">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -377,7 +293,7 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mix vegetables fresh-meat">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="./img/featured/feature-3.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/img/featured/feature-3.jpg">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -392,7 +308,7 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mix fastfood oranges">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="./img/featured/feature-4.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/img/featured/feature-4.jpg">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -407,7 +323,7 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mix fresh-meat vegetables">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="./img/featured/feature-5.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/img/featured/feature-5.jpg">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -422,7 +338,7 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fastfood">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="./img/featured/feature-6.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/img/featured/feature-6.jpg">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -437,7 +353,7 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mix fresh-meat vegetables">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="./img/featured/feature-7.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/img/featured/feature-7.jpg">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -452,7 +368,7 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mix fastfood vegetables">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="./img/featured/feature-8.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/img/featured/feature-8.jpg">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -476,12 +392,12 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="banner__pic">
-                        <img src="./img/banner/banner-1.jpg" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/banner/banner-1.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="banner__pic">
-                        <img src="./img/" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/" alt="">
                     </div>
                 </div>
             </div>
@@ -500,7 +416,7 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
                             <div class="latest-prdouct__slider__item">
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="./img/latest-product/lp-1.jpg" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/latest-product/lp-1.jpg" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Crab Pool Security</h6>
@@ -509,7 +425,7 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
                                 </a>
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="./img/latest-product/lp-2.jpg" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/latest-product/lp-2.jpg" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Crab Pool Security</h6>
@@ -518,7 +434,7 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
                                 </a>
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="./img/latest-product/lp-3.jpg" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/latest-product/lp-3.jpg" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Crab Pool Security</h6>
@@ -529,7 +445,7 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
                             <div class="latest-prdouct__slider__item">
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="./img/latest-product/lp-1.jpg" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/latest-product/lp-1.jpg" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Crab Pool Security</h6>
@@ -538,7 +454,7 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
                                 </a>
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="./img/latest-product/lp-2.jpg" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/latest-product/lp-2.jpg" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Crab Pool Security</h6>
@@ -547,7 +463,7 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
                                 </a>
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="./img/latest-product/lp-3.jpg" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/latest-product/lp-3.jpg" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Crab Pool Security</h6>
@@ -565,7 +481,7 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
                             <div class="latest-prdouct__slider__item">
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="./img/latest-product/lp-1.jpg" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/latest-product/lp-1.jpg" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Crab Pool Security</h6>
@@ -574,7 +490,7 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
                                 </a>
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="./img/latest-product/lp-2.jpg" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/latest-product/lp-2.jpg" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Crab Pool Security</h6>
@@ -583,7 +499,7 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
                                 </a>
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="./img/latest-product/lp-3.jpg" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/latest-product/lp-3.jpg" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Crab Pool Security</h6>
@@ -594,7 +510,7 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
                             <div class="latest-prdouct__slider__item">
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="./img/latest-product/lp-1.jpg" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/latest-product/lp-1.jpg" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Crab Pool Security</h6>
@@ -603,7 +519,7 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
                                 </a>
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="./img/latest-product/lp-2.jpg" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/latest-product/lp-2.jpg" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Crab Pool Security</h6>
@@ -612,7 +528,7 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
                                 </a>
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="./img/latest-product/lp-3.jpg" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/latest-product/lp-3.jpg" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Crab Pool Security</h6>
@@ -630,7 +546,7 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
                             <div class="latest-prdouct__slider__item">
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="./img/latest-product/lp-1.jpg" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/latest-product/lp-1.jpg" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Crab Pool Security</h6>
@@ -639,7 +555,7 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
                                 </a>
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="./img/latest-product/lp-2.jpg" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/latest-product/lp-2.jpg" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Crab Pool Security</h6>
@@ -648,7 +564,7 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
                                 </a>
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="./img/latest-product/lp-3.jpg" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/latest-product/lp-3.jpg" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Crab Pool Security</h6>
@@ -659,7 +575,7 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
                             <div class="latest-prdouct__slider__item">
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="./img/latest-product/lp-1.jpg" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/latest-product/lp-1.jpg" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Crab Pool Security</h6>
@@ -668,7 +584,7 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
                                 </a>
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="./img/latest-product/lp-2.jpg" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/latest-product/lp-2.jpg" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Crab Pool Security</h6>
@@ -677,7 +593,7 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
                                 </a>
                                 <a href="#" class="latest-product__item">
                                     <div class="latest-product__item__pic">
-                                        <img src="./img/latest-product/lp-3.jpg" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/latest-product/lp-3.jpg" alt="">
                                     </div>
                                     <div class="latest-product__item__text">
                                         <h6>Crab Pool Security</h6>
@@ -707,7 +623,7 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="blog__item">
                         <div class="blog__item__pic">
-                            <img src="./img/blog/blog-1.jpg" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/blog/blog-1.jpg" alt="">
                         </div>
                         <div class="blog__item__text">
                             <ul>
@@ -722,7 +638,7 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="blog__item">
                         <div class="blog__item__pic">
-                            <img src="./img/blog/blog-2.jpg" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/blog/blog-2.jpg" alt="">
                         </div>
                         <div class="blog__item__text">
                             <ul>
@@ -737,7 +653,7 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="blog__item">
                         <div class="blog__item__pic">
-                            <img src="./img/blog/blog-3.jpg" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/blog/blog-3.jpg" alt="">
                         </div>
                         <div class="blog__item__text">
                             <ul>
