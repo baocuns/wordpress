@@ -158,6 +158,7 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
                             <ul>
                                 <li><i class="fa fa-envelope"></i> hello@colorlib.com</li>
                                 <li>Free Shipping for all Order of $99</li>
+                                <li><?php do_action('baodeptrai'); ?></li>
                             </ul>
                         </div>
                     </div>
