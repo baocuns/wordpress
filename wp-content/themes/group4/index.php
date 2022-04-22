@@ -209,6 +209,7 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
                             </li>
                             <li><a href="./blog.html">Blog</a></li>
                             <li><a href="./contact.html">Contact</a></li>
+                            <li><a href="./contact.html">Phu</a></li>
                         </ul>
                     </nav>
                 </div>
