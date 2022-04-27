@@ -1,5 +1,5 @@
 <?php
-   /*
+/*
    Plugin Name: Group 4
    Plugin URI: https://github.com/baocuns/wordpress
    description: Đây là một plugin được tạo bởi cuns dùng để thế hiện sự đẹp trai của cuns. nó có thể hoạt động nhé !
@@ -20,9 +20,10 @@
  * @return integer $new_views The number of views the post has
  *
  */
-function show_baodeptrai() {
+
+ //in ra một đoạn chữ cute
+function show_baodeptrai()
+{
    echo 'bao dep trai';
 }
 add_action('baodeptrai', 'show_baodeptrai');
-
-  

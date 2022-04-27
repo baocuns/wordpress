@@ -81,3 +81,4 @@ function my_styles()
     wp_enqueue_script( 'script7', get_template_directory_uri() . './js/main.js', array ( 'jquery' ), 1.1, true);
 }
 add_action('wp_enqueue_scripts', 'my_styles');
+
