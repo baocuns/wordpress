@@ -605,15 +605,6 @@ ol {
 	color: #ffffff;
 }
 
-.hero__categories__all:after {
-	position: absolute;
-	right: 18px;
-	top: 9px;
-	content: "3";
-	font-family: "ElegantIcons";
-	font-size: 18px;
-	color: #ffffff;
-}
 
 .hero__categories ul {
 	border: 1px solid #ebebeb;

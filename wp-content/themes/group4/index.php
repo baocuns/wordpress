@@ -99,11 +99,36 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
 <?php
 // do_action('baodeptrai');
 // exit;
+
+// if ($wp_query->have_posts()) {
+//     while ($wp_query->have_posts()) {
+//         $wp_query->the_post();
+//         //echo $post->post_title . '<br>';
+//         var_dump($post);
+//     }
+// }
+
+
+// var_dump($products);
 ?>
 
 
 
-<?php get_header(); ?>
+<?php
+// var_dump(get_terms( 'product_cat'));
+$args = array(
+    'status' => 'publish'
+);
+$products = wc_get_products($args);
+
+// var_dump($products);
+// $product = get_page_by_title( 'banana', OBJECT, 'product' );
+// var_dump(get_permalink( $product->ID ));
+
+get_header();
+
+
+?>
 
 
 <!-- Categories Section Begin -->
@@ -164,21 +189,31 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
         </div>
 
         <div class="row featured__filter">
-            <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fresh-meat">
-                <div class="featured__item">
-                    <div class="featured__item__pic set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/img/featured/feature-1.jpg">
-                        <ul class="featured__item__pic__hover">
-                            <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                            <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                            <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                        </ul>
+            <?php
+            foreach ($products as $key => $value) {
+                $img = $value->get_image_id();
+                $product = get_page_by_title( $value->name, OBJECT, 'product' );
+            ?>
+                <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fresh-meat">
+                    <!-- ?php echo get_template_directory_uri(); ?>/img/featured/feature-2.jpg -->
+                    <div class="featured__item">
+                        
+                            <div class="featured__item__pic set-bg" data-setbg="<?php echo wp_get_attachment_url($img, 'full'); ?>">
+                                <ul class="featured__item__pic__hover">
+                                    <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                    <li><a href="<?php echo get_permalink( $product->ID ); ?>"><i class="fa fa-shopping-cart"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="featured__item__text">
+                                <h6><a href="<?php echo get_permalink( $product->ID ); ?>"><?php echo $value->name; ?></a></h6>
+                                <h5>$<?php echo $value->price; ?></h5>
+                            </div>
                     </div>
-                    <div class="featured__item__text">
-                        <h6><a href="#">Crab Pool Security</a></h6>
-                        <h5>$30.00</h5>
-                    </div>
+
                 </div>
-            </div>
+            <?php }
+            ?>
         </div>
     </div>
 </section>

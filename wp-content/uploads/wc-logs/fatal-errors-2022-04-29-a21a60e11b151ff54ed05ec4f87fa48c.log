@@ -1,0 +1,29 @@
+2022-04-29T01:30:04+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php:606
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\group4\single.php(6): WC_Product::get_gallery_image_ids(2)
+#1 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#3 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#4 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php on line 606
+
+2022-04-29T01:32:18+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php:606
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\group4\single.php(7): WC_Product::get_gallery_image_ids(18)
+#1 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#3 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#4 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php on line 606
+
+2022-04-29T01:34:15+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php:606
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\themes\group4\single.php(7): WC_Product::get_gallery_image_ids()
+#1 C:\wamp64\www\wordpress\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\w...')
+#2 C:\wamp64\www\wordpress\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\w...')
+#3 C:\wamp64\www\wordpress\index.php(17): require('C:\\wamp64\\www\\w...')
+#4 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php on line 606
+
+2022-04-29T03:32:00+00:00 CRITICAL syntax error, unexpected ')', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\wamp64\www\wordpress\wp-content\themes\group4\index.php on line 197
+
