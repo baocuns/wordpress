@@ -1,6 +1,9 @@
-<?php get_header() ?>
+<?php 
+/* Template Name: G4-Gio-Hang */
+get_header() ?>
+
 <!-- Breadcrumb Section Begin -->
-<section class="breadcrumb-section set-bg" data-setbg="img/breadcrumb.jpg">
+<!-- <section class="breadcrumb-section set-bg" data-setbg="img/breadcrumb.jpg">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -14,11 +17,11 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- Breadcrumb Section End -->
 
 <!-- Shoping Cart Section Begin -->
-<section class="shoping-cart spad">
+<!-- <section class="shoping-cart spad">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -136,7 +139,9 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- Shoping Cart Section End -->
+
+<?php echo do_shortcode('[woocommerce_cart]') ?>
 
 <?php get_footer() ?>

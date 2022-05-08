@@ -1,0 +1,1 @@
+function shopengine_share(n){let t=n.getAttribute("data-link");t&&window.open(t,"woo_sharer","width=626,height=436")}function shopengine_copy_link(n){var t=n.getAttribute("data-link");if(t){return null!==prompt("Copy link, then click OK.",t)&&document.execCommand("copy"),""}}

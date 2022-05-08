@@ -1,0 +1,5223 @@
+# Translation of Plugins - ShopEngine &#8211; WooCommerce Builder for Elementor, Variation Swatches, Wishlist, Products Compare &#8211; All in One Solution - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - ShopEngine &#8211; WooCommerce Builder for Elementor, Variation Swatches, Wishlist, Products Compare &#8211; All in One Solution - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-10-31 17:13:10+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - ShopEngine &#8211; WooCommerce Builder for Elementor, Variation Swatches, Wishlist, Products Compare &#8211; All in One Solution - Stable (latest release)\n"
+
+#: widgets/checkout-shipping-methods/checkout-shipping-methods.php:163
+msgid "Gap Between"
+msgstr ""
+
+#: widgets/advanced-search/screens/default.php:30
+msgid "Search for Products..."
+msgstr ""
+
+#: widgets/add-to-cart/add-to-cart.php:285
+msgid "Data Ordering List"
+msgstr ""
+
+#: widgets/add-to-cart/add-to-cart.php:223
+msgid "Partial Payment"
+msgstr ""
+
+#: widgets/add-to-cart/add-to-cart.php:219
+#: widgets/add-to-cart/add-to-cart.php:276
+msgid "Comparison"
+msgstr ""
+
+#: widgets/add-to-cart/add-to-cart.php:211
+#: widgets/add-to-cart/add-to-cart.php:258
+msgid "Buy Now/Quick Checkout"
+msgstr ""
+
+#: widgets/add-to-cart/add-to-cart.php:203
+#: widgets/add-to-cart/add-to-cart.php:246
+msgid "Quantitly"
+msgstr ""
+
+#: core/sample-designs/designs.php:298
+msgid "Account Login/Register Design 1"
+msgstr ""
+
+#: core/sample-designs/designs.php:288
+msgid "Account Details Design 1"
+msgstr ""
+
+#: core/sample-designs/designs.php:278
+msgid "Account Address Design 1"
+msgstr ""
+
+#: core/sample-designs/designs.php:268
+msgid "Account Downloads Design 1"
+msgstr ""
+
+#: core/sample-designs/designs.php:258
+msgid "Account Order Details Design 1"
+msgstr ""
+
+#: core/sample-designs/designs.php:248
+msgid "Account Orders Design 1"
+msgstr ""
+
+#: core/sample-designs/designs.php:238
+msgid "Account Dashboard Design 1"
+msgstr ""
+
+#: core/sample-designs/designs.php:228
+msgid "Quickview Design 1"
+msgstr ""
+
+#: core/sample-designs/designs.php:218
+msgid "Quick Checkout Design 1"
+msgstr ""
+
+#: core/sample-designs/designs.php:208
+msgid "Order/Thank You Design 1"
+msgstr ""
+
+#: core/sample-designs/designs.php:174
+msgid "Checkout Design 3"
+msgstr ""
+
+#: core/sample-designs/designs.php:166
+msgid "Checkout Design 2"
+msgstr ""
+
+#: core/sample-designs/designs.php:158
+msgid "Checkout Design 1"
+msgstr ""
+
+#: core/sample-designs/designs.php:148
+msgid "Cart Design 1"
+msgstr ""
+
+#: core/sample-designs/designs.php:130
+msgid "Shop Design 4"
+msgstr ""
+
+#: core/sample-designs/designs.php:122
+msgid "Shop Design 3"
+msgstr ""
+
+#: core/sample-designs/designs.php:114
+msgid "Shop Design 2"
+msgstr ""
+
+#: core/sample-designs/designs.php:106
+msgid "Shop Design 1"
+msgstr ""
+
+#: core/sample-designs/designs.php:96
+msgid "Archive Design 2"
+msgstr ""
+
+#: core/sample-designs/designs.php:88
+msgid "Archive Design 1"
+msgstr ""
+
+#: core/sample-designs/designs.php:78
+msgid "Single Design 10"
+msgstr ""
+
+#: core/sample-designs/designs.php:70
+msgid "Single Design 9"
+msgstr ""
+
+#: core/sample-designs/designs.php:62
+msgid "Single Design 8"
+msgstr ""
+
+#: core/sample-designs/designs.php:54
+msgid "Single Design 7"
+msgstr ""
+
+#: core/sample-designs/designs.php:46
+msgid "Single Design 6"
+msgstr ""
+
+#: core/sample-designs/designs.php:38
+msgid "Single Design 5"
+msgstr ""
+
+#: core/sample-designs/designs.php:30
+msgid "Single Design 4"
+msgstr ""
+
+#: core/sample-designs/designs.php:22
+msgid "Single Design 3"
+msgstr ""
+
+#: core/sample-designs/designs.php:14
+msgid "Single Design 2"
+msgstr ""
+
+#: core/sample-designs/designs.php:6
+msgid "Single Design 1"
+msgstr ""
+
+#: widgets/filter-orderby/filter-orderby.php:192
+msgid "Sort by title: z to a"
+msgstr ""
+
+#: widgets/filter-orderby/filter-orderby.php:191
+msgid "Sort by title: a to z"
+msgstr ""
+
+#: widgets/recently-viewed-products/recently-viewed-products.php:421
+msgid "Image height"
+msgstr "Высота изображения"
+
+#: widgets/recently-viewed-products/recently-viewed-products.php:402
+msgid "Image fit"
+msgstr "Подгонка изображения"
+
+#: widgets/recently-viewed-products/recently-viewed-products.php:391
+msgid "Use equal height for all image"
+msgstr "Использовать одинаковую высоту для всех изображений"
+
+#: widgets/product-list/product-list.php:181
+msgid "Select Authors"
+msgstr "Выбрать авторов"
+
+#: widgets/product-list/product-list.php:167
+msgid "Select Attributes"
+msgstr "Выбрать атрибуты"
+
+#: widgets/product-list/product-list.php:146
+msgid "Select Rating"
+msgstr "Выбрать рейтинг"
+
+#: widgets/product-list/product-list.php:118
+msgid "Select Tags"
+msgstr "Выбрать метки"
+
+#: widgets/product-list/product-list.php:94
+msgid "Author"
+msgstr "Автор"
+
+#: widgets/product-list/product-list.php:93
+msgid "Attribute"
+msgstr "Атрибут"
+
+#: widgets/product-image/product-image.php:50
+msgid "In the ShopEngine pro version, the thumbnail gallery will be slider automatically and you can move it to the left and right side of the feature image too."
+msgstr "В Pro версии ShopEngine галерея миниатюр автоматически станет слайдером, и вы также можете переместить ее влево и вправо от изображения объекта."
+
+#: widgets/product-image/product-image.php:38
+msgid "Product Gallery"
+msgstr "Галерея товаров"
+
+#: core/settings/base.php:145 core/settings/base.php:146
+msgid "Get Help"
+msgstr "Получить помощь"
+
+#: widgets/archive-products/archive-products.php:36
+msgid "you can manage the number of columns and rows from woocommerce customizer(product catalog)"
+msgstr "вы можете управлять количеством столбцов и строк в настройщике woocommerce (каталог товаров)"
+
+#: core/settings/base.php:163 core/settings/base.php:164
+msgid "Upgrade to Premium"
+msgstr "Обновление до Premium"
+
+#: widgets/view-single-product/view-single-product.php:29
+msgid "View Full Info"
+msgstr "Посмотреть полную информацию"
+
+#: widgets/view-single-product/view-single-product.php:27
+msgid "Button Title"
+msgstr "Заголовок кнопки"
+
+#: widgets/product-title/product-title.php:32
+msgid "The H1 tag is important for SEO, accessibility and usability, so ideally, you should have one on each page of your site. A H1 tag should describe what the content of the given page is all about"
+msgstr "Тег H1 важен для SEO, доступности и удобства использования, поэтому в идеале он должен быть на каждой странице вашего сайта. Тег H1 должен описывать, о чем содержание данной страницы"
+
+#: widgets/notice/screens/default.php:14
+msgid "Billing Email address"
+msgstr "Адрес email для выставления счетов"
+
+#: widgets/notice/screens/default.php:11 widgets/notice/screens/default.php:14
+msgid "is a required field."
+msgstr "обязательное поле."
+
+#: widgets/notice/screens/default.php:11
+msgid "Billing First name"
+msgstr "Имя для выставления счетов"
+
+#: widgets/notice/screens/default.php:5
+msgid "“Beanie” has been added to your cart."
+msgstr "\"Beanie\" был добавлен в вашу корзину."
+
+#: widgets/notice/screens/default.php:5
+msgid "View cart"
+msgstr "Просмотр корзины"
+
+#: widgets/checkout-shipping-methods/checkout-shipping-methods.php:127
+msgid " Label Typography "
+msgstr " Оформление ярлыка "
+
+#: widgets/checkout-payment/checkout-payment.php:90
+#: widgets/deal-products/deal-products.php:790
+#: widgets/product-tabs/product-tabs.php:817
+msgid "Label Typography"
+msgstr "Оформление ярлыка"
+
+#: modules/comparison/route.php:25
+msgid "No product is added for comparison, please add some product to compare"
+msgstr "Ни один товар не добавлен для сравнения, пожалуйста, добавьте какой-либо товар для сравнения"
+
+#: core/settings/base.php:155 core/settings/base.php:156
+msgid "License"
+msgstr "Лицензия"
+
+#: core/register/widget-list.php:243 widgets/notice/notice-config.php:14
+msgid "Notice"
+msgstr "Уведомление"
+
+#: core/register/widget-list.php:238
+#: widgets/view-single-product/view-single-product-config.php:14
+msgid "View Single Product"
+msgstr "Просмотр товара"
+
+#: widgets/recently-viewed-products/recently-viewed-products.php:771
+msgid ""
+"Space In-between\n"
+"                Items (px)"
+msgstr ""
+"Пространство между\n"
+"                Элементы (px)"
+
+#: widgets/recently-viewed-products/recently-viewed-products.php:546
+msgid ""
+"Space In-between\n"
+"                Item (px)"
+msgstr ""
+"Пространство между\n"
+"                Элемент (px)"
+
+#: widgets/products.php:17
+msgid "There is no default product to show preview. Please add a \"Simple Type\" product first"
+msgstr "Нет товара по умолчанию для предпросмотра. Пожалуйста, сначала добавьте товар \"Простого типа\""
+
+#: widgets/product-price/product-price.php:121 widgets/related/related.php:424
+msgid ""
+"Space In-between\n"
+"\t\t\t\t(px)"
+msgstr ""
+"Пространство между\n"
+"\t\t\t\t(px)"
+
+#: widgets/product-list/product-list.php:1699
+msgid "Space In-between Items (px)"
+msgstr "Пространство между элементами (px)"
+
+#: widgets/product-list/product-list.php:1384
+msgid "Space In-between Prices (px)"
+msgstr "Пространство между ценами (px)"
+
+#: widgets/product-list/product-list.php:856
+msgid "Space In-between Badge (px)"
+msgstr "Пространство между бейджами (px)"
+
+#: widgets/filterable-product-list/filterable-product-list.php:1835
+msgid "Space In-between Prices"
+msgstr "Пространство между ценами"
+
+#: widgets/filterable-product-list/filterable-product-list.php:1729
+msgid "Regular Price Typography"
+msgstr "Оформление обычной цены"
+
+#: widgets/checkout-review-order/checkout-review-order-config.php:15
+msgid "Checkout Order Review"
+msgstr "Обзор заказов"
+
+#: widgets/checkout-payment/checkout-payment.php:327
+msgid ""
+"Space In-between\n"
+"\t\t\t\t"
+msgstr ""
+"Пространство между\n"
+"\t\t\t\t"
+
+#: widgets/cart-totals/cart-totals.php:191
+msgid "Shipping Methods can be added from WooCommerce > Settings > Shipping."
+msgstr "Методы доставки могут быть добавлены из WooCommerce > Настройки > Доставка."
+
+#: widgets/breadcrumbs/breadcrumbs.php:162
+msgid "Space In-between"
+msgstr "Пространство между"
+
+#: widgets/archive-products/archive-products.php:314
+msgid "Order the positions of wishlist, quick view, add to cart button, and comparison. Use minus value for most priority and to prevent order change even if something new is added"
+msgstr "Упорядочьте позиции списка желаний, быстрого просмотра, кнопки добавления в корзину и сравнения. Используйте минусовое значение для наибольшего приоритета и для предотвращения изменения порядка, даже если добавлено что-то новое"
+
+#: widgets/archive-products/archive-products.php:130
+msgid "Show Off Price Tag"
+msgstr "Показать тег цены скидки"
+
+#: widgets/advanced-search/advanced-search.php:792
+#: widgets/filterable-product-list/filterable-product-list.php:1702
+msgid "Regular Price Color"
+msgstr "Цвет обычной цены"
+
+#: widgets/add-to-cart/add-to-cart.php:1514
+msgid " Discount badge shows up when a product has a sale price."
+msgstr " Значок скидки (бейдж) отображается, когда товар имеет распродажную цену."
+
+#: modules/comparison/route.php:161
+msgid "Add to cart"
+msgstr "Добавить в корзину"
+
+#: libs/updater/plugin-updater.php:476
+msgid "Error"
+msgstr "Ошибка"
+
+#: libs/updater/plugin-updater.php:476
+msgid "You do not have permission to install plugin updates"
+msgstr "У вас нет прав для установки обновлений плагина"
+
+#: libs/updater/plugin-updater.php:236
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s or %5$supdate now%6$s."
+msgstr "Доступна новая версия %1$s. %2$sПросмотреть подробности версии %3$s %4$s или %5$sобновить сейчас%6$s."
+
+#: libs/updater/plugin-updater.php:228
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr "Доступна новая версия %1$s. %2$sПросмотреть подробности версии %3$s %4$s."
+
+#: libs/license/license-route.php:70
+msgid "Unsupported pro version"
+msgstr "Неподдерживаемая pro версия"
+
+#: libs/license/license-route.php:57
+msgid "Successfully activated"
+msgstr "Успешно активировано"
+
+#: libs/license/license-route.php:46
+msgid "License key is empty"
+msgstr "Лицензионный ключ пуст"
+
+#: libs/license/license-route.php:28
+msgid "Successfully deactivated"
+msgstr "Успешно деактивировано"
+
+#: core/template-cpt.php:74
+msgid "ShopEngine Builder Template"
+msgstr "Шаблон конструктора ShopEngine"
+
+#: core/template-cpt.php:38 core/template-cpt.php:39
+msgid "Builder Template"
+msgstr "Шаблон конструктора"
+
+#: core/template-cpt.php:37
+msgctxt "Post Type Singular Name"
+msgid "Builder Template"
+msgstr "Шаблон конструктора"
+
+#: core/template-cpt.php:36
+msgctxt "Post Type General Name"
+msgid "Builder Templates"
+msgstr "Шаблоны конструктора"
+
+#: core/template-cpt.php:26 core/template-cpt.php:27 core/template-cpt.php:73
+msgid "Builder Templates"
+msgstr "Шаблоны конструктора"
+
+#: core/register/widget-list.php:203
+msgid "Upsell"
+msgstr "Upsell (допродажа)"
+
+#: core/register/widget-list.php:103
+msgid "Order Review"
+msgstr "Обзор заказа"
+
+#: core/register/widget-list.php:78
+msgid "Checkout Form-Coupon"
+msgstr "Форма оформления заказа-Купон"
+
+#: core/register/module-list.php:65 core/register/module-list.php:98
+msgid "Show Before/After Add to cart button"
+msgstr "Показать до/после кнопки Добавить в корзину"
+
+#: core/register/module-list.php:57 core/register/module-list.php:91
+msgid "Show In Single Page"
+msgstr "Показать на странице товара"
+
+#: core/register/module-list.php:50 core/register/module-list.php:84
+msgid "Show In Archive Page"
+msgstr "Показать на странице архива"
+
+#: widgets/related/related.php:448
+msgid "Module Icon Size (px)"
+msgstr "Размер значка модуля (px)"
+
+#: widgets/product-image/product-image.php:374
+msgid "Icon Border Color"
+msgstr "Цвет границы значка"
+
+#: widgets/add-to-cart/add-to-cart.php:207
+#: widgets/add-to-cart/add-to-cart.php:252
+#: widgets/filterable-product-list/filterable-product-list.php:2102
+msgid "Add to Cart"
+msgstr "Добавить в корзину"
+
+#: widgets/filterable-product-list/filterable-product-list.php:489
+msgid "Item Indicator Border"
+msgstr "Граница индикатора элемента"
+
+#: widgets/cross-sells/cross-sells.php:1076 widgets/related/related.php:1098
+#: widgets/up-sells/up-sells.php:1036
+msgid "Position End"
+msgstr "Положение конца"
+
+#: widgets/cross-sells/cross-sells.php:724 widgets/related/related.php:746
+#: widgets/up-sells/up-sells.php:723
+msgid "Auto Image Fit"
+msgstr "Авто подгонка изображений"
+
+#: widgets/product-image/product-image.php:325
+msgid "Margin Top (px)"
+msgstr "Отступ сверху (px)"
+
+#: widgets/filterable-product-list/filterable-product-list.php:206
+msgid "OFF Tag Badge"
+msgstr "Бейдж тега скидки"
+
+#: widgets/archive-products/archive-products.php:88
+#: widgets/filterable-product-list/filterable-product-list.php:167
+msgid "Show Description"
+msgstr "Показать описание"
+
+#: widgets/archive-products/archive-products.php:76
+#: widgets/filterable-product-list/filterable-product-list.php:155
+msgid "Show Categories"
+msgstr "Показать категории"
+
+#: widgets/advanced-search/advanced-search.php:220
+msgid "Form Height (px)"
+msgstr "Высота формы (px)"
+
+#: widgets/filterable-product-list/filterable-product-list.php:1436
+msgid "Badge Margin (px)"
+msgstr "Отступ бейджа (px)"
+
+#: widgets/filterable-product-list/filterable-product-list.php:1415
+#: widgets/product-price/product-price.php:251
+msgid "Badge Padding (px)"
+msgstr "Внутренний отступ бейджа (px)"
+
+#: widgets/filterable-product-list/filterable-product-list.php:486
+msgid "Item Indicator Bottom"
+msgstr "Нижняя часть индикатора элемента"
+
+#: widgets/checkout-shipping-methods/checkout-shipping-methods.php:197
+msgid "Checkbox style"
+msgstr "Стиль чекбокса"
+
+#: widgets/checkout-shipping-methods/checkout-shipping-methods.php:104
+msgid "Label style"
+msgstr "Стиль ярлыка"
+
+#: widgets/checkout-review-order/checkout-review-order.php:348
+msgid "Row Border Color"
+msgstr "Цвет границы строки"
+
+#: widgets/checkout-review-order/checkout-review-order.php:281
+msgid "Row Space In-between (px)"
+msgstr "Пространство между строками (px)"
+
+#: widgets/checkout-review-order/checkout-review-order.php:261
+msgid "Row Padding (px)"
+msgstr "Внутренний отступ строк (px)"
+
+#: widgets/checkout-review-order/checkout-review-order.php:173
+msgid "Row Background"
+msgstr "Фон строки"
+
+#: widgets/checkout-review-order/checkout-review-order.php:48
+msgid "Border Bottom Color"
+msgstr "Цвет нижней границы"
+
+#: widgets/checkout-payment/checkout-payment.php:187
+#: widgets/checkout-shipping-methods/checkout-shipping-methods.php:208
+msgid "Checkbox Position (Y)"
+msgstr "Положение чекбокса (Y)"
+
+#: widgets/cart-totals/cart-totals.php:455
+msgid "Checkout and Update Button"
+msgstr "Кнопка оформления заказа и обновления"
+
+#: modules/wishlist/wishlist.php:202
+msgid "Logout"
+msgstr "Выйти"
+
+#: widgets/cart-totals/cart-totals.php:372
+#: widgets/cart-totals/cart-totals.php:419
+msgid "Input Background color"
+msgstr "Цвет фона ввода"
+
+#: widgets/recently-viewed-products/recently-viewed-products.php:363
+msgid "If the column gap is zero, you may hide the right border. So that right and left border will not double."
+msgstr "Если зазор между столбцами равен нулю, вы можете скрыть правую границу. Таким образом, правая и левая границы не будут удваиваться."
+
+#: widgets/recently-viewed-products/recently-viewed-products.php:362
+msgid "Hide Right Boder?"
+msgstr "Скрыть правую рамку?"
+
+#: widgets/product-tabs/product-tabs.php:941
+msgid "Review Heading"
+msgstr "Заголовок обзора"
+
+#: widgets/product-tabs/product-tabs.php:458
+msgid "Table Cell Divider Color"
+msgstr "Цвет разделителя ячеек таблицы"
+
+#: widgets/product-tabs/product-tabs.php:265
+msgid "Show Title"
+msgstr "Показать заголовок"
+
+#: widgets/product-tabs/product-tabs.php:95
+msgid "Active/Hover Menu Color"
+msgstr "Цвет меню активного/при наведении"
+
+#: widgets/product-stock/screens/default.php:58
+msgid "Out of stock"
+msgstr "Нет в наличии"
+
+#: widgets/product-stock/screens/default.php:56
+msgid "In stock"
+msgstr "В наличии"
+
+#: widgets/product-stock/screens/default.php:54
+msgid "On backorder"
+msgstr "Доступен предзаказ"
+
+#: widgets/product-sku/screens/default.php:10
+msgid "This product has no sku"
+msgstr "Этот продукт не имеет sku"
+
+#: widgets/product-share/product-share.php:38
+msgid "plugin or sharing plugins like this one can hook into here or you can add your own code directly. Hook: woocommerce_share"
+msgstr "плагин или плагины совместного доступа, такие как этот, которые можно подключить здесь, или вы можете добавить свой собственный код напрямую. Hook: woocommerce_share"
+
+#: widgets/product-share/product-share.php:37
+msgid "You need to install"
+msgstr "Вам необходимо установить"
+
+#: widgets/product-review/product-review.php:539
+#: widgets/product-tabs/product-tabs.php:1450
+msgid "Inputs Padding (px)"
+msgstr "Отступы полей ввода (px)"
+
+#: widgets/product-review/product-review.php:515
+#: widgets/product-tabs/product-tabs.php:1426
+msgid "Inputs Border Radius (px)"
+msgstr "Радиус границы полей ввода (px)"
+
+#: widgets/product-review/product-review.php:490
+#: widgets/product-tabs/product-tabs.php:1401
+msgid "Field Spacing (px)"
+msgstr "Интервал между полями (px)"
+
+#: widgets/product-review/product-review.php:402
+#: widgets/product-tabs/product-tabs.php:1313
+msgid "Form Input"
+msgstr "Ввод формы"
+
+#: widgets/product-review/product-review.php:320
+#: widgets/product-tabs/product-tabs.php:1231
+msgid "Input Label"
+msgstr "Ярлык ввода"
+
+#: widgets/product-review/product-review.php:279
+#: widgets/product-tabs/product-tabs.php:1190
+msgid "Single Review Spacing (px)"
+msgstr "Интервал между отдельными обзорами (px)"
+
+#: widgets/product-review/product-review.php:185
+#: widgets/product-tabs/product-tabs.php:1099
+msgid "Author Typography"
+msgstr "Оформление автора"
+
+#: widgets/product-review/product-review.php:171
+#: widgets/product-tabs/product-tabs.php:1085
+msgid "Comment Separator Color"
+msgstr "Цвет разделителя комментариев"
+
+#: widgets/product-rating/screens/default.php:23
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] "%s отзыв клиентов"
+msgstr[1] "%s отзыва клиентов"
+msgstr[2] "%s отзывов клиентов"
+
+#: widgets/product-rating/product-rating.php:170
+msgid "Left Spacing (px)"
+msgstr "Интервал слева (px)"
+
+#: widgets/product-price/product-price.php:178
+msgid "Discount badge shows when a product has a sale price."
+msgstr "Бейдж скидки отображается, когда на товар действует распродажная цена."
+
+#: widgets/product-price/product-price.php:168
+msgid "Discount Badge"
+msgstr "Бейдж скидки"
+
+#: widgets/product-image/product-image.php:165
+msgid "Gallery Thumbnails"
+msgstr "Миниатюры галереи"
+
+#: widgets/product-image/product-image.php:110
+msgid "Show Badge?"
+msgstr "Показывать бейдж?"
+
+#: widgets/archive-products/archive-products.php:61
+#: widgets/product-image/product-image.php:101
+#: widgets/product-image/product-image.php:561
+msgid "Flash Sale Badge"
+msgstr "Бейдж флеш распродажи"
+
+#: widgets/product-categories/screens/default.php:10
+msgid "This product has no categories"
+msgstr "У этого товара нет категорий"
+
+#: widgets/product-categories/product-categories.php:139
+#: widgets/product-meta/product-meta.php:225
+#: widgets/product-sku/product-sku.php:126
+msgid "This typography is set for this specific widget."
+msgstr "Эта типографика установлена для данного конкретного виджета."
+
+#: widgets/product-categories/product-categories.php:72
+#: widgets/product-sku/product-sku.php:71
+#: widgets/product-tags/product-tags.php:70
+msgid "Text Decoration"
+msgstr "Оформление текста"
+
+#: widgets/manifest.php:99
+msgid "ShopEngine Order"
+msgstr "ShopEngine Заказ"
+
+#: widgets/manifest.php:79
+msgid "ShopEngine General"
+msgstr "ShopEngine Общее"
+
+#: widgets/filterable-product-list/filterable-product-list.php:537
+msgid "Nav Seperator Height (px)"
+msgstr "Высота навигационного разделителя (px)"
+
+#: widgets/filter-products-per-page/filter-products-per-page.php:30
+msgid "Input number separate by comma, ex: 9, 12, 18, 24"
+msgstr "Введите число через запятую, например: 9, 12, 18, 24"
+
+#: widgets/filter-products-per-page/filter-products-per-page.php:29
+msgid "Lists"
+msgstr "Списки"
+
+#: widgets/empty-cart-message/screens/default.php:25
+msgid "There are products in your cart, please go to cart, clear it and refresh the editor."
+msgstr "В вашей корзине есть товары, пожалуйста, перейдите в корзину, очистите ее и обновите редактор."
+
+#: widgets/empty-cart-message/screens/default.php:19
+msgid "No products added to the cart"
+msgstr "В корзине нет товаров"
+
+#: widgets/deal-products/screens/default.php:165
+msgid "No deal products available"
+msgstr "Нет товаров для сделки"
+
+#: widgets/cross-sells/cross-sells.php:1498 widgets/related/related.php:1537
+#: widgets/up-sells/up-sells.php:1501
+msgid "Dots"
+msgstr "Точки"
+
+#: widgets/cross-sells/cross-sells.php:1287 widgets/related/related.php:1326
+#: widgets/up-sells/up-sells.php:1290
+msgid "Arrows"
+msgstr "Стрелки"
+
+#: widgets/cross-sells/cross-sells.php:1254 widgets/related/related.php:1293
+#: widgets/up-sells/up-sells.php:1257
+msgid "Slider Style"
+msgstr "Стиль слайдера"
+
+#: widgets/cross-sells/cross-sells.php:873
+#: widgets/product-rating/product-rating.php:65 widgets/related/related.php:895
+#: widgets/up-sells/up-sells.php:873
+msgid "Star Size (px)"
+msgstr "Размер звезды (px)"
+
+#: widgets/cross-sells/cross-sells.php:702 widgets/related/related.php:724
+#: widgets/up-sells/up-sells.php:701
+msgid "Leave empty for auto height"
+msgstr "Оставьте пустым для авто высоты"
+
+#: widgets/cross-sells/cross-sells.php:558 widgets/related/related.php:580
+#: widgets/up-sells/up-sells.php:557
+msgid "Badge Border Radius (px)"
+msgstr "Радиус границы бейджа (px)"
+
+#: widgets/cross-sells/cross-sells.php:534 widgets/related/related.php:556
+#: widgets/up-sells/up-sells.php:533
+msgid "Badge Size (px)"
+msgstr "Размер бейджа (px)"
+
+#: widgets/cross-sells/cross-sells.php:354 widgets/related/related.php:353
+#: widgets/up-sells/up-sells.php:352
+msgid "Items"
+msgstr "Элементы"
+
+#: widgets/cross-sells/cross-sells.php:278 widgets/related/related.php:277
+#: widgets/up-sells/up-sells.php:276
+msgid "Active Dots Size (px)"
+msgstr "Размер активных точек (px)"
+
+#: widgets/cross-sells/cross-sells.php:251 widgets/related/related.php:250
+#: widgets/up-sells/up-sells.php:249
+msgid "Dots Size (px)"
+msgstr "Размер точек (px)"
+
+#: widgets/cross-sells/cross-sells.php:235 widgets/related/related.php:234
+#: widgets/up-sells/up-sells.php:233
+msgid "Right Arrow"
+msgstr "Стрелка вправо"
+
+#: widgets/cross-sells/cross-sells.php:219 widgets/related/related.php:218
+#: widgets/up-sells/up-sells.php:217
+msgid "Left Arrow"
+msgstr "Стрелка влево"
+
+#: widgets/cross-sells/cross-sells.php:1324 widgets/related/related.php:1363
+#: widgets/up-sells/up-sells.php:1301
+msgid "Arrow Size (px)"
+msgstr "Размер стрелки (px)"
+
+#: widgets/cross-sells/cross-sells.php:140 widgets/related/related.php:140
+#: widgets/up-sells/up-sells.php:139
+msgid "Slides Per View"
+msgstr "Слайдов за просмотр"
+
+#: widgets/cross-sells/cross-sells.php:105 widgets/related/related.php:105
+#: widgets/up-sells/up-sells.php:104
+msgid "How many products want show per row."
+msgstr "Сколько товаров нужно показывать в строке."
+
+#: widgets/cross-sells/cross-sells.php:92 widgets/related/related.php:92
+#: widgets/up-sells/up-sells.php:91
+msgid "How many products want show in total."
+msgstr "Сколько товаров нужно показывать всего."
+
+#: widgets/checkout-payment/screens/default.php:25
+msgid "Your cart is empty, please add some simple product in cart and then come back to editor to see checkout page."
+msgstr "Ваша корзина пуста, пожалуйста, добавьте какой-нибудь простой товар в корзину, а затем вернитесь в редактор, чтобы увидеть страницу оформления заказа."
+
+#: widgets/checkout-form-billing/checkout-form-billing.php:280
+msgid "Hide email address"
+msgstr "Скрыть email адрес"
+
+#: widgets/checkout-form-billing/checkout-form-billing.php:266
+msgid "Hide phone"
+msgstr "Скрыть телефон"
+
+#: widgets/checkout-form-billing/checkout-form-billing.php:252
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:224
+msgid "Hide ZIP/Postcode"
+msgstr "Скрыть индекс"
+
+#: widgets/checkout-form-billing/checkout-form-billing.php:238
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:210
+msgid "Hide state"
+msgstr "Скрыть область"
+
+#: widgets/checkout-form-billing/checkout-form-billing.php:223
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:195
+msgid "Hide town/city"
+msgstr "Скрыть город"
+
+#: widgets/checkout-form-billing/checkout-form-billing.php:209
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:181
+msgid "Hide Street Address 2"
+msgstr "Скрыть адрес 2"
+
+#: widgets/checkout-form-billing/checkout-form-billing.php:195
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:167
+msgid "Hide Street Address 1"
+msgstr "Скрыть адрес 1"
+
+#: widgets/checkout-form-billing/checkout-form-billing.php:181
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:153
+msgid "Hide Country/Region Name"
+msgstr "Скрыть название страны/региона"
+
+#: widgets/checkout-form-billing/checkout-form-billing.php:167
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:139
+msgid "Hide Company Name"
+msgstr "Скрыть название компании"
+
+#: widgets/checkout-form-billing/checkout-form-billing.php:153
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:125
+msgid "Hide Last Name"
+msgstr "Скрыть фамилию"
+
+#: widgets/checkout-form-billing/checkout-form-billing.php:139
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:111
+msgid "Hide First Name"
+msgstr "Скрыть имя"
+
+#: widgets/checkout-form-billing/checkout-form-billing.php:131
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:103
+msgid "Field Visibility"
+msgstr "Видимость поля"
+
+#: widgets/checkout-form-additional/checkout-form-additional.php:69
+#: widgets/checkout-form-additional/checkout-form-additional.php:139
+msgid "Spacing Bottom (px)"
+msgstr "Нижний интервал (px)"
+
+#: widgets/checkout-form-additional/checkout-form-additional.php:33
+msgid "Show heading"
+msgstr "Показать заголовок"
+
+#: widgets/product-price/product-price.php:95
+#: widgets/product-review/product-review.php:85
+#: widgets/product-review/product-review.php:388
+#: widgets/product-tabs/product-tabs.php:72
+#: widgets/product-tabs/product-tabs.php:448
+#: widgets/product-tabs/product-tabs.php:999
+#: widgets/product-tabs/product-tabs.php:1299
+#: widgets/product-title/product-title.php:109
+msgid "Letter Spacing (px)"
+msgstr "Расстояние между буквами (px)"
+
+#: widgets/cart-table/cart-table.php:670
+msgid "Button Padding (px)"
+msgstr "Внутренний отступ кнопки (px)"
+
+#: widgets/cart-table/cart-table.php:444
+msgid "Hover Text Color"
+msgstr "Цвет текста при наведении"
+
+#: widgets/cart-table/cart-table.php:337
+#: widgets/deal-products/deal-products.php:114
+msgid "Row Gap"
+msgstr "Зазор между строками"
+
+#: widgets/archive-products/archive-products.php:1762
+msgid "Top Spacing (px)"
+msgstr "Интервал сверху (px)"
+
+#: widgets/archive-products/archive-products.php:1388
+#: widgets/cross-sells/cross-sells.php:46
+#: widgets/cross-sells/cross-sells.php:454
+#: widgets/filterable-product-list/filterable-product-list.php:141
+#: widgets/filterable-product-list/filterable-product-list.php:1467
+#: widgets/related/related.php:46 widgets/related/related.php:476
+#: widgets/up-sells/up-sells.php:45 widgets/up-sells/up-sells.php:453
+msgid "Flash Sale"
+msgstr "Флеш распродажа"
+
+#: widgets/archive-products/archive-products.php:1055
+msgid "Off Tag"
+msgstr "Тег скидки"
+
+#: widgets/archive-products/archive-products.php:1024
+msgid "Product Footer"
+msgstr "Футер товара"
+
+#: widgets/archive-products/archive-products.php:517
+#: widgets/cart-totals/cart-totals.php:241
+msgid "Row Spacing (px)"
+msgstr "Расстояние между строками (px)"
+
+#: widgets/archive-products/archive-products.php:325
+msgid "Quick View Position"
+msgstr "Положение быстрого просмотра"
+
+#: widgets/archive-products/archive-products.php:254
+msgid "Load more button text"
+msgstr "Текст кнопки Загрузить еще"
+
+#: widgets/archive-products/archive-products.php:154
+msgid "Footer on Hover Style"
+msgstr "Стиль футера при наведении"
+
+#: widgets/archive-products/archive-products.php:115
+msgid "Show Regular Price"
+msgstr "Показывать обычную цену"
+
+#: widgets/archive-description/screens/default.php:26
+msgid "This is a dummy archive description based paragraph. It only appears on editor page and  will help you to customize your actual description"
+msgstr "Это фиктивный абзац, основанный на описании архива. Он отображается только на странице редактора и поможет вам настроить ваше фактическое описание"
+
+#: widgets/advanced-search/screens/search-result.php:149
+msgid "No result found"
+msgstr "Результатов не найдено"
+
+#: widgets/advanced-search/advanced-search.php:363
+msgid "You can control the width from search icon / text style option"
+msgstr "Вы можете контролировать ширину с помощью значка поиска / стиля текста"
+
+#: widgets/advanced-search/advanced-search.php:361
+msgid "Search Icon / Text style"
+msgstr "Значок поиска / стиль текста"
+
+#: widgets/advanced-search/advanced-search.php:325
+msgid "Search Box Typography"
+msgstr "Типографика блока поиска"
+
+#: widgets/advanced-search/advanced-search.php:296
+msgid "Input Box Text Color"
+msgstr "Цвет текста блока ввода"
+
+#: widgets/advanced-search/advanced-search.php:144
+msgid "This is an advanced option to change the postion of the search components,"
+msgstr "Это расширенная опция для изменения положения компонентов поиска,"
+
+#: widgets/advanced-search/advanced-search.php:136
+msgid "You can control the width from search icon style tab"
+msgstr "Вы можете управлять шириной на вкладке стиля значка поиска"
+
+#: widgets/advanced-search/advanced-search.php:114
+msgid "Hide Image from Search?"
+msgstr "Скрыть изображение из поиска?"
+
+#: widgets/additional-information/additional-information.php:31
+#: widgets/product-tabs/product-tabs.php:472
+msgid "Table Cell Padding"
+msgstr "Внутренний отступ ячеек таблицы"
+
+#: widgets/additional-information/additional-information.php:22
+msgid "Common"
+msgstr "Общее"
+
+#: widgets/add-to-cart/add-to-cart.php:2265
+msgid "Compare"
+msgstr "Сравнение"
+
+#: widgets/add-to-cart/add-to-cart.php:403
+msgid "This will apply to product out of stock"
+msgstr "Это относится к товарам, отсутствующим на складе"
+
+#: widgets/add-to-cart/add-to-cart.php:399
+msgid "Out Of Stock Color"
+msgstr "Цвет Нет в наличии"
+
+#: widgets/add-to-cart/add-to-cart.php:389
+msgid "This will apply to product in stock"
+msgstr "Это относится к товарам в наличии"
+
+#: widgets/add-to-cart/add-to-cart.php:385
+msgid "In Stock Color"
+msgstr "Цвет В наличии"
+
+#: widgets/add-to-cart/add-to-cart.php:1787
+#: widgets/add-to-cart/add-to-cart.php:1864
+#: widgets/add-to-cart/add-to-cart.php:1942
+msgid "Swatch Height (px)"
+msgstr "Высота образца (px)"
+
+#: widgets/add-to-cart/add-to-cart.php:1764
+#: widgets/add-to-cart/add-to-cart.php:1841
+#: widgets/add-to-cart/add-to-cart.php:1919
+msgid "Swatch Width (px)"
+msgstr "Ширина образца (px)"
+
+#: widgets/add-to-cart/add-to-cart.php:1743
+msgid "Variation Swatches"
+msgstr "Разновидности"
+
+#: widgets/add-to-cart/add-to-cart.php:1670
+msgid "Dropdown Color"
+msgstr "Цвет выпадающего списка"
+
+#: widgets/add-to-cart/add-to-cart.php:1661
+msgid "Variation Dropdown"
+msgstr "Выпадающий список вариантов"
+
+#: widgets/add-to-cart/add-to-cart.php:1640
+msgid "Variation Wrap Margin (px)"
+msgstr "Отступ обертки разновидности (px)"
+
+#: widgets/add-to-cart/add-to-cart.php:1619
+msgid "Variation Item Margin (px)"
+msgstr "Отступ элемента разновидности (px)"
+
+#: widgets/add-to-cart/add-to-cart.php:1595
+msgid "Price Wrap Margin (px)"
+msgstr "Отступ обертки цены (px)"
+
+#: widgets/add-to-cart/add-to-cart.php:1572
+msgid "Badge Line Height (px)"
+msgstr "Высота строки бейджа (px)"
+
+#: widgets/add-to-cart/add-to-cart.php:1549
+msgid "Badge Font Size (px)"
+msgstr "Размер шрифта бейджа (px)"
+
+#: widgets/add-to-cart/add-to-cart.php:1536
+msgid "Discount Badge Background Color"
+msgstr "Цвет фона бейджа скидки"
+
+#: widgets/add-to-cart/add-to-cart.php:1523
+msgid "Discount Badge Color"
+msgstr "Цвет бейджа скидки"
+
+#: widgets/add-to-cart/add-to-cart.php:1422
+msgid "Description Wrap Margin (px)"
+msgstr "Отступ обертки описания (px)"
+
+#: widgets/add-to-cart/add-to-cart.php:1326
+msgid "Block"
+msgstr "Блок"
+
+#: widgets/add-to-cart/add-to-cart.php:1321
+msgid "Display Style"
+msgstr "Стиль отображения"
+
+#: widgets/add-to-cart/add-to-cart.php:1097
+msgid "Input Padding (px)"
+msgstr "Внутренний отступ ввода (px)"
+
+#: widgets/add-to-cart/add-to-cart.php:1073
+msgid "Buttons Padding (px)"
+msgstr "Внутренний отступ кнопок (px)"
+
+#: widgets/add-to-cart/add-to-cart.php:960
+msgid "Plus Minus Button"
+msgstr "Кнопка Плюс Минус"
+
+#: widgets/add-to-cart/add-to-cart.php:887
+msgid "Quantity Input"
+msgstr "Ввод количества"
+
+#: widgets/archive-products/archive-products.php:381
+msgid "Comparison Position"
+msgstr "Положение Сравнения"
+
+#: widgets/archive-products/archive-products.php:343
+msgid "Wishlist Position"
+msgstr "Положение Список желаний"
+
+#: widgets/archive-products/archive-products.php:361
+msgid "Add to Cart Position"
+msgstr "Положение Добавить в корзину"
+
+#: widgets/add-to-cart/add-to-cart.php:193
+msgid "Ordering the positions of wishlist, quantity, add to cart button, quick checkout and comparison. Use minus value for most priority. So that Ordering will not change ever if something added new by the hook."
+msgstr "Упорядочивание положений списка желаемого, количества, кнопки добавления в корзину, быстрого оформления заказа и сравнения. Используйте минусовое значение для наиболее приоритетных позиций. Таким образом, упорядочивание не изменится, если что-то новое будет добавлено хуком."
+
+#: widgets/add-to-cart/add-to-cart.php:176
+#: widgets/archive-products/archive-products.php:296
+msgid "Enable Ordering?"
+msgstr "Включить упорядочивание?"
+
+#: widgets/add-to-cart/add-to-cart.php:167
+msgid "Data Ordering"
+msgstr "Упорядочивание данных"
+
+#: widgets/add-to-cart/add-to-cart.php:147
+msgid "Show product variation description."
+msgstr "Показать описание варианта продукта."
+
+#: widgets/add-to-cart/add-to-cart.php:146
+msgid "Variation Description"
+msgstr "Описание вариации"
+
+#: widgets/add-to-cart/add-to-cart.php:137
+#: widgets/add-to-cart/add-to-cart.php:1226
+msgid "Variations"
+msgstr "Вариации"
+
+#: widgets/add-to-cart/add-to-cart.php:116
+msgid "Show stock status, If product have stock enable."
+msgstr "Показывать состояние запасов, если у продукта включен запас."
+
+#: widgets/add-to-cart/add-to-cart.php:115
+msgid "Show Stock Status"
+msgstr "Показать состояние запасов"
+
+#: widgets/add-to-cart/add-to-cart.php:60
+msgid "Both Side"
+msgstr "Обе стороны"
+
+#: widgets/add-to-cart/add-to-cart.php:55
+msgid "Button Style"
+msgstr "Стиль кнопки"
+
+#: widgets/advanced-search/advanced-search.php:1082
+#: widgets/archive-products/archive-products.php:1912
+#: widgets/cart-table/cart-table.php:696 widgets/cart-table/cart-table.php:723
+#: widgets/cart-totals/cart-totals.php:647
+#: widgets/checkout-coupon-form/checkout-coupon-form.php:582
+#: widgets/checkout-form-additional/checkout-form-additional.php:352
+#: widgets/checkout-form-billing/checkout-form-billing.php:615
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:569
+#: widgets/checkout-payment/checkout-payment.php:534
+#: widgets/checkout-review-order/checkout-review-order.php:433
+#: widgets/checkout-shipping-methods/checkout-shipping-methods.php:262
+#: widgets/cross-sells/cross-sells.php:1569
+#: widgets/deal-products/deal-products.php:1265
+#: widgets/filterable-product-list/filterable-product-list.php:2273
+#: widgets/product-list/product-list.php:1814
+#: widgets/product-review/product-review.php:810
+#: widgets/product-tabs/product-tabs.php:1721 widgets/related/related.php:1608
+#: widgets/up-sells/up-sells.php:1572
+msgid "Global Font"
+msgstr "Основной шрифт"
+
+#: modules/swatches/swatches.php:46
+msgid "Shopengine Label"
+msgstr "Ярлык Shopengine"
+
+#: modules/swatches/swatches.php:45
+msgid "Shopengine Image"
+msgstr "Изображение Shopengine"
+
+#: modules/swatches/swatches.php:44
+msgid "Shopengine Color"
+msgstr "Цвет Shopengine"
+
+#: core/settings/base.php:83
+msgid "Congratulations! Your product is activated for \"%s\""
+msgstr "Поздравляем! Ваш продукт активирован для \"%s\""
+
+#: widgets/add-to-cart/add-to-cart.php:653
+msgid "Quick Checkout"
+msgstr "Быстрое оформление заказа"
+
+#: core/builders/hooks.php:100
+msgid "Inactive"
+msgstr "Неактивно"
+
+#: widgets/filterable-product-list/filterable-product-list.php:752
+msgid "Nav Wrap Border Color"
+msgstr "Цвет границы обертки навигации"
+
+#: widgets/filterable-product-list/filterable-product-list.php:749
+msgid "Nav Wrap Border Width"
+msgstr "Ширина границы обертки навигации"
+
+#: widgets/filterable-product-list/filterable-product-list.php:746
+msgid "Nav Wrap Border"
+msgstr "Граница обертки навигации"
+
+#: widgets/filterable-product-list/filterable-product-list.php:719
+msgid "Nav Wrap"
+msgstr "Обертка навигации"
+
+#: widgets/filterable-product-list/filterable-product-list.php:729
+msgid "Nav Wrap Margin"
+msgstr "Отступ обертки навигации"
+
+#: widgets/filterable-product-list/filterable-product-list.php:692
+msgid "Nav Item Border Radius (px)"
+msgstr "Радиус границы элемента навигации (px)"
+
+#: widgets/filterable-product-list/filterable-product-list.php:674
+msgid "Nav Item Border Color"
+msgstr "Цвет границы элемента навигации"
+
+#: widgets/filterable-product-list/filterable-product-list.php:660
+msgid "Nav Item Border Width"
+msgstr "Ширина границы элемента навигации"
+
+#: widgets/filterable-product-list/filterable-product-list.php:649
+#: widgets/filterable-product-list/filterable-product-list.php:652
+msgid "Nav Item Border"
+msgstr "Граница элемента навигации"
+
+#: widgets/filterable-product-list/filterable-product-list.php:633
+msgid "Show Active Item Border"
+msgstr "Показать границу активного элемента"
+
+#: widgets/filterable-product-list/filterable-product-list.php:621
+msgid "Active Item Border"
+msgstr "Граница активного элемента"
+
+#: widgets/filterable-product-list/filterable-product-list.php:563
+msgid "Nav Seperator Position Top (px)"
+msgstr "Верхнее положение навигационного разделителя (px)"
+
+#: widgets/filterable-product-list/filterable-product-list.php:522
+msgid "Show Nav Seperator"
+msgstr "Показать навигационный разделитель"
+
+#: widgets/filterable-product-list/filterable-product-list.php:513
+msgid "Nav Seperator"
+msgstr "Навигационный разделитель"
+
+#: widgets/filterable-product-list/filterable-product-list.php:500
+msgid "Item Indicator Color"
+msgstr "Цвет индикатора элемента"
+
+#: widgets/filterable-product-list/filterable-product-list.php:482
+msgid "Bottom Border"
+msgstr "Нижняя рамка"
+
+#: widgets/filterable-product-list/filterable-product-list.php:458
+msgid "Item Padding"
+msgstr "Внутренний отступ элемента"
+
+#: widgets/filterable-product-list/filterable-product-list.php:333
+msgid "Product Filter Nav"
+msgstr "Навигация по фильтру продуктов"
+
+#: widgets/archive-products/archive-products.php:288
+#: widgets/filterable-product-list/filterable-product-list.php:246
+msgid "Custom Ordering"
+msgstr "Произвольное упорядочивание"
+
+#: widgets/filterable-product-list/filterable-product-list.php:232
+msgid "Enable Custom Ordering? "
+msgstr "Включить произвольное упорядочивание? "
+
+#: widgets/filterable-product-list/filterable-product-list.php:112
+msgid "Filter Content"
+msgstr "Контент фильтра"
+
+#: widgets/filterable-product-list/filterable-product-list.php:93
+msgid "Filter Label"
+msgstr "Ярлык фильтра"
+
+#: widgets/filterable-product-list/filterable-product-list.php:37
+msgid "6"
+msgstr "6"
+
+#: widgets/product-list/product-list.php:149
+#: widgets/product-tabs/product-tabs.php:1781
+msgid "1 star"
+msgstr "1 звезда"
+
+#: widgets/product-list/product-list.php:150
+#: widgets/product-tabs/product-tabs.php:1780
+msgid "2 star"
+msgstr "2 звезды"
+
+#: widgets/product-list/product-list.php:151
+#: widgets/product-tabs/product-tabs.php:1779
+msgid "3 star"
+msgstr "3 звезды"
+
+#: widgets/product-list/product-list.php:152
+#: widgets/product-tabs/product-tabs.php:1778
+msgid "4 star"
+msgstr "4 звезды"
+
+#: widgets/product-list/product-list.php:153
+#: widgets/product-tabs/product-tabs.php:1777
+msgid "5 star"
+msgstr "5 звезд"
+
+#: widgets/product-tabs/product-tabs.php:910
+msgid "Rating Bar Height (px)"
+msgstr "Высота панели рейтинга (px)"
+
+#: widgets/product-tabs/product-tabs.php:882
+msgid "Rating Bar Width"
+msgstr "Ширина панели рейтинга"
+
+#: widgets/product-tabs/product-tabs.php:794
+msgid "Rating Average"
+msgstr "Средний рейтинг"
+
+#: widgets/product-tabs/product-tabs.php:732
+msgid "Rating Count"
+msgstr "Количество отзывов"
+
+#: widgets/product-tabs/product-tabs.php:670
+msgid "Rating Total"
+msgstr "Общий рейтинг"
+
+#: widgets/product-tabs/product-tabs.php:650
+#: widgets/product-tabs/product-tabs.php:774
+msgid "Line height (px)"
+msgstr "Высота линии (px)"
+
+#: widgets/product-tabs/product-tabs.php:608
+msgid "Rating Title"
+msgstr "Заголовок рейтинга"
+
+#: widgets/product-tabs/product-tabs.php:600
+msgid "Average Rating"
+msgstr "Средний рейтинг"
+
+#: widgets/product-category-lists/product-category-lists.php:590
+msgid "background Color"
+msgstr "цвет фона"
+
+#: widgets/product-category-lists/product-category-lists.php:518
+msgid "Button Size (px)"
+msgstr "Размер кнопки (px)"
+
+#: widgets/product-category-lists/product-category-lists.php:418
+msgid "Category Count"
+msgstr "Количество категорий"
+
+#: widgets/advanced-search/advanced-search.php:732
+#: widgets/deal-products/deal-products.php:958
+#: widgets/product-category-lists/product-category-lists.php:340
+#: widgets/product-category-lists/product-category-lists.php:440
+msgid "Title Hover Color"
+msgstr "Цвет заголовка при наведении"
+
+#: widgets/product-category-lists/product-category-lists.php:217
+#: widgets/product-category-lists/product-category-lists.php:258
+msgid "Overlay Background"
+msgstr "Наложение фона"
+
+#: widgets/product-category-lists/product-category-lists.php:72
+msgid "Show Porduct Count"
+msgstr "Показать количество товров"
+
+#: widgets/product-category-lists/product-category-lists.php:60
+msgid "Show Category Image"
+msgstr "Показать изображение категории"
+
+#: widgets/product-category-lists/product-category-lists.php:31
+msgid "Select Category"
+msgstr "Выбрать категорию"
+
+#: widgets/product-category-lists/screens/default.php:56
+msgid "Add some category"
+msgstr "Добавить категорию"
+
+#: widgets/product-category-lists/screens/default.php:33
+msgid "%s product"
+msgid_plural "%s products"
+msgstr[0] "%s товар"
+msgstr[1] "%s товара"
+msgstr[2] "%s товаров"
+
+#: widgets/product-list/product-list.php:1537
+msgid "Wrap Padding (px)"
+msgstr "Внутренний отступ обертки (px)"
+
+#: widgets/filterable-product-list/filterable-product-list.php:1778
+#: widgets/product-list/product-list.php:1460
+msgid "Typography Sale and Discount"
+msgstr "Оформление Распродажи и Скидки"
+
+#: widgets/filterable-product-list/filterable-product-list.php:1773
+#: widgets/product-list/product-list.php:1454
+msgid "Typography for sale price and discount badge"
+msgstr "Оформление для значка скидки и цены распродажи"
+
+#: widgets/product-list/product-list.php:1408
+msgid "Price Discount Badge"
+msgstr "Значок скидки цены"
+
+#: widgets/product-list/product-list.php:1335
+msgid "Sale Color"
+msgstr "Цвет распродажи"
+
+#: widgets/filterable-product-list/filterable-product-list.php:1233
+#: widgets/product-list/product-list.php:1256
+msgid "Count Typography"
+msgstr "Оформление счетчика"
+
+#: widgets/filterable-product-list/filterable-product-list.php:1219
+#: widgets/product-list/product-list.php:1242
+msgid "Count Color"
+msgstr "Цвет счетчика"
+
+#: widgets/filterable-product-list/filterable-product-list.php:1169
+#: widgets/product-list/product-list.php:1192
+msgid "Rating Star Size"
+msgstr "Размер звезды рейтинга"
+
+#: widgets/filterable-product-list/filterable-product-list.php:940
+#: widgets/product-list/product-list.php:945
+msgid "Product Category"
+msgstr "Категория товаров"
+
+#: widgets/product-category-lists/product-category-lists.php:171
+#: widgets/product-image/product-image.php:264
+#: widgets/product-list/product-list.php:652
+#: widgets/recently-viewed-products/recently-viewed-products.php:297
+msgid "Row Gap (px)"
+msgstr "Разрыв строки (px)"
+
+#: widgets/cross-sells/cross-sells.php:393
+#: widgets/product-category-lists/product-category-lists.php:149
+#: widgets/product-image/product-image.php:298
+#: widgets/product-list/product-list.php:630
+#: widgets/recently-viewed-products/recently-viewed-products.php:275
+#: widgets/related/related.php:392 widgets/up-sells/up-sells.php:391
+msgid "Column Gap (px)"
+msgstr "Разрыв колонки (px)"
+
+#: widgets/product-list/product-list.php:565
+msgid "Show Rating?"
+msgstr "Показать рейтинг?"
+
+#: widgets/product-list/product-list.php:549
+msgid "Category Limit"
+msgstr "Лимит категорий"
+
+#: widgets/product-list/product-list.php:508
+msgid "Show Off Tag"
+msgstr "Показать тег скидки"
+
+#: widgets/product-list/product-list.php:497
+msgid "Space Evenly"
+msgstr "Равномерно"
+
+#: widgets/product-list/product-list.php:495
+msgid "Space Around"
+msgstr "Вокруг"
+
+#: widgets/product-list/product-list.php:494
+msgid "End"
+msgstr "Конец"
+
+#: widgets/product-list/product-list.php:492
+msgid "Start"
+msgstr "Начало"
+
+#: widgets/product-list/product-list.php:432
+#: widgets/product-list/product-list.php:509
+#: widgets/product-list/product-list.php:566
+msgid "Styling controls are in the style tab"
+msgstr "Элементы управления стилями находятся на вкладке стилей"
+
+#: widgets/product-list/product-list.php:431
+msgid "Show Product Hover"
+msgstr "Показать при наведении на товар"
+
+#: widgets/product-list/product-list.php:411
+msgid "Chracter to show in the product title"
+msgstr "Символ для отображения в заголовке товара"
+
+#: widgets/product-list/product-list.php:410
+msgid "Chracter to Show"
+msgstr "Символ для отображения"
+
+#: widgets/product-list/product-list.php:207
+msgid "Badge"
+msgstr "Бейдж"
+
+#: widgets/filterable-product-list/filterable-product-list.php:101
+#: widgets/product-list/product-list.php:132
+msgid "Select Products"
+msgstr "Выбрать товары"
+
+#: widgets/product-list/product-list.php:104
+msgid "Select Categories"
+msgstr "Выбрать категории"
+
+#: widgets/product-list/product-list.php:86
+msgid "Show Product by"
+msgstr "Показать товар по"
+
+#: widgets/product-list/screens/default.php:244
+msgid "No product found."
+msgstr "Товары не найдены."
+
+#: widgets/cart-table/cart-table.php:56
+msgid "Hide Clear All Button?"
+msgstr "Скрыть кнопку Очистить все?"
+
+#: widgets/cart-table/cart-table.php:41
+msgid "Hide Continue Shopping Button?"
+msgstr "Скрыть кнопку Продолжить покупки?"
+
+#: widgets/cart-table/cart-table.php:32 widgets/cross-sells/cross-sells.php:416
+#: widgets/filterable-product-list/filterable-product-list.php:314
+#: widgets/related/related.php:415 widgets/up-sells/up-sells.php:415
+msgid "Buttons"
+msgstr "Кнопки"
+
+#: widgets/product-list/product-list.php:1678
+#: widgets/recently-viewed-products/recently-viewed-products.php:750
+msgid "Item Padding (px)"
+msgstr "Внутренний отступ элемента (px)"
+
+#: widgets/product-list/product-list.php:422
+#: widgets/product-list/product-list.php:1561
+#: widgets/recently-viewed-products/recently-viewed-products.php:635
+msgid "Product Hover"
+msgstr "При наведении на товар"
+
+#: widgets/filterable-product-list/filterable-product-list.php:899
+#: widgets/product-list/product-list.php:716
+#: widgets/recently-viewed-products/recently-viewed-products.php:340
+msgid "Image Background"
+msgstr "Фоновое изображение"
+
+#: widgets/product-list/product-list.php:841
+#: widgets/recently-viewed-products/recently-viewed-products.php:534
+msgid "Percentage Badge Background"
+msgstr "Фон бейджа процентов"
+
+#: widgets/product-list/product-list.php:828
+#: widgets/recently-viewed-products/recently-viewed-products.php:521
+msgid "Badge Background"
+msgstr "Фон бейджа"
+
+#: widgets/product-list/product-list.php:752
+#: widgets/recently-viewed-products/recently-viewed-products.php:449
+msgid "Product Badge"
+msgstr "Бейдж товара"
+
+#: widgets/filterable-product-list/filterable-product-list.php:782
+#: widgets/product-category-lists/product-category-lists.php:111
+#: widgets/product-list/product-list.php:592
+msgid "Content Alignment"
+msgstr "Выравнивание контента"
+
+#: widgets/filterable-product-list/filterable-product-list.php:774
+#: widgets/product-list/product-list.php:584
+#: widgets/recently-viewed-products/recently-viewed-products.php:267
+msgid "Product Wrap"
+msgstr "Обертка товара"
+
+#: widgets/product-list/product-list.php:365
+#: widgets/recently-viewed-products/recently-viewed-products.php:231
+msgid "Badge Align"
+msgstr "Выравнивание бейджа"
+
+#: widgets/product-image/product-image.php:524
+#: widgets/product-image/product-image.php:773
+#: widgets/product-list/product-list.php:335
+#: widgets/recently-viewed-products/recently-viewed-products.php:201
+msgid "Badge Position (Y axis)"
+msgstr "Положение бейджа (ось Y)"
+
+#: widgets/product-image/product-image.php:494
+#: widgets/product-image/product-image.php:743
+#: widgets/product-list/product-list.php:305
+#: widgets/recently-viewed-products/recently-viewed-products.php:171
+msgid "Badge Position (X axis)"
+msgstr "Положение бейджа (ось X)"
+
+#: widgets/product-image/product-image.php:481
+#: widgets/product-image/product-image.php:730
+#: widgets/product-list/product-list.php:273
+#: widgets/recently-viewed-products/recently-viewed-products.php:144
+msgid "Custom"
+msgstr "Произвольно"
+
+#: widgets/product-image/product-image.php:477
+#: widgets/product-image/product-image.php:726
+#: widgets/product-list/product-list.php:269
+#: widgets/recently-viewed-products/recently-viewed-products.php:140
+msgid "Top Right"
+msgstr "Справа вверху"
+
+#: widgets/product-image/product-image.php:473
+#: widgets/product-image/product-image.php:722
+#: widgets/product-list/product-list.php:265
+#: widgets/recently-viewed-products/recently-viewed-products.php:136
+msgid "Top Left"
+msgstr "Слева вверху"
+
+#: widgets/product-list/product-list.php:261
+#: widgets/recently-viewed-products/recently-viewed-products.php:132
+msgid "Badge Position"
+msgstr "Положение бейджа"
+
+#: widgets/product-list/product-list.php:246
+#: widgets/recently-viewed-products/recently-viewed-products.php:117
+msgid "Show Tag"
+msgstr "Показать тег"
+
+#: widgets/product-list/product-list.php:231
+msgid "Show Discount Percentage"
+msgstr "Показать процент скидки"
+
+#: widgets/product-list/product-list.php:216
+#: widgets/recently-viewed-products/recently-viewed-products.php:102
+msgid "Show Sale Badge?"
+msgstr "Показать бейдж распродажи?"
+
+#: widgets/recently-viewed-products/recently-viewed-products.php:93
+msgid "Badge:"
+msgstr "Бейдж:"
+
+#: widgets/filterable-product-list/filterable-product-list.php:35
+#: widgets/product-list/product-list.php:31
+#: widgets/recently-viewed-products/recently-viewed-products.php:27
+msgid "Products Per Page"
+msgstr "Товаров на странице"
+
+#: widgets/recently-viewed-products/screens/default.php:54
+msgid "Ends in "
+msgstr "Заканчивается в "
+
+#: widgets/archive-products/archive-products.php:1655
+#: widgets/filterable-product-list/filterable-product-list.php:2050
+msgid "Icon size"
+msgstr "Размер значка"
+
+#: widgets/archive-products/archive-products.php:1598
+#: widgets/filterable-product-list/filterable-product-list.php:1995
+msgid "Button group"
+msgstr "Группа кнопок"
+
+#: widgets/add-to-cart/add-to-cart.php:418
+#: widgets/archive-products/archive-products.php:1141
+msgid "Add To Cart Button"
+msgstr "Кнопка Добавить в корзину"
+
+#: widgets/archive-products/archive-products.php:1112
+#: widgets/product-list/product-list.php:1513
+msgid "Badge Margin"
+msgstr "Отступ бейджа"
+
+#: widgets/archive-products/archive-products.php:1092
+#: widgets/product-list/product-list.php:1489
+msgid "Badge Padding"
+msgstr "Внутренний отступ бейджа"
+
+#: widgets/filterable-product-list/filterable-product-list.php:1305
+msgid "OFF Tag"
+msgstr "Тег скидки"
+
+#: widgets/archive-products/archive-products.php:497
+msgid "Box Shadow on hover"
+msgstr "Тень блока при наведении"
+
+#: widgets/deal-products/deal-products.php:1243
+msgid "Active line height"
+msgstr "Высота активной линии"
+
+#: widgets/deal-products/deal-products.php:1233
+msgid "Active line color"
+msgstr "Цвет активной линии"
+
+#: widgets/deal-products/deal-products.php:1212
+msgid "Normal line height"
+msgstr "Высота нормальной линии"
+
+#: widgets/deal-products/deal-products.php:1202
+msgid "Normal line color"
+msgstr "Цвет нормальной линии"
+
+#: widgets/deal-products/deal-products.php:1130
+msgid "Stock and Progress Bar"
+msgstr "Индикатор запаса и прогресса"
+
+#: widgets/deal-products/deal-products.php:906
+msgid "Countdown Wrapper Width"
+msgstr "Ширина обертки  обратного отсчета"
+
+#: widgets/deal-products/deal-products.php:474
+#: widgets/deal-products/deal-products.php:637
+msgid "Position top"
+msgstr "Положение сверху"
+
+#: widgets/deal-products/deal-products.php:451
+#: widgets/deal-products/deal-products.php:614
+msgid "Position left"
+msgstr "Положение слева"
+
+#: widgets/deal-products/deal-products.php:173
+msgid "Add sale badge"
+msgstr "Добавить бейдж распродажи"
+
+#: widgets/deal-products/deal-products.php:172
+msgid "Sale"
+msgstr "Распродажа"
+
+#: widgets/deal-products/deal-products.php:170
+#: widgets/deal-products/deal-products.php:563
+msgid "Sale badge"
+msgstr "Бейдж распродажи"
+
+#: widgets/deal-products/deal-products.php:158
+msgid "Enable Sale Badge"
+msgstr "Включить бейдж распродажи"
+
+#: widgets/deal-products/screens/default.php:118
+msgid "Sec"
+msgstr "Сек"
+
+#: widgets/deal-products/screens/default.php:113
+msgid "Min"
+msgstr "Мин"
+
+#: widgets/checkout-review-order/checkout-review-order.php:201
+msgid "Price Font Weight"
+msgstr "Толщина шрифта цены"
+
+#: widgets/init/route.php:25
+msgid "No products were found."
+msgstr "Товары не найдены."
+
+#: widgets/add-to-cart/add-to-cart.php:1199
+#: widgets/checkout-payment/checkout-payment.php:507
+#: widgets/cross-sells/cross-sells.php:1541
+#: widgets/product-list/product-list.php:1787
+#: widgets/recently-viewed-products/recently-viewed-products.php:859
+#: widgets/related/related.php:1580 widgets/up-sells/up-sells.php:1544
+msgid "Wrap Margin (px)"
+msgstr "Отступ обертки (px)"
+
+#: widgets/checkout-payment/checkout-payment.php:270
+msgid "Payment Methods Description"
+msgstr "Описание способов оплаты"
+
+#: widgets/checkout-payment/checkout-payment.php:231
+msgid "Payment Methods List"
+msgstr "Список способов оплаты"
+
+#: widgets/checkout-payment/checkout-payment.php:177
+msgid "Checkboxes"
+msgstr "Чекбоксы"
+
+#: widgets/checkout-payment/checkout-payment.php:169
+msgid "Payment Methods"
+msgstr "Способы оплаты"
+
+#: widgets/checkout-payment/checkout-payment.php:73
+msgid "Description Text Color"
+msgstr "Цвет текста описания"
+
+#: widgets/checkout-payment/checkout-payment.php:34
+#: widgets/checkout-shipping-methods/checkout-shipping-methods.php:112
+msgid "Label Text Color"
+msgstr "Цвет текста ярлыка"
+
+#: core/register/module-list.php:76
+msgid "Product Comparison"
+msgstr "Сравнение товаров"
+
+#: core/register/widget-list.php:233
+#: widgets/recently-viewed-products/recently-viewed-products-config.php:14
+msgid "Recently Viewed Products"
+msgstr "Недавно просмотренные товары"
+
+#: core/register/widget-list.php:228
+#: widgets/product-list/product-list-config.php:15
+msgid "Product List"
+msgstr "Список товаров"
+
+#: core/register/widget-list.php:223
+#: widgets/product-category-lists/product-category-lists-config.php:14
+msgid "Product Category List"
+msgstr "Список категорий товаров"
+
+#: core/register/widget-list.php:218
+#: widgets/filterable-product-list/filterable-product-list-config.php:14
+msgid "Filterable Product List"
+msgstr "Фильтруемый список продуктов"
+
+#: modules/comparison/route.php:218
+msgid "Available options"
+msgstr "Доступные опции"
+
+#: modules/comparison/route.php:192
+msgid "Dimensions"
+msgstr "Размеры"
+
+#: modules/comparison/route.php:139
+msgid "Product comparison"
+msgstr "Сравнение товаров"
+
+#: utils/helper.php:298
+msgid "Seconds"
+msgstr "Секунд"
+
+#: utils/helper.php:297
+msgid "Minutes"
+msgstr "Минут"
+
+#: utils/helper.php:246 widgets/product-list/screens/default.php:168
+msgid "Sale!"
+msgstr "Распродажа!"
+
+#: core/register/widget-list.php:193
+msgid "Related Product"
+msgstr "Похожий товар"
+
+#: core/register/widget-list.php:93
+msgid "Checkout Form - Shipping"
+msgstr "Форма оформления заказа - Доставка"
+
+#: core/register/widget-list.php:88
+msgid "Checkout Form - Billing"
+msgstr "Форма оформления заказа - Выставление счетов"
+
+#: core/register/widget-list.php:83
+msgid "Checkout Form - Additional"
+msgstr "Форма оформления заказа - Дополнительно"
+
+#: widgets/add-to-cart/add-to-cart.php:62
+msgid "Both Right"
+msgstr "Оба справа"
+
+#: widgets/add-to-cart/add-to-cart.php:61
+msgid "Both Left"
+msgstr "Оба слева"
+
+#: widgets/add-to-cart/add-to-cart.php:85
+msgid "Minus Icon"
+msgstr "Значок Минус"
+
+#: widgets/add-to-cart/add-to-cart.php:70
+msgid "Plus Icon"
+msgstr "Значок Плюс"
+
+#: widgets/add-to-cart/add-to-cart.php:47
+msgid "Quantity Settings"
+msgstr "Настройки количества"
+
+#: widgets/add-to-cart/screens/default.php:11
+msgid "To see the add to cart button , please set stock status as instock for - ."
+msgstr "Чтобы увидеть кнопку добавления в корзину, пожалуйста, установите статус наличия \"в наличии\" для - ."
+
+#: widgets/archive-view-mode/archive-view-mode.php:51
+msgid "Icon Box Size (px)"
+msgstr "Размер блока значка (px)"
+
+#: widgets/cart-table/cart-table.php:307
+msgid "Content Padding (px)"
+msgstr "Внутренний отступ контента (px)"
+
+#: widgets/advanced-search/advanced-search.php:1066
+#: widgets/archive-products/archive-products.php:744
+#: widgets/filterable-product-list/filterable-product-list.php:1007
+#: widgets/filterable-product-list/filterable-product-list.php:1115
+#: widgets/product-categories/product-categories.php:115
+#: widgets/product-tags/product-tags.php:112
+msgid "Hover Color"
+msgstr "Цвет при наведении"
+
+#: widgets/advanced-search/advanced-search.php:1026
+msgid "More Products Button"
+msgstr "Кнопка Больше товаров"
+
+#: widgets/advanced-search/advanced-search.php:956
+msgid "Product Item:"
+msgstr "Элемент товара:"
+
+#: widgets/advanced-search/advanced-search.php:943
+msgid "Icon Hover Background Color"
+msgstr "Цвет фона значка при наведени"
+
+#: widgets/advanced-search/advanced-search.php:930
+#: widgets/product-image/product-image.php:387
+msgid "Icon Background Color"
+msgstr "Цвет фона значка"
+
+#: widgets/advanced-search/advanced-search.php:917
+#: widgets/product-image/product-image.php:361
+msgid "Icon Color"
+msgstr "Цвет значка"
+
+#: widgets/advanced-search/advanced-search.php:908
+msgid "Arrow Button:"
+msgstr "Кнопка со стрелкой:"
+
+#: widgets/advanced-search/advanced-search.php:893
+msgid "Counter"
+msgstr "Счетчик"
+
+#: widgets/advanced-search/advanced-search.php:855
+msgid "Rating Font Size"
+msgstr "Размер шрифта рейтинга"
+
+#: widgets/advanced-search/advanced-search.php:846
+msgid "Rating:"
+msgstr "Рейтинг:"
+
+#: widgets/add-to-cart/add-to-cart.php:1500
+#: widgets/advanced-search/advanced-search.php:805
+#: widgets/cross-sells/cross-sells.php:942
+#: widgets/filterable-product-list/filterable-product-list.php:1715
+#: widgets/related/related.php:964 widgets/up-sells/up-sells.php:945
+msgid "Sale Price Color"
+msgstr "Цвет цены распродажи"
+
+#: widgets/advanced-search/advanced-search.php:783
+msgid "Price:"
+msgstr "Цена:"
+
+#: widgets/advanced-search/advanced-search.php:710
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: widgets/advanced-search/advanced-search.php:681
+msgid "Add space on the right side of the search result container."
+msgstr "Добавьте пространство в правой части контейнера результатов поиска."
+
+#: widgets/advanced-search/advanced-search.php:680
+msgid "Space On the Right"
+msgstr "Пространство справа"
+
+#: widgets/advanced-search/advanced-search.php:657
+msgid "Add space on the left side of the search result container."
+msgstr "Добавьте пространство в левой части контейнера результатов поиска."
+
+#: widgets/advanced-search/advanced-search.php:656
+msgid "Space On the Left"
+msgstr "Пространство слева"
+
+#: widgets/advanced-search/advanced-search.php:617
+msgid "Separator Height"
+msgstr "Высота разделителя"
+
+#: widgets/additional-information/additional-information.php:94
+#: widgets/advanced-search/advanced-search.php:602
+msgid "Separator Color"
+msgstr "Цвет разделителя"
+
+#: widgets/advanced-search/advanced-search.php:583
+msgid "Separator Width"
+msgstr "Ширина разделителя"
+
+#: widgets/advanced-search/advanced-search.php:556
+msgid "Separator Position"
+msgstr "Позиция разделителя"
+
+#: widgets/advanced-search/advanced-search.php:534
+msgid "Dropdown Category Width"
+msgstr "Ширина раскрывающихся категорий"
+
+#: widgets/advanced-search/advanced-search.php:438
+msgid "Search Text Gap"
+msgstr "Разрыв в поисковом тексте"
+
+#: widgets/advanced-search/advanced-search.php:396
+msgid "Search Button Font Size"
+msgstr "Размер шрифта кнопки поиска"
+
+#: widgets/advanced-search/advanced-search.php:186
+msgid "Category Selector"
+msgstr "Селектор категорий"
+
+#: widgets/advanced-search/advanced-search.php:171
+msgid "Search Input"
+msgstr "Ввод поиска"
+
+#: widgets/advanced-search/advanced-search.php:156
+msgid "Search Box"
+msgstr "Блок поиска"
+
+#: widgets/advanced-search/advanced-search.php:143
+msgid "Order Search Components?"
+msgstr "Упорядочить компоненты поиска?"
+
+#: widgets/advanced-search/advanced-search.php:129
+msgid "Search Text"
+msgstr "Текст поиска"
+
+#: widgets/advanced-search/advanced-search.php:101
+msgid "Add Search Text?"
+msgstr "Добавить текст поиска?"
+
+#: widgets/advanced-search/advanced-search.php:77
+msgid "Add text for all categories options."
+msgstr "Добавьте текст для всех опций категорий."
+
+#: widgets/advanced-search/advanced-search.php:76
+msgid "Text for All Categories"
+msgstr "Текст для всех категорий"
+
+#: widgets/advanced-search/screens/search-result.php:139
+msgid "More Products"
+msgstr "Больше товаров"
+
+#: widgets/checkout-payment/checkout-payment.php:315
+msgid "Full width button"
+msgstr "Кнопка во всю ширину"
+
+#: widgets/archive-products/archive-products.php:144
+#: widgets/filterable-product-list/filterable-product-list.php:220
+msgid "Button Group"
+msgstr "Группа кнопок"
+
+#: widgets/deal-products/deal-products.php:1192
+msgid "Round"
+msgstr "Круглая"
+
+#: widgets/deal-products/deal-products.php:1190
+msgid "round"
+msgstr "круглая"
+
+#: widgets/deal-products/deal-products.php:1188
+msgid "Line Cap Style"
+msgstr "Стиль крышки линии"
+
+#: widgets/deal-products/deal-products.php:1152
+msgid "Text typography"
+msgstr "Оформление текста"
+
+#: widgets/deal-products/deal-products.php:1096
+msgid "Sale price typography"
+msgstr "Оформление цены распродажи"
+
+#: widgets/deal-products/deal-products.php:1054
+msgid "Regular price typography"
+msgstr "Оформление обычной цены"
+
+#: widgets/deal-products/deal-products.php:1019
+msgid "Price row margin"
+msgstr "Отступ ценовой строки"
+
+#: widgets/deal-products/deal-products.php:999
+msgid "Title margin"
+msgstr "Отступ заголовка"
+
+#: widgets/deal-products/deal-products.php:972
+msgid "Title typography"
+msgstr "Оформление заголовка"
+
+#: widgets/deal-products/deal-products.php:883
+msgid "Space Bottom"
+msgstr "Пространство снизу"
+
+#: widgets/deal-products/deal-products.php:748
+msgid "Number Typography"
+msgstr "Оформление чисел"
+
+#: widgets/deal-products/deal-products.php:734
+msgid "Number Color"
+msgstr "Цвет числа"
+
+#: widgets/deal-products/deal-products.php:431
+#: widgets/deal-products/deal-products.php:594
+msgid "Border radius"
+msgstr "Радиус границы"
+
+#: widgets/deal-products/deal-products.php:574
+msgid "Paddig"
+msgstr "Внутренний отступ"
+
+#: widgets/deal-products/deal-products.php:371
+msgid "center"
+msgstr "по центру"
+
+#: widgets/deal-products/deal-products.php:358
+#: widgets/recently-viewed-products/recently-viewed-products.php:407
+msgid "Cover"
+msgstr "Обложка"
+
+#: widgets/deal-products/deal-products.php:357
+#: widgets/recently-viewed-products/recently-viewed-products.php:406
+msgid "Contain"
+msgstr "Содержит"
+
+#: widgets/archive-products/archive-products.php:1609
+#: widgets/filterable-product-list/filterable-product-list.php:2006
+msgid "Background color"
+msgstr "Цвет фона"
+
+#: widgets/deal-products/deal-products.php:245
+msgid "Product wrapper"
+msgstr "Обертка продукта"
+
+#: widgets/deal-products/deal-products.php:208
+#: widgets/deal-products/deal-products.php:723
+msgid "Countdown Clock"
+msgstr "Часы обратного отсчета"
+
+#: widgets/deal-products/deal-products.php:196
+#: widgets/deal-products/deal-products.php:400
+msgid "Percentage Badge"
+msgstr "Бейдж процентов"
+
+#: widgets/deal-products/deal-products.php:184
+msgid "Title Word Limit"
+msgstr "Ограничение заголовка в словах"
+
+#: widgets/deal-products/deal-products.php:91
+msgid "Column Gap"
+msgstr "Разрыв столбца"
+
+#: widgets/deal-products/deal-products.php:62
+msgid "Show Product"
+msgstr "Показать товар"
+
+#: widgets/deal-products/deal-products.php:54
+#: widgets/filterable-product-list/filterable-product-list.php:82
+#: widgets/product-list/product-list.php:61
+#: widgets/recently-viewed-products/recently-viewed-products.php:57
+msgid "Popular"
+msgstr "Популярное"
+
+#: widgets/deal-products/deal-products.php:50
+#: widgets/filterable-product-list/filterable-product-list.php:78
+#: widgets/product-list/product-list.php:57
+#: widgets/recently-viewed-products/recently-viewed-products.php:53
+msgid "ID"
+msgstr "ID"
+
+#: widgets/deal-products/deal-products.php:25
+msgid "Layout and Product"
+msgstr "Макет и товар"
+
+#: widgets/deal-products/screens/default.php:154
+msgid "Sold:"
+msgstr "Продано:"
+
+#: widgets/deal-products/screens/default.php:150
+msgid "Available:"
+msgstr "Доступно:"
+
+#: utils/helper.php:296 widgets/deal-products/screens/default.php:108
+msgid "Hours"
+msgstr "Часов"
+
+#: utils/helper.php:295 widgets/deal-products/deal-products.php:220
+#: widgets/deal-products/screens/default.php:102
+msgid "Days"
+msgstr "Дней"
+
+#: core/register/widget-list.php:213
+#: widgets/deal-products/deal-products-config.php:14
+msgid "Deal Products"
+msgstr "Товары для сделки"
+
+#: modules/wishlist/screens/default.php:9
+msgid "Action"
+msgstr "Действие"
+
+#: modules/wishlist/screens/default.php:8
+#: widgets/add-to-cart/add-to-cart.php:311
+msgid "Stock Status"
+msgstr "Статус наличия"
+
+#: modules/wishlist/screens/default.php:7
+msgid "Unit Price"
+msgstr "Цена за единицу"
+
+#: modules/wishlist/route.php:43 modules/wishlist/route.php:69
+msgid "Successfully added into wishlist"
+msgstr "Успешно добавлено в список желаний"
+
+#: modules/wishlist/route.php:37 modules/wishlist/route.php:63
+msgid "Successfully removed from wishlist"
+msgstr "Успешно удалено из списка желаний"
+
+#: modules/wishlist/route.php:24
+msgid "Product id not found."
+msgstr "ID товара не найден."
+
+#: core/settings/api.php:45
+msgid "settings saved successfully."
+msgstr "настройки успешно сохранены."
+
+#: core/settings/base.php:129 core/settings/base.php:130
+msgid "Modules"
+msgstr "Модули"
+
+#: core/settings/base.php:137 core/settings/base.php:138
+msgid "Widgets"
+msgstr "Виджеты"
+
+#: core/settings/base.php:119 core/settings/base.php:120
+msgid "Getting Started"
+msgstr "Начало работы"
+
+#: core/page-templates/page-templates.php:87
+msgid "Checkout"
+msgstr "Оформление заказа"
+
+#: core/page-templates/page-templates.php:79
+msgid "Cart"
+msgstr "Корзина"
+
+#: core/page-templates/page-templates.php:55
+msgid "Shop"
+msgstr "Магазин"
+
+#: core/page-templates/page-templates.php:63
+msgid "Archive"
+msgstr "Архив"
+
+#: core/page-templates/page-templates.php:71
+msgid "Single"
+msgstr "Одиночный"
+
+#: core/builders/hooks.php:123
+msgid "Template Type "
+msgstr "Тип шаблона "
+
+#: core/builders/hooks.php:98
+msgid "Active"
+msgstr "Активно"
+
+#: core/builders/api.php:27 core/builders/api.php:46
+msgid "Not enough permission."
+msgstr "Недостаточно разрешения."
+
+#: core/builders/action.php:160
+msgid "Template settings updated"
+msgstr "Обновлены настройки шаблона"
+
+#: core/builders/action.php:118
+msgid "Template settings inserted"
+msgstr "Вставлены настройки шаблона"
+
+#: core/builders/action.php:46 core/settings/action.php:30
+msgid "Something went wrong."
+msgstr "Что-то пошло не так."
+
+#: core/builders/hooks.php:177
+msgid "ShopEngine Template"
+msgstr "ShopEngine шаблон"
+
+#: core/template-cpt.php:62
+msgid "Filter from list"
+msgstr "Фильтр из списка"
+
+#: core/template-cpt.php:61
+msgid "Templates list navigation"
+msgstr "Навигация по списку шаблонов"
+
+#: core/template-cpt.php:60
+msgid "Templates list"
+msgstr "Список шаблонов"
+
+#: core/template-cpt.php:59
+msgid "Uploaded to this Template"
+msgstr "Загружено в этот шаблон"
+
+#: core/template-cpt.php:58
+msgid "Insert into Template"
+msgstr "Вставить в шаблон"
+
+#: core/template-cpt.php:57
+msgid "Use as featured image"
+msgstr "Использовать как миниатюру"
+
+#: core/template-cpt.php:56
+msgid "Remove featured image"
+msgstr "Удалить миниатюру"
+
+#: core/template-cpt.php:55
+msgid "Set featured image"
+msgstr "Установить миниатюру"
+
+#: core/template-cpt.php:54
+msgid "Featured Image"
+msgstr "Миниатюра"
+
+#: core/template-cpt.php:53
+msgid "Not found in Trash"
+msgstr "Не найдено в корзине"
+
+#: core/template-cpt.php:52
+msgid "Not found"
+msgstr "Не найдено"
+
+#: core/template-cpt.php:51
+msgid "Search Templates"
+msgstr "Поиск шаблонов"
+
+#: core/template-cpt.php:50
+msgid "View Templates"
+msgstr "Просмотр шаблонов"
+
+#: core/template-cpt.php:49
+msgid "View Template"
+msgstr "Просмотр шаблона"
+
+#: core/template-cpt.php:48
+msgid "Update Template"
+msgstr "Обновить шаблон"
+
+#: core/template-cpt.php:47
+msgid "Edit Template"
+msgstr "Редактировать шаблон"
+
+#: core/template-cpt.php:46
+msgid "New Template"
+msgstr "Новый шаблон"
+
+#: core/template-cpt.php:44
+msgid "Add New Template"
+msgstr "Добавить новый шаблон"
+
+#: core/template-cpt.php:42
+msgid "Parent Item:"
+msgstr "Родительский элемент:"
+
+#: core/template-cpt.php:41
+msgid "Template Attributes"
+msgstr "Атрибуты шаблона"
+
+#: core/template-cpt.php:40
+msgid "Template Archives"
+msgstr "Архивы шаблонов"
+
+#: core/template-cpt.php:43
+msgid "Templates"
+msgstr "Шаблоны"
+
+#: core/register/widget-list.php:198
+msgid "Return To Shop"
+msgstr "Вернуться в магазин"
+
+#: core/register/widget-list.php:163
+msgid "Product SKU"
+msgstr "SKU товара"
+
+#: core/register/widget-list.php:128
+#: widgets/archive-products/archive-products.php:936
+#: widgets/filterable-product-list/filterable-product-list.php:1873
+msgid "Product Description"
+msgstr "Описание товара"
+
+#: core/register/widget-list.php:18 widgets/product-tabs/product-tabs.php:403
+msgid "Additional Information"
+msgstr "Дополнительная информация"
+
+#: core/register/module-list.php:35
+msgid "Swatches"
+msgstr "Вариации"
+
+#: core/page-templates/screens/content-checkout.php:34
+msgid "You must be logged in to checkout."
+msgstr "Для оформления заказа нужно авторизоваться."
+
+#: widgets/return-to-shop/return-to-shop.php:29
+#: widgets/view-single-product/view-single-product.php:36
+msgid "Button Alignment"
+msgstr "Выравнивание кнопки"
+
+#: widgets/checkout-review-order/screens/default.php:54
+msgid "Your order"
+msgstr "Ваш заказ"
+
+#: core/register/widget-list.php:113
+#: widgets/cross-sells/cross-sells-config.php:15
+msgid "Cross-Sell"
+msgstr "Сопутствующие"
+
+#: widgets/add-to-cart/add-to-cart.php:972
+#: widgets/add-to-cart/add-to-cart.php:2051
+#: widgets/add-to-cart/add-to-cart.php:2273
+msgid "Icon Size"
+msgstr "Размер значка"
+
+#: widgets/deal-products/deal-products.php:1193
+msgid "Square"
+msgstr "Квадратный"
+
+#: widgets/add-to-cart/add-to-cart.php:2023
+msgid "Selected Border Color"
+msgstr "Выбранный цвет границы"
+
+#: widgets/add-to-cart/add-to-cart.php:1337
+msgid "Label Width (px)"
+msgstr "Ширина ярлыка (px)"
+
+#: core/register/module-list.php:42 widgets/add-to-cart/add-to-cart.php:215
+#: widgets/add-to-cart/add-to-cart.php:264
+#: widgets/add-to-cart/add-to-cart.php:270
+#: widgets/add-to-cart/add-to-cart.php:2043
+msgid "Wishlist"
+msgstr "Список желаний (Wishlist)"
+
+#: widgets/add-to-cart/add-to-cart.php:106
+msgid "Stock"
+msgstr "В наличии"
+
+#: core/register/widget-list.php:23
+#: widgets/add-to-cart/add-to-cart-config.php:15
+#: widgets/cross-sells/cross-sells.php:1022 widgets/related/related.php:1044
+#: widgets/up-sells/up-sells.php:1025
+msgid "Add To Cart"
+msgstr "Добавить в корзину"
+
+#: widgets/cross-sells/cross-sells.php:61
+#: widgets/product-price/product-price.php:146 widgets/related/related.php:61
+#: widgets/up-sells/up-sells.php:60
+msgid "Sale Price"
+msgstr "Цена распродажи"
+
+#: core/register/widget-list.php:48
+#: widgets/archive-view-mode/archive-view-mode-config.php:14
+msgid "Archive View Mode"
+msgstr "Режим просмотра архива"
+
+#: core/register/widget-list.php:28
+#: widgets/archive-description/archive-description-config.php:15
+msgid "Archive Description"
+msgstr "Описание архива"
+
+#: widgets/additional-information/additional-information-config.php:15
+msgid "Product Additional Information"
+msgstr "Дополнительная информация о товаре"
+
+#: widgets/cart-totals/cart-totals.php:27
+msgid "Table"
+msgstr "Таблица"
+
+#: widgets/additional-information/additional-information.php:147
+#: widgets/cart-table/cart-table.php:391
+#: widgets/product-image/product-image.php:174
+#: widgets/product-tabs/product-tabs.php:529
+msgid "Width"
+msgstr "Ширина"
+
+#: widgets/product-tabs/product-tabs.php:631
+#: widgets/product-tabs/product-tabs.php:755
+msgid " Label Typography"
+msgstr " Оформление ярлыка"
+
+#: widgets/add-to-cart/add-to-cart.php:1325
+#: widgets/product-meta/product-meta.php:102
+msgid "Inline"
+msgstr "В линию"
+
+#: widgets/product-list/product-list.php:90
+#: widgets/product-meta/product-meta.php:64
+msgid "Tag"
+msgstr "Тег"
+
+#: core/register/widget-list.php:143
+#: widgets/product-meta/product-meta-config.php:15
+msgid "Product Meta"
+msgstr "Мета товара"
+
+#: widgets/product-image/product-image-config.php:29
+msgid "Product Images"
+msgstr "Изображения товара"
+
+#: modules/swatches/attribute-hooks.php:73
+msgid "Thumbnail"
+msgstr "Миниатюра"
+
+#: widgets/product-image/product-image.php:423
+msgid "Wrapper Size (px)"
+msgstr "Размер обертки (px)"
+
+#: widgets/product-image/product-image.php:400
+msgid "Size (px)"
+msgstr "Размер (px)"
+
+#: widgets/product-image/product-image.php:353
+msgid "Lightbox Zoom Icon"
+msgstr "Значок масштабирования лайтбокса"
+
+#: widgets/add-to-cart/add-to-cart.php:584
+#: widgets/add-to-cart/add-to-cart.php:819
+#: widgets/add-to-cart/add-to-cart.php:1169
+#: widgets/add-to-cart/add-to-cart.php:1714
+#: widgets/add-to-cart/add-to-cart.php:1810
+#: widgets/add-to-cart/add-to-cart.php:1887
+#: widgets/add-to-cart/add-to-cart.php:2193
+#: widgets/add-to-cart/add-to-cart.php:2415
+#: widgets/cart-table/cart-table.php:649
+#: widgets/cart-totals/cart-totals.php:607
+#: widgets/checkout-coupon-form/checkout-coupon-form.php:336
+#: widgets/checkout-coupon-form/checkout-coupon-form.php:529
+#: widgets/cross-sells/cross-sells.php:1209
+#: widgets/cross-sells/cross-sells.php:1453
+#: widgets/filterable-product-list/filterable-product-list.php:1394
+#: widgets/product-image/product-image.php:236
+#: widgets/product-image/product-image.php:446
+#: widgets/product-image/product-image.php:695
+#: widgets/product-list/product-list.php:1766
+#: widgets/product-review/product-review.php:766
+#: widgets/product-tabs/product-tabs.php:1677
+#: widgets/recently-viewed-products/recently-viewed-products.php:838
+#: widgets/related/related.php:1248 widgets/related/related.php:1492
+#: widgets/up-sells/up-sells.php:1212 widgets/up-sells/up-sells.php:1456
+msgid "Border Radius (px)"
+msgstr "Радиус границы (px)"
+
+#: widgets/add-to-cart/add-to-cart.php:1691
+#: widgets/cart-totals/cart-totals.php:219
+#: widgets/product-image/product-image.php:669
+#: widgets/product-review/product-review.php:743
+#: widgets/product-tabs/product-tabs.php:1654
+msgid "Width (px)"
+msgstr "Ширина (px)"
+
+#: widgets/product-image/product-image.php:630
+msgid "Fixed Height Width"
+msgstr "Фиксированная высота и ширина"
+
+#: widgets/product-image/product-image.php:79
+msgid "Product Lightbox"
+msgstr "Лайтбокс товара"
+
+#: widgets/add-to-cart/add-to-cart.php:33
+#: widgets/deal-products/deal-products.php:150
+#: widgets/filterable-product-list/filterable-product-list.php:133
+#: widgets/product-category-lists/product-category-lists.php:24
+#: widgets/product-image/product-image.php:30
+#: widgets/product-list/product-list.php:198
+#: widgets/product-meta/product-meta.php:22
+#: widgets/recently-viewed-products/recently-viewed-products.php:84
+msgid "Settings"
+msgstr "Настройки"
+
+#: widgets/add-to-cart/add-to-cart.php:625
+#: widgets/add-to-cart/add-to-cart.php:860
+#: widgets/add-to-cart/add-to-cart.php:2235
+#: widgets/add-to-cart/add-to-cart.php:2457
+#: widgets/archive-products/archive-products.php:1875
+#: widgets/cart-totals/cart-totals.php:328
+#: widgets/checkout-form-billing/checkout-form-billing.php:424
+#: widgets/checkout-payment/checkout-payment.php:210
+#: widgets/checkout-shipping-methods/checkout-shipping-methods.php:231
+#: widgets/cross-sells/cross-sells.php:896
+#: widgets/cross-sells/cross-sells.php:1229
+#: widgets/product-category-lists/product-category-lists.php:395
+#: widgets/product-category-lists/product-category-lists.php:486
+#: widgets/product-list/product-list.php:728
+#: widgets/product-list/product-list.php:901
+#: widgets/product-review/product-review.php:98
+#: widgets/product-tabs/product-tabs.php:1012
+#: widgets/recently-viewed-products/recently-viewed-products.php:592
+#: widgets/related/related.php:918 widgets/related/related.php:1268
+#: widgets/up-sells/up-sells.php:1232
+msgid "Margin (px)"
+msgstr "Отступ (px)"
+
+#: widgets/add-to-cart/add-to-cart.php:1119
+#: widgets/add-to-cart/add-to-cart.php:1684
+#: widgets/add-to-cart/add-to-cart.php:2166
+#: widgets/add-to-cart/add-to-cart.php:2388
+#: widgets/product-review/product-review.php:736
+#: widgets/product-tabs/product-tabs.php:1647
+msgid "Border (px)"
+msgstr "Граница (px)"
+
+#: widgets/archive-view-mode/archive-view-mode.php:135
+msgid "Hover & Active"
+msgstr "Активно и при наведении"
+
+#: widgets/product-category-lists/product-category-lists.php:84
+msgid "Show Icon"
+msgstr "Показать значок"
+
+#: widgets/cart-table/screens/cart.php:178
+msgid "Clear All"
+msgstr "Очистить все"
+
+#: widgets/cart-table/screens/cart.php:170
+#: widgets/cart-table/screens/cart.php:172
+msgid "Update cart"
+msgstr "Обновить корзину"
+
+#: widgets/cart-table/screens/cart.php:164
+msgid "Continue Shopping"
+msgstr "Продолжить покупки"
+
+#: widgets/cart-table/screens/cart.php:67
+msgid "Remove this item"
+msgstr "Удалить этот элемент"
+
+#: widgets/cart-table/screens/cart.php:96
+msgid "Available on backorder"
+msgstr "Доступно для предзаказа"
+
+#: widgets/cart-table/screens/cart.php:81
+#: widgets/product-list/product-list.php:91
+msgid "Product"
+msgstr "Товар"
+
+#: widgets/cart-table/cart-table.php:423 widgets/cart-table/screens/cart.php:21
+#: widgets/cart-table/screens/cart.php:110
+msgid "Quantity"
+msgstr "Количество"
+
+#: widgets/cart-table/screens/cart.php:19
+msgid "Product Name"
+msgstr "Название товара"
+
+#: widgets/return-to-shop/return-to-shop-config.php:14
+#: widgets/return-to-shop/screens/default.php:27
+msgid "Return to shop"
+msgstr "Вернуться в магазин"
+
+#: widgets/cart-table/cart-table.php:628
+msgid "Button Padding"
+msgstr "Внутренний отступ кнопки"
+
+#: widgets/cart-table/cart-table.php:517
+msgid "Button Styles"
+msgstr "Стили кнопок"
+
+#: widgets/cart-table/cart-table.php:476
+#: widgets/checkout-review-order/checkout-review-order.php:313
+msgid "Table Footer"
+msgstr "Футер таблицы"
+
+#: widgets/add-to-cart/add-to-cart.php:1486
+#: widgets/cart-table/cart-table.php:250
+#: widgets/cart-totals/cart-totals.php:101
+#: widgets/checkout-review-order/checkout-review-order.php:187
+#: widgets/checkout-review-order/checkout-review-order.php:335
+msgid "Price Color"
+msgstr "Цвет цены"
+
+#: widgets/deal-products/deal-products.php:375
+#: widgets/product-image/product-image.php:57
+#: widgets/product-list/product-list.php:459
+msgid "Bottom"
+msgstr "Внизу"
+
+#: widgets/deal-products/deal-products.php:373
+msgid "Top"
+msgstr "Вверху"
+
+#: widgets/product-review/product-review.php:568
+#: widgets/product-tabs/product-tabs.php:1479
+msgid "Submit Button"
+msgstr "Кнопка Отправить"
+
+#: widgets/product-review/product-review.php:312
+#: widgets/product-tabs/product-tabs.php:1223
+msgid "Review Form"
+msgstr "Форма отзыва"
+
+#: widgets/product-review/product-review.php:240
+#: widgets/product-tabs/product-tabs.php:1151
+msgid "Description Typography"
+msgstr "Оформление описания"
+
+#: widgets/product-review/product-review.php:211
+#: widgets/product-tabs/product-tabs.php:1125
+msgid "Date Typography"
+msgstr "Оформление даты"
+
+#: widgets/product-review/product-review.php:158
+#: widgets/product-tabs/product-tabs.php:1072
+msgid "Date, Author and Description Color"
+msgstr "Цвет даты, автора и описания"
+
+#: widgets/product-review/product-review.php:135
+#: widgets/product-tabs/product-tabs.php:1049
+msgid "Rating Color"
+msgstr "Цвет рейтинга"
+
+#: widgets/product-review/product-review.php:127
+#: widgets/product-tabs/product-tabs.php:1041
+msgid "Review Style"
+msgstr "Стиль обзора"
+
+#: widgets/product-meta/product-meta.php:188
+msgid "Value Color"
+msgstr "Цвет значения"
+
+#: widgets/product-tabs/product-tabs.php:366
+msgid "Tab Content Wrap"
+msgstr "Обертка контента вкладки"
+
+#: widgets/product-tabs/product-tabs.php:257
+msgid "Tab Content Title"
+msgstr "Заголовок контента вкладки"
+
+#: widgets/product-tabs/product-tabs.php:249
+msgid "Tab Content"
+msgstr "Контент вкладки"
+
+#: widgets/add-to-cart/add-to-cart.php:604
+#: widgets/add-to-cart/add-to-cart.php:839
+#: widgets/add-to-cart/add-to-cart.php:2214
+#: widgets/add-to-cart/add-to-cart.php:2436
+#: widgets/archive-products/archive-products.php:1895
+#: widgets/cart-table/cart-table.php:158 widgets/cart-table/cart-table.php:497
+#: widgets/cart-totals/cart-totals.php:619
+#: widgets/checkout-coupon-form/checkout-coupon-form.php:154
+#: widgets/checkout-coupon-form/checkout-coupon-form.php:357
+#: widgets/checkout-coupon-form/checkout-coupon-form.php:558
+#: widgets/checkout-form-billing/checkout-form-billing.php:342
+#: widgets/checkout-payment/checkout-payment.php:240
+#: widgets/checkout-payment/checkout-payment.php:279
+#: widgets/checkout-review-order/checkout-review-order.php:100
+#: widgets/checkout-review-order/checkout-review-order.php:405
+#: widgets/cross-sells/cross-sells.php:581
+#: widgets/cross-sells/cross-sells.php:737
+#: widgets/cross-sells/cross-sells.php:826
+#: widgets/cross-sells/cross-sells.php:997
+#: widgets/cross-sells/cross-sells.php:1178
+#: widgets/empty-cart-message/empty-cart-message.php:113
+#: widgets/filterable-product-list/filterable-product-list.php:845
+#: widgets/filterable-product-list/filterable-product-list.php:912
+#: widgets/filterable-product-list/filterable-product-list.php:1020
+#: widgets/filterable-product-list/filterable-product-list.php:1128
+#: widgets/filterable-product-list/filterable-product-list.php:1274
+#: widgets/filterable-product-list/filterable-product-list.php:1814
+#: widgets/filterable-product-list/filterable-product-list.php:1936
+#: widgets/filterable-product-list/filterable-product-list.php:2233
+#: widgets/product-category-lists/product-category-lists.php:295
+#: widgets/product-category-lists/product-category-lists.php:664
+#: widgets/product-list/product-list.php:674
+#: widgets/product-list/product-list.php:880
+#: widgets/product-list/product-list.php:1041
+#: widgets/product-list/product-list.php:1157
+#: widgets/product-list/product-list.php:1290
+#: widgets/product-review/product-review.php:787
+#: widgets/product-tabs/product-tabs.php:220
+#: widgets/product-tabs/product-tabs.php:344
+#: widgets/product-tabs/product-tabs.php:375
+#: widgets/product-tabs/product-tabs.php:1698
+#: widgets/recently-viewed-products/recently-viewed-products.php:319
+#: widgets/recently-viewed-products/recently-viewed-products.php:571
+#: widgets/related/related.php:603 widgets/related/related.php:759
+#: widgets/related/related.php:848 widgets/related/related.php:1019
+#: widgets/related/related.php:1200 widgets/up-sells/up-sells.php:580
+#: widgets/up-sells/up-sells.php:737 widgets/up-sells/up-sells.php:826
+#: widgets/up-sells/up-sells.php:1000 widgets/up-sells/up-sells.php:1181
+msgid "Padding (px)"
+msgstr "Внутренний отступ (px)"
+
+#: widgets/product-tabs/product-tabs.php:178
+msgid "Nav Line"
+msgstr "Линия навигации"
+
+#: widgets/product-tabs/product-tabs.php:143
+msgid "Menu Spacing (px)"
+msgstr "Интервал между меню (px)"
+
+#: widgets/product-tabs/product-tabs.php:121
+msgid "Nav Indicator Border (px)"
+msgstr "Граница индикатора навигации (px)"
+
+#: widgets/product-tabs/product-tabs.php:108
+msgid "Nav Indicator Color"
+msgstr "Цвет индикатора навигации"
+
+#: widgets/product-tabs/product-tabs.php:82
+msgid "Menu color"
+msgstr "Цвет меню"
+
+#: widgets/product-tabs/product-tabs.php:29
+msgid "Nav Style"
+msgstr "Стиль навигации"
+
+#: core/register/widget-list.php:173
+#: widgets/product-tabs/product-tabs-config.php:15
+msgid "Product Tabs"
+msgstr "Вкладки товара"
+
+#: widgets/product-categories/screens/default.php:22
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] "Категория:"
+msgstr[1] "Категории:"
+msgstr[2] "Категорий:"
+
+#: widgets/product-categories/product-categories.php:93
+msgid "Categories Links"
+msgstr "Ссылки категорий"
+
+#: widgets/product-categories/product-categories.php:35
+msgid "Categories Label"
+msgstr "Ярлык категорий"
+
+#: widgets/product-categories/product-categories.php:22
+msgid "Categories"
+msgstr "Категории"
+
+#: widgets/product-excerpt/screens/default.php:19
+msgid "Dummy short description only for elementor preview mode if and only if the editor selected product has no short description."
+msgstr "Фиктивное краткое описание только для режима предпросмотра elementor только в том случае, если выбранный редактором товар не имеет краткого описания."
+
+#: core/register/widget-list.php:133
+#: widgets/product-excerpt/product-excerpt-config.php:15
+msgid "Product Excerpt"
+msgstr "Выдержка товара"
+
+#: widgets/cross-sells/cross-sells.php:425 widgets/up-sells/up-sells.php:424
+msgid "Space In-between (px)"
+msgstr "Пространство между строками (px)"
+
+#: widgets/deal-products/deal-products.php:1138
+msgid "Text color"
+msgstr "Цвет текста"
+
+#: widgets/advanced-search/advanced-search.php:965
+msgid "Wrapper Padding (px)"
+msgstr "Внутренний отступ обертки (px)"
+
+#: widgets/advanced-search/advanced-search.php:819
+msgid "Price Typography"
+msgstr "Оформление цены"
+
+#: widgets/deal-products/deal-products.php:1081
+msgid "Sale price color"
+msgstr "Цвет цены распродажи"
+
+#: widgets/deal-products/deal-products.php:1040
+msgid "Regular price color"
+msgstr "Цвет обычной цены"
+
+#: widgets/advanced-search/advanced-search.php:648
+msgid "Product Style"
+msgstr "Стиль товара"
+
+#: widgets/advanced-search/advanced-search.php:461
+msgid "Category Style"
+msgstr "Стиль категории"
+
+#: widgets/advanced-search/advanced-search.php:415
+msgid "Search Button Width"
+msgstr "Ширина кнопки поиска"
+
+#: widgets/advanced-search/advanced-search.php:369
+msgid "Search Button Text Color"
+msgstr "Цвет текста кнопки поиска"
+
+#: widgets/advanced-search/advanced-search.php:382
+msgid "Search Button Background Color"
+msgstr "Цвет фона кнопки поиска"
+
+#: widgets/advanced-search/advanced-search.php:310
+msgid "Input Box Background Color"
+msgstr "Цвет фона блока ввода"
+
+#: widgets/advanced-search/advanced-search.php:243
+msgid "Form Radius"
+msgstr "Радиус формы"
+
+#: widgets/advanced-search/advanced-search.php:211
+msgid "Search form"
+msgstr "Форма поиска"
+
+#: widgets/advanced-search/advanced-search.php:57
+msgid "Show Category Dropdown"
+msgstr "Показать выпадающие категории"
+
+#: widgets/advanced-search/advanced-search.php:89
+msgid "Search icon"
+msgstr "Значок поиска"
+
+#: widgets/advanced-search/advanced-search.php:35
+msgid "Products Column"
+msgstr "Колонка товаров"
+
+#: widgets/advanced-search/advanced-search.php:27
+#: widgets/cart-table/cart-table.php:24
+#: widgets/filterable-product-list/filterable-product-list.php:26
+#: widgets/product-list/product-list.php:23
+#: widgets/recently-viewed-products/recently-viewed-products.php:19
+msgid "General"
+msgstr "Общее"
+
+#: core/register/widget-list.php:208
+#: widgets/advanced-search/advanced-search-config.php:14
+msgid "Advanced Search"
+msgstr "Расширенный поиск"
+
+#: widgets/cart-totals/screens/default.php:137
+#: widgets/cart-totals/screens/default.php:138
+msgid "Total"
+msgstr "Итого"
+
+#. translators: %s location.
+#: widgets/cart-totals/screens/default.php:111
+msgid "(estimated for %s)"
+msgstr "(оценивается для %s)"
+
+#: widgets/cart-totals/screens/default.php:91
+#: widgets/cart-totals/screens/default.php:92
+msgid "Shipping"
+msgstr "Доставка"
+
+#: widgets/cart-table/screens/cart.php:22
+#: widgets/cart-table/screens/cart.php:138
+#: widgets/cart-totals/screens/default.php:53
+#: widgets/cart-totals/screens/default.php:54
+msgid "Subtotal"
+msgstr "Промежуточный итог"
+
+#: widgets/cart-totals/cart-totals.php:202
+msgid "Table Row"
+msgstr "Строка таблицы"
+
+#: widgets/cart-totals/cart-totals.php:117
+msgid "Shipping Methods"
+msgstr "Способы доставки"
+
+#: core/register/widget-list.php:68 widgets/cart-table/cart-table-config.php:15
+msgid "Cart Table"
+msgstr "Таблица корзины"
+
+#: core/register/widget-list.php:73
+#: widgets/cart-totals/cart-totals-config.php:14
+msgid "Cart Total"
+msgstr "Итого в корзине"
+
+#: widgets/product-rating/product-rating.php:84
+msgid "Review Link"
+msgstr "Ссылка на обзор"
+
+#: widgets/filterable-product-list/filterable-product-list.php:832
+msgid "Gap (px)"
+msgstr "Разрыв (px)"
+
+#: widgets/product-rating/product-rating.php:29
+msgid "Rating Star"
+msgstr "Звезда рейтинга"
+
+#: widgets/filterable-product-list/filterable-product-list.php:1158
+#: widgets/product-list/product-list.php:1181
+#: widgets/product-rating/product-rating-config.php:15
+msgid "Product Rating"
+msgstr "Рейтинг товара"
+
+#: widgets/filter-orderby/screens/default.php:7
+#: widgets/filter-orderby/screens/default.php:18
+msgid "Shop order"
+msgstr "Заказ"
+
+#: widgets/filter-orderby/filter-orderby.php:190
+msgid "Sort by price: high to low"
+msgstr "Сортировать по цене: от высокой к низкой"
+
+#: widgets/filter-orderby/filter-orderby.php:189
+msgid "Sort by price: low to high"
+msgstr "Сортировать по цене: от низкой к высокой"
+
+#: widgets/filter-orderby/filter-orderby.php:188
+msgid "Sort by latest"
+msgstr "Сортировать по последним"
+
+#: widgets/filter-orderby/filter-orderby.php:187
+msgid "Sort by average rating"
+msgstr "Сортировать по среднему рейтингу"
+
+#: widgets/filter-orderby/filter-orderby.php:186
+msgid "Sort by popularity"
+msgstr "Сортировать по популярности"
+
+#: widgets/filter-orderby/filter-orderby.php:185
+msgid "Default sorting"
+msgstr "Сортировка по умолчанию"
+
+#: widgets/filter-orderby/filter-orderby.php:108
+msgid "Hover & Checked"
+msgstr "Наведение и Отметка"
+
+#: widgets/filter-orderby/filter-orderby.php:33
+msgid "Dropdown"
+msgstr "Выпадающий список"
+
+#: widgets/filter-orderby/filter-orderby.php:30
+msgid "Order By Filter Type"
+msgstr "Упорядочить по типу фильтра"
+
+#: core/register/widget-list.php:53
+#: widgets/filter-orderby/filter-orderby-config.php:14
+#: widgets/filter-orderby/filter-orderby.php:22
+msgid "Order By Filter"
+msgstr "Упорядочить по фильтру"
+
+#: widgets/product-category-lists/product-category-lists.php:540
+msgid "Button Font Size (px)"
+msgstr "Размер шрифта кнопки (px)"
+
+#: widgets/product-review/product-review.php:341
+#: widgets/product-tabs/product-tabs.php:1252
+msgid "Required Color"
+msgstr "Цвет обязательный"
+
+#: widgets/deal-products/deal-products.php:775
+#: widgets/product-meta/product-meta.php:166
+msgid "Label Color"
+msgstr "Цвет ярлыка"
+
+#: widgets/advanced-search/advanced-search.php:268
+#: widgets/advanced-search/advanced-search.php:998
+#: widgets/archive-products/archive-products.php:983
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:433
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:499
+#: widgets/deal-products/deal-products.php:286
+#: widgets/deal-products/deal-products.php:843
+#: widgets/product-list/product-list.php:1737
+#: widgets/product-tabs/product-tabs.php:192
+#: widgets/return-to-shop/return-to-shop.php:134
+#: widgets/return-to-shop/return-to-shop.php:213
+#: widgets/view-single-product/view-single-product.php:141
+#: widgets/view-single-product/view-single-product.php:220
+msgid "Border Width"
+msgstr "Ширина границы"
+
+#: widgets/product-categories/product-categories.php:79
+#: widgets/product-sku/product-sku.php:78
+#: widgets/product-tags/product-tags.php:77
+msgid "None"
+msgstr "Нет"
+
+#: widgets/product-categories/product-categories.php:78
+#: widgets/product-sku/product-sku.php:77
+#: widgets/product-tags/product-tags.php:76
+msgid "Line Through"
+msgstr "Линия через"
+
+#: widgets/product-categories/product-categories.php:77
+#: widgets/product-sku/product-sku.php:76
+#: widgets/product-tags/product-tags.php:75
+msgid "Overline"
+msgstr "Надчеркивание"
+
+#: widgets/product-categories/product-categories.php:76
+#: widgets/product-sku/product-sku.php:75
+#: widgets/product-tags/product-tags.php:74
+msgid "Underline"
+msgstr "Подчеркивание"
+
+#: core/register/widget-list.php:43
+#: widgets/archive-result-count/archive-result-count-config.php:15
+msgid "Archive Result Count"
+msgstr "Подсчет архивных результатов"
+
+#: widgets/archive-result-count/screens/default.php:8
+msgid "Showing all results"
+msgstr "Отображение всех результатов"
+
+#: widgets/archive-result-count/archive-result-count.php:19
+msgid "Result Count"
+msgstr "Счетчик результатов"
+
+#: widgets/product-tabs/product-tabs.php:869
+msgid "Active Background"
+msgstr "Активный фон"
+
+#: widgets/archive-products/archive-products.php:1637
+#: widgets/filterable-product-list/filterable-product-list.php:2034
+msgid "Hover and Active Color"
+msgstr "Наведение и активный цвет"
+
+#: widgets/cart-table/cart-table.php:187
+#: widgets/checkout-review-order/checkout-review-order.php:152
+msgid "Table Body"
+msgstr "Тело таблицы"
+
+#: widgets/cart-table/cart-table.php:78
+#: widgets/checkout-review-order/checkout-review-order.php:27
+msgid "Table Header"
+msgstr "Заголовок таблицы"
+
+#: core/register/widget-list.php:38
+#: widgets/archive-title/archive-title-config.php:14
+msgid "Archive Title"
+msgstr "Заголовок архива"
+
+#: widgets/archive-title/archive-title.php:29
+#: widgets/product-title/product-title.php:30
+msgid "HTML Tag"
+msgstr "HTML тег"
+
+#: widgets/advanced-search/advanced-search.php:746
+msgid "Title Typography"
+msgstr "Оформление заголовка"
+
+#: widgets/product-description/product-description-config.php:16
+msgid "Product description"
+msgstr "Описание товара"
+
+#: widgets/product-description/product-description.php:77
+#: widgets/product-excerpt/product-excerpt.php:84
+#: widgets/product-meta/product-meta.php:113
+msgid "Align"
+msgstr "Выравнивание"
+
+#: core/register/widget-list.php:98
+#: widgets/checkout-payment/checkout-payment-config.php:14
+msgid "Checkout Payment"
+msgstr "Оплата заказа"
+
+#: widgets/checkout-form-billing/checkout-form-billing.php:307
+msgid "Container Background"
+msgstr "Фон контейнера"
+
+#: widgets/cart-table/cart-table.php:139
+#: widgets/checkout-payment/checkout-payment.php:146
+#: widgets/checkout-review-order/checkout-review-order.php:244
+#: widgets/checkout-review-order/checkout-review-order.php:387
+msgid "Line-Height (px)"
+msgstr "Высота линии (px)"
+
+#: widgets/checkout-payment/checkout-payment.php:126
+msgid "Body typography"
+msgstr "Оформление основного контента"
+
+#: widgets/product-tabs/product-tabs.php:693
+msgid "Label typography"
+msgstr "Оформление ярлыка"
+
+#: widgets/checkout-payment/checkout-payment.php:60
+msgid "Url hover Color"
+msgstr "Цвет URL при наведении"
+
+#: widgets/checkout-payment/checkout-payment.php:47
+msgid "Url Color"
+msgstr "Цвет URL"
+
+#: widgets/checkout-payment/checkout-payment.php:26
+#: widgets/deal-products/deal-products.php:937
+msgid "Content Style"
+msgstr "Стиль контента"
+
+#: widgets/up-sells/up-sells-config.php:15
+msgid "Product Upsells"
+msgstr "Upsell товаров"
+
+#: widgets/checkout-form-billing/screens/default.php:80
+msgid "Create an account?"
+msgstr "Создать аккаунт?"
+
+#: widgets/checkout-form-billing/screens/default.php:52
+msgid "Billing details"
+msgstr "Платежные реквизиты"
+
+#: widgets/checkout-form-billing/screens/default.php:48
+msgid "Billing &amp; Shipping"
+msgstr "Биллинг и доставка"
+
+#: widgets/checkout-form-billing/checkout-form-billing-config.php:15
+msgid "Checkout Form Billing"
+msgstr "Форма оформления заказа Выставление счетов"
+
+#: widgets/checkout-form-billing/checkout-form-billing.php:34
+msgid "Enable Default Title"
+msgstr "Включить заголовок по умолчанию"
+
+#: widgets/checkout-form-billing/checkout-form-billing.php:26
+msgid "Form Title"
+msgstr "Заголовок формы"
+
+#: core/register/widget-list.php:108
+#: widgets/checkout-shipping-methods/checkout-shipping-methods-config.php:15
+msgid "Checkout Shipping Methods"
+msgstr "Способы доставки"
+
+#: widgets/checkout-shipping-methods/checkout-shipping-methods.php:73
+msgid "Margin Bottom"
+msgstr "Отступ снизу"
+
+#: widgets/advanced-search/advanced-search.php:719
+#: widgets/cart-totals/cart-totals.php:86
+#: widgets/checkout-shipping-methods/checkout-shipping-methods.php:33
+#: widgets/deal-products/deal-products.php:945
+#: widgets/product-category-lists/product-category-lists.php:327
+#: widgets/product-title/product-title.php:59
+msgid "Title Color"
+msgstr "Цвет заголовка"
+
+#: core/register/widget-list.php:33
+#: widgets/archive-products/archive-products-config.php:16
+msgid "Archive Products"
+msgstr "Архивные товары"
+
+#: widgets/archive-products/archive-products.php:1501
+#: widgets/deal-products/deal-products.php:354
+#: widgets/filterable-product-list/filterable-product-list.php:1592
+msgid "Size"
+msgstr "Размер"
+
+#: widgets/archive-products/archive-products.php:1456
+#: widgets/filterable-product-list/filterable-product-list.php:1547
+msgid "Use padding"
+msgstr "Использовать внутренний отступ"
+
+#: widgets/archive-products/archive-products.php:1355
+msgid "Star Gap (px)"
+msgstr "Разрыв звезд (px)"
+
+#: core/register/module-list.php:68 core/register/module-list.php:101
+#: widgets/archive-products/archive-products.php:887
+msgid "After"
+msgstr "После"
+
+#: core/register/module-list.php:67 core/register/module-list.php:100
+#: widgets/archive-products/archive-products.php:886
+msgid "Before"
+msgstr "До"
+
+#: core/register/widget-list.php:148
+#: widgets/archive-products/archive-products.php:815
+#: widgets/filterable-product-list/filterable-product-list.php:1694
+#: widgets/product-list/product-list.php:1314
+#: widgets/product-price/product-price-config.php:14
+msgid "Product Price"
+msgstr "Цена товара"
+
+#: core/register/widget-list.php:183
+#: widgets/archive-products/archive-products.php:723
+#: widgets/filterable-product-list/filterable-product-list.php:1051
+#: widgets/product-list/product-list.php:1065
+#: widgets/product-title/product-title-config.php:14
+#: widgets/product-title/product-title.php:22
+msgid "Product Title"
+msgstr "Название товара"
+
+#: widgets/archive-products/archive-products.php:635
+msgid "Max Categories"
+msgstr "Макс категорий"
+
+#: core/register/widget-list.php:123
+#: widgets/archive-products/archive-products.php:625
+#: widgets/product-categories/product-categories-config.php:14
+msgid "Product Categories"
+msgstr "Категории товара"
+
+#: widgets/archive-products/archive-products.php:571
+msgid "Use image height"
+msgstr "Использовать высоту изображения"
+
+#: core/register/widget-list.php:138
+#: widgets/archive-products/archive-products.php:552
+#: widgets/cart-table/cart-table.php:370
+#: widgets/deal-products/deal-products.php:327
+#: widgets/filterable-product-list/filterable-product-list.php:891
+#: widgets/product-list/product-list.php:708
+#: widgets/recently-viewed-products/recently-viewed-products.php:383
+msgid "Product Image"
+msgstr "Изображение товара"
+
+#: widgets/archive-products/archive-products.php:475
+msgid "Product Gap"
+msgstr "Разрыв в товаре"
+
+#: widgets/archive-products/archive-products.php:407
+msgid "Product Container"
+msgstr "Контейнер товара"
+
+#: widgets/archive-products/archive-products.php:257
+msgid "Enter load more button text"
+msgstr "Введите текст кнопки Загрузить больше"
+
+#: widgets/archive-products/archive-products.php:244
+msgid "Enter Next button text"
+msgstr "Введите текст кнопки След"
+
+#: widgets/archive-products/archive-products.php:243
+msgid "Next"
+msgstr "След"
+
+#: widgets/archive-products/archive-products.php:241
+msgid "Next button"
+msgstr "Кнопка Далее"
+
+#: widgets/archive-products/archive-products.php:231
+msgid "Enter previous button text"
+msgstr "Введите текст кнопки Пред"
+
+#: widgets/archive-products/archive-products.php:230
+msgid "Previous"
+msgstr "Пред"
+
+#: widgets/archive-products/archive-products.php:228
+msgid "Previous button"
+msgstr "Кнопка Пред"
+
+#: widgets/archive-products/archive-products.php:213
+msgid "Next Icon"
+msgstr "Значок След"
+
+#: widgets/archive-products/archive-products.php:198
+msgid "Previous Icon"
+msgstr "Значок Пред"
+
+#: widgets/archive-products/archive-products.php:189
+msgid "Load More On Scroll"
+msgstr "Загрузить больше при прокрутке"
+
+#: widgets/archive-products/archive-products.php:188
+#: widgets/archive-products/archive-products.php:256
+msgid "Load More"
+msgstr "Загрузи больше"
+
+#: widgets/archive-products/archive-products.php:186
+msgid "Numeric"
+msgstr "Числовой"
+
+#: widgets/archive-products/archive-products.php:182
+msgid "Pagination Style"
+msgstr "Стиль пагинации"
+
+#: widgets/archive-products/archive-products.php:174
+#: widgets/archive-products/archive-products.php:1704
+msgid "Pagination"
+msgstr "Разделение на страницы"
+
+#: widgets/product-list/product-list.php:534
+msgid "Show Category?"
+msgstr "Показать категорию?"
+
+#: widgets/deal-products/deal-products.php:74
+#: widgets/product-category-lists/product-category-lists.php:43
+#: widgets/product-list/product-list.php:69
+#: widgets/recently-viewed-products/recently-viewed-products.php:65
+msgid "Column"
+msgstr "Колонка"
+
+#: widgets/archive-products/archive-products.php:27
+#: widgets/product-meta/product-meta.php:93
+msgid "Layout"
+msgstr "Макет"
+
+#: widgets/filterable-product-list/filterable-product-list.php:265
+#: widgets/product-list/product-list.php:89
+#: widgets/product-list/product-list.php:525
+#: widgets/product-meta/product-meta.php:46
+msgid "Category"
+msgstr "Категория"
+
+#: widgets/product-stock/product-stock.php:50
+msgid "Note: This is just a demonstration of how a different stock will look in the frontend."
+msgstr "Примечание: Это просто демо того, как различные акции будут выглядеть на сайте."
+
+#: core/builders/hooks.php:63 widgets/product-stock/product-stock.php:39
+msgid "Type"
+msgstr "Тип"
+
+#: core/register/widget-list.php:168
+#: widgets/product-stock/product-stock-config.php:14
+#: widgets/product-stock/product-stock.php:32
+msgid "Product Stock"
+msgstr "Товарный запас"
+
+#: widgets/product-stock/product-stock.php:20
+#: widgets/product-stock/product-stock.php:197
+msgid "Available on Backorder"
+msgstr "Доступно для предзаказа"
+
+#: widgets/product-stock/product-stock.php:19
+#: widgets/product-stock/product-stock.php:160
+msgid "Out of Stock"
+msgstr "Нет в наличии"
+
+#: widgets/product-stock/product-stock.php:18
+#: widgets/product-stock/product-stock.php:122
+msgid "In Stock"
+msgstr "В наличии"
+
+#: widgets/checkout-form-shipping/screens/default.php:60
+msgid "Ship to a different address?"
+msgstr "Доставка по другому адресу?"
+
+#: widgets/checkout-form-billing/checkout-form-billing.php:690
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:645
+msgid "Secondary Typography : Form Input"
+msgstr "Дополнительное оформление : Ввод формы"
+
+#: widgets/checkout-form-billing/checkout-form-billing.php:651
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:606
+msgid "Primary Typography : Form Title & Form Label"
+msgstr "Основное оформление : Заголовок формы и ярлык формы"
+
+#: widgets/cart-totals/cart-totals.php:357
+#: widgets/cart-totals/cart-totals.php:405
+#: widgets/checkout-form-billing/checkout-form-billing.php:462
+#: widgets/checkout-form-billing/checkout-form-billing.php:548
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:400
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:468
+msgid "Input Color"
+msgstr "Цвет ввода"
+
+#: widgets/checkout-form-billing/checkout-form-billing.php:390
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:327
+msgid "Required Indicator Color:"
+msgstr "Цвет индикатора обязательного поля:"
+
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:273
+msgid "Form Container Background"
+msgstr "Фон контейнера форм"
+
+#: utils/controls-helper.php:18 widgets/add-to-cart/add-to-cart.php:359
+#: widgets/add-to-cart/add-to-cart.php:1234
+#: widgets/archive-products/archive-products.php:415
+#: widgets/archive-products/archive-products.php:1711
+#: widgets/archive-view-mode/archive-view-mode.php:73
+#: widgets/breadcrumbs/breadcrumbs.php:108
+#: widgets/checkout-form-billing/checkout-form-billing.php:320
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:252
+#: widgets/empty-cart-message/empty-cart-message.php:88
+#: widgets/filter-products-per-page/filter-products-per-page.php:91
+#: widgets/filterable-product-list/filterable-product-list.php:341
+#: widgets/product-list/product-list.php:488
+#: widgets/product-price/product-price.php:28
+#: widgets/product-rating/product-rating.php:194
+#: widgets/product-review/product-review.php:617
+#: widgets/product-tabs/product-tabs.php:1528
+msgid "Alignment"
+msgstr "Выравнивание"
+
+#: widgets/checkout-form-billing/checkout-form-billing.php:299
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:244
+msgid "Form Container"
+msgstr "Контейнер формы"
+
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:24
+msgid "Checkbox Title"
+msgstr "Заголовок чекбокса"
+
+#: widgets/checkout-form-shipping/checkout-form-shipping-config.php:14
+msgid "Checkout Form Shipping"
+msgstr "Форма оформления заказа - Доставка"
+
+#: widgets/checkout-coupon-form/screens/default.php:47
+msgid "Apply coupon"
+msgstr "Применить купон"
+
+#: widgets/checkout-coupon-form/screens/default.php:43
+msgid "Coupon code"
+msgstr "Код купона"
+
+#: widgets/checkout-coupon-form/screens/default.php:40
+msgid "If you have a coupon code, please apply it below."
+msgstr "Если у вас есть код купона, вы можете воспользоваться им ниже."
+
+#: widgets/checkout-coupon-form/screens/default.php:34
+msgid "Click here to enter your code"
+msgstr "Нажмите здесь, чтобы ввести код"
+
+#: widgets/checkout-coupon-form/screens/default.php:33
+msgid "Have a coupon?"
+msgstr "Есть купон?"
+
+#: widgets/checkout-coupon-form/checkout-coupon-form.php:380
+msgid "Apply Button"
+msgstr "Кнопка Применить"
+
+#: widgets/checkout-coupon-form/checkout-coupon-form-config.php:14
+#: widgets/checkout-coupon-form/checkout-coupon-form.php:244
+msgid "Coupon Form"
+msgstr "Форма купона"
+
+#: widgets/add-to-cart/add-to-cart.php:1365
+#: widgets/archive-description/archive-description.php:21
+#: widgets/checkout-coupon-form/checkout-coupon-form.php:177
+#: widgets/filterable-product-list/filterable-product-list.php:303
+msgid "Description"
+msgstr "Описание"
+
+#: widgets/add-to-cart/add-to-cart.php:345
+#: widgets/add-to-cart/add-to-cart.php:449
+#: widgets/add-to-cart/add-to-cart.php:684
+#: widgets/add-to-cart/add-to-cart.php:919
+#: widgets/add-to-cart/add-to-cart.php:1293
+#: widgets/add-to-cart/add-to-cart.php:1395
+#: widgets/add-to-cart/add-to-cart.php:1472
+#: widgets/archive-products/archive-products.php:780
+#: widgets/archive-products/archive-products.php:856
+#: widgets/cart-table/cart-table.php:288 widgets/cart-totals/cart-totals.php:61
+#: widgets/cart-totals/cart-totals.php:165
+#: widgets/cart-totals/cart-totals.php:486
+#: widgets/checkout-coupon-form/checkout-coupon-form.php:105
+#: widgets/checkout-coupon-form/checkout-coupon-form.php:222
+#: widgets/checkout-coupon-form/checkout-coupon-form.php:289
+#: widgets/checkout-coupon-form/checkout-coupon-form.php:412
+#: widgets/checkout-payment/checkout-payment.php:111
+#: widgets/checkout-review-order/checkout-review-order.php:82
+#: widgets/checkout-shipping-methods/checkout-shipping-methods.php:148
+#: widgets/cross-sells/cross-sells.php:514
+#: widgets/cross-sells/cross-sells.php:806
+#: widgets/cross-sells/cross-sells.php:977
+#: widgets/cross-sells/cross-sells.php:1055
+#: widgets/filterable-product-list/filterable-product-list.php:390
+#: widgets/filterable-product-list/filterable-product-list.php:979
+#: widgets/filterable-product-list/filterable-product-list.php:1084
+#: widgets/filterable-product-list/filterable-product-list.php:1256
+#: widgets/filterable-product-list/filterable-product-list.php:1340
+#: widgets/filterable-product-list/filterable-product-list.php:1528
+#: widgets/filterable-product-list/filterable-product-list.php:1752
+#: widgets/filterable-product-list/filterable-product-list.php:1796
+#: widgets/filterable-product-list/filterable-product-list.php:1905
+#: widgets/filterable-product-list/filterable-product-list.php:2137
+#: widgets/product-categories/product-categories.php:167
+#: widgets/product-list/product-list.php:1373
+#: widgets/product-list/product-list.php:1478
+#: widgets/product-meta/product-meta.php:247
+#: widgets/product-price/product-price.php:81
+#: widgets/product-rating/product-rating.php:145
+#: widgets/product-review/product-review.php:71
+#: widgets/product-review/product-review.php:259
+#: widgets/product-review/product-review.php:374
+#: widgets/product-review/product-review.php:470
+#: widgets/product-review/product-review.php:597
+#: widgets/product-sku/product-sku.php:154
+#: widgets/product-stock/product-stock.php:96
+#: widgets/product-tabs/product-tabs.php:58
+#: widgets/product-tabs/product-tabs.php:321
+#: widgets/product-tabs/product-tabs.php:434
+#: widgets/product-tabs/product-tabs.php:712
+#: widgets/product-tabs/product-tabs.php:836
+#: widgets/product-tabs/product-tabs.php:985
+#: widgets/product-tabs/product-tabs.php:1170
+#: widgets/product-tabs/product-tabs.php:1285
+#: widgets/product-tabs/product-tabs.php:1381
+#: widgets/product-tabs/product-tabs.php:1508
+#: widgets/product-tags/product-tags.php:159
+#: widgets/product-title/product-title.php:95 widgets/related/related.php:536
+#: widgets/related/related.php:828 widgets/related/related.php:999
+#: widgets/related/related.php:1077 widgets/up-sells/up-sells.php:513
+#: widgets/up-sells/up-sells.php:806 widgets/up-sells/up-sells.php:980
+#: widgets/up-sells/up-sells.php:1071
+msgid "Line Height (px)"
+msgstr "Высота линии (px)"
+
+#: core/builders/hooks.php:64 core/builders/hooks.php:224
+#: widgets/add-to-cart/add-to-cart.php:59
+#: widgets/archive-products/archive-products.php:187
+#: widgets/product-meta/product-meta.php:98
+msgid "Default"
+msgstr "По умолчанию"
+
+#: widgets/checkout-coupon-form/checkout-coupon-form.php:21
+msgid "Info"
+msgstr "Информация"
+
+#: widgets/manifest.php:103
+msgid "ShopEngine My Account"
+msgstr "ShopEngine Мой аккаунт"
+
+#: widgets/manifest.php:95
+msgid "ShopEngine Checkout"
+msgstr "ShopEngine Оформление заказа"
+
+#: widgets/manifest.php:91
+msgid "ShopEngine Product Archive"
+msgstr "ShopEngine Архив товаров"
+
+#: widgets/manifest.php:87
+msgid "ShopEngine Cart"
+msgstr "ShopEngine Корзина"
+
+#: widgets/manifest.php:83
+msgid "ShopEngine Single Product"
+msgstr "ShopEngine Страница товара"
+
+#: widgets/checkout-form-additional/checkout-form-additional.php:240
+#: widgets/cross-sells/cross-sells.php:701
+#: widgets/filter-orderby/filter-orderby.php:43
+#: widgets/product-image/product-image.php:643 widgets/related/related.php:723
+#: widgets/up-sells/up-sells.php:700
+msgid "Height (px)"
+msgstr "Высота (px)"
+
+#: widgets/advanced-search/advanced-search.php:519
+#: widgets/advanced-search/advanced-search.php:767
+#: widgets/archive-products/archive-products.php:679
+#: widgets/checkout-form-additional/checkout-form-additional.php:225
+#: widgets/deal-products/deal-products.php:1173
+#: widgets/product-image/product-image.php:616
+msgid "Line-height (px)"
+msgstr "Высота линии (px)"
+
+#: widgets/checkout-form-additional/checkout-form-additional.php:310
+#: widgets/product-review/product-review.php:437
+#: widgets/product-tabs/product-tabs.php:1348
+msgid "Focus Border Color"
+msgstr "Цвет границы фокусировки"
+
+#: widgets/checkout-form-additional/checkout-form-additional.php:192
+msgid "Placeholder color"
+msgstr "Цвет заглушки"
+
+#: widgets/checkout-form-additional/checkout-form-additional.php:171
+msgid "Form Textarea"
+msgstr "Текстовая область формы"
+
+#: widgets/checkout-review-order/checkout-review-order.php:120
+#: widgets/up-sells/up-sells.php:896
+msgid "Margin Bottom (px)"
+msgstr "Отступ снизу (пикс)"
+
+#: widgets/checkout-form-additional/checkout-form-additional.php:206
+#: widgets/checkout-review-order/checkout-review-order.php:222
+#: widgets/checkout-review-order/checkout-review-order.php:362
+msgid "Text Typography"
+msgstr "Оформление текста"
+
+#: widgets/checkout-form-additional/checkout-form-additional.php:90
+msgid "Form Label"
+msgstr "Ярлык формы"
+
+#: widgets/checkout-form-additional/checkout-form-additional-config.php:14
+msgid "Checkout Form Additional"
+msgstr "Форма оформления заказа - Дополнительно"
+
+#: widgets/additional-information/screens/default.php:23
+#: widgets/checkout-form-additional/screens/default.php:39
+msgid "Additional information"
+msgstr "Дополнительная информация"
+
+#: widgets/product-tags/product-tags.php:91
+msgid "Tags Links"
+msgstr "Ссылки тегов"
+
+#: widgets/product-tags/product-tags.php:34
+msgid "Tags Label"
+msgstr "Ярлык тегов"
+
+#: widgets/product-tags/product-tags.php:21
+msgid "Tags"
+msgstr "Теги"
+
+#: widgets/product-tags/screens/default.php:22
+msgid "TAG:"
+msgid_plural "TAGs:"
+msgstr[0] "Тег:"
+msgstr[1] "Тега:"
+msgstr[2] "Тегов:"
+
+#: widgets/product-tags/screens/default.php:10
+msgid "This product has no tags"
+msgstr "У этого товара нет тегов"
+
+#: core/register/widget-list.php:178
+#: widgets/product-tags/product-tags-config.php:14
+msgid "Product Tags"
+msgstr "Теги товаров"
+
+#: widgets/product-categories/product-categories.php:128
+#: widgets/product-meta/product-meta.php:214
+#: widgets/product-sku/product-sku.php:115
+#: widgets/product-tags/product-tags.php:124
+msgid "Global Typography"
+msgstr "Общее оформление"
+
+#: widgets/product-sku/product-sku.php:92
+msgid "SKU Value"
+msgstr "Значение SKU"
+
+#: widgets/product-categories/product-categories.php:44
+#: widgets/product-sku/product-sku.php:43
+#: widgets/product-tags/product-tags.php:43
+msgid "Show Label"
+msgstr "Показать ярлык"
+
+#: widgets/product-sku/product-sku.php:34
+msgid "SKU Label"
+msgstr "Ярлык SKU"
+
+#: widgets/product-meta/product-meta.php:30
+#: widgets/product-sku/product-sku.php:21
+msgid "SKU"
+msgstr "SKU (артикул)"
+
+#: widgets/product-sku/product-sku-config.php:14
+msgid "Product Sku"
+msgstr "Артикул товара"
+
+#: widgets/product-sku/screens/default.php:32
+msgid "N/A"
+msgstr "N/A"
+
+#: widgets/product-sku/screens/default.php:28
+msgid "SKU:"
+msgstr "Артикул:"
+
+#: core/register/widget-list.php:63
+#: widgets/breadcrumbs/breadcrumbs-config.php:14
+msgid "Breadcrumbs"
+msgstr "Хлебные крошки"
+
+#: widgets/product-list/product-list.php:496
+msgid "Space Between"
+msgstr "Расстояние между"
+
+#: widgets/archive-view-mode/archive-view-mode.php:29
+#: widgets/breadcrumbs/breadcrumbs.php:145
+#: widgets/cross-sells/cross-sells.php:1298 widgets/related/related.php:1337
+#: widgets/up-sells/up-sells.php:1328
+msgid "Icon Size (px)"
+msgstr "Размер значка (px)"
+
+#: widgets/breadcrumbs/breadcrumbs.php:133
+#: widgets/product-category-lists/product-category-lists.php:97
+#: widgets/product-image/product-image.php:88
+#: widgets/product-stock/product-stock.php:130
+#: widgets/product-stock/product-stock.php:167
+#: widgets/product-stock/product-stock.php:204
+msgid "Icon"
+msgstr "Значок"
+
+#: widgets/breadcrumbs/breadcrumbs.php:56 widgets/cart-table/cart-table.php:236
+#: widgets/checkout-coupon-form/checkout-coupon-form.php:55
+#: widgets/product-meta/product-meta.php:201
+#: widgets/product-rating/product-rating.php:107
+msgid "Link Hover Color"
+msgstr "Цвет ссылки при наведении"
+
+#: widgets/breadcrumbs/breadcrumbs.php:43
+#: widgets/checkout-coupon-form/checkout-coupon-form.php:42
+#: widgets/product-rating/product-rating.php:93
+msgid "Link Color"
+msgstr "Цвет ссылки"
+
+#: widgets/archive-view-mode/archive-view-mode.php:21
+#: widgets/breadcrumbs/breadcrumbs.php:22
+#: widgets/empty-cart-message/empty-cart-message.php:21
+msgid "Style"
+msgstr "Стиль"
+
+#: core/register/widget-list.php:118
+#: widgets/empty-cart-message/empty-cart-message-config.php:14
+msgid "Empty Cart Message"
+msgstr "Сообщение о пустой корзине"
+
+#: core/register/widget-list.php:158
+#: widgets/product-share/product-share-config.php:15
+msgid "Product Share"
+msgstr "Поделится товаром"
+
+#: widgets/product-share/product-share.php:64
+msgid "You are trying to view the page outside the builder or the Product page."
+msgstr "Вы пытаетесь просмотреть страницу за пределами конструктора или страницы продукта."
+
+#: widgets/product-description/product-description.php:23
+#: widgets/product-excerpt/product-excerpt.php:26
+#: widgets/product-meta/product-meta.php:85
+#: widgets/product-share/product-share.php:26
+msgid "Styles"
+msgstr "Стили"
+
+#: widgets/related/related-config.php:14
+msgid "Related Products"
+msgstr "Сопутствующие товары"
+
+#: widgets/checkout-form-billing/checkout-form-billing.php:661
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:616
+msgid "Secondary Typography"
+msgstr "Дополнительное оформление"
+
+#: widgets/checkout-form-billing/checkout-form-billing.php:624
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:578
+msgid "Primary Typography"
+msgstr "Основное оформление"
+
+#: widgets/archive-products/archive-products.php:1568
+#: widgets/cross-sells/cross-sells.php:649
+#: widgets/filterable-product-list/filterable-product-list.php:1661
+#: widgets/product-list/product-list.php:369
+#: widgets/recently-viewed-products/recently-viewed-products.php:235
+#: widgets/related/related.php:671 widgets/up-sells/up-sells.php:648
+msgid "Vertical"
+msgstr "Вертикально"
+
+#: widgets/archive-products/archive-products.php:1547
+#: widgets/cross-sells/cross-sells.php:622
+#: widgets/filterable-product-list/filterable-product-list.php:1638
+#: widgets/product-list/product-list.php:373
+#: widgets/recently-viewed-products/recently-viewed-products.php:239
+#: widgets/related/related.php:644 widgets/up-sells/up-sells.php:621
+msgid "Horizontal"
+msgstr "Горизонтально"
+
+#: widgets/archive-products/archive-products.php:883
+#: widgets/archive-products/archive-products.php:1526
+#: widgets/cross-sells/cross-sells.php:602
+#: widgets/deal-products/deal-products.php:369
+#: widgets/filterable-product-list/filterable-product-list.php:1617
+#: widgets/product-image/product-image.php:68
+#: widgets/product-image/product-image.php:469
+#: widgets/product-image/product-image.php:718
+#: widgets/product-list/product-list.php:447 widgets/related/related.php:624
+#: widgets/up-sells/up-sells.php:601
+msgid "Position"
+msgstr "Расположение"
+
+#: widgets/advanced-search/advanced-search.php:1034
+#: widgets/filterable-product-list/filterable-product-list.php:378
+msgid "Font Size"
+msgstr "Размер шрифта"
+
+#: widgets/archive-products/archive-products.php:1219
+#: widgets/checkout-payment/checkout-payment.php:425
+#: widgets/product-category-lists/product-category-lists.php:229
+#: widgets/product-category-lists/product-category-lists.php:270
+#: widgets/product-tabs/product-tabs.php:168
+msgid "Box Shadow"
+msgstr "Тень блока"
+
+#: widgets/add-to-cart/add-to-cart.php:1965
+#: widgets/archive-products/archive-products.php:1189
+#: widgets/archive-products/archive-products.php:1468
+#: widgets/archive-products/archive-products.php:1862
+#: widgets/checkout-form-additional/checkout-form-additional.php:325
+#: widgets/checkout-payment/checkout-payment.php:374
+#: widgets/filter-orderby/filter-orderby.php:152
+#: widgets/filterable-product-list/filterable-product-list.php:1559
+#: widgets/product-category-lists/product-category-lists.php:643
+#: widgets/product-image/product-image.php:139
+#: widgets/product-list/product-list.php:924
+#: widgets/recently-viewed-products/recently-viewed-products.php:613
+#: widgets/return-to-shop/return-to-shop.php:246
+#: widgets/view-single-product/view-single-product.php:253
+msgid "Border Radius"
+msgstr "Радиус границы"
+
+#: widgets/archive-products/archive-products.php:1202
+#: widgets/checkout-payment/checkout-payment.php:395
+#: widgets/product-review/product-review.php:577
+#: widgets/product-tabs/product-tabs.php:1488
+msgid "Button Typography"
+msgstr "Оформление кнопки"
+
+#: widgets/add-to-cart/add-to-cart.php:540
+#: widgets/add-to-cart/add-to-cart.php:775
+#: widgets/add-to-cart/add-to-cart.php:2011
+#: widgets/add-to-cart/add-to-cart.php:2142
+#: widgets/add-to-cart/add-to-cart.php:2364
+#: widgets/advanced-search/advanced-search.php:283
+#: widgets/advanced-search/advanced-search.php:1010
+#: widgets/archive-products/archive-products.php:465
+#: widgets/archive-products/archive-products.php:993
+#: widgets/archive-products/archive-products.php:1847
+#: widgets/archive-view-mode/archive-view-mode.php:170
+#: widgets/cart-table/cart-table.php:223 widgets/cart-table/cart-table.php:378
+#: widgets/cart-table/cart-table.php:457
+#: widgets/cart-totals/cart-totals.php:582
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:444
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:503
+#: widgets/cross-sells/cross-sells.php:1164
+#: widgets/cross-sells/cross-sells.php:1426
+#: widgets/deal-products/deal-products.php:306
+#: widgets/deal-products/deal-products.php:830
+#: widgets/filter-orderby/filter-orderby.php:139
+#: widgets/product-image/product-image.php:225
+#: widgets/product-list/product-list.php:1751
+#: widgets/product-review/product-review.php:424
+#: widgets/product-review/product-review.php:719
+#: widgets/product-tabs/product-tabs.php:205
+#: widgets/product-tabs/product-tabs.php:1335
+#: widgets/product-tabs/product-tabs.php:1630 widgets/related/related.php:1186
+#: widgets/related/related.php:1465
+#: widgets/return-to-shop/return-to-shop.php:149
+#: widgets/return-to-shop/return-to-shop.php:228
+#: widgets/up-sells/up-sells.php:1167 widgets/up-sells/up-sells.php:1429
+#: widgets/view-single-product/view-single-product.php:156
+#: widgets/view-single-product/view-single-product.php:235
+msgid "Border Color"
+msgstr "Цвет границы"
+
+#: widgets/archive-products/archive-products.php:1781
+#: widgets/archive-products/archive-products.php:1821
+#: widgets/breadcrumbs/breadcrumbs.php:30 widgets/cart-table/cart-table.php:100
+#: widgets/cart-table/cart-table.php:210 widgets/cart-table/cart-table.php:431
+#: widgets/checkout-review-order/checkout-review-order.php:35
+#: widgets/checkout-review-order/checkout-review-order.php:160
+#: widgets/checkout-review-order/checkout-review-order.php:322
+#: widgets/cross-sells/cross-sells.php:1103
+#: widgets/cross-sells/cross-sells.php:1138
+#: widgets/filter-orderby/filter-orderby.php:76
+#: widgets/filter-orderby/filter-orderby.php:114
+#: widgets/product-tabs/product-tabs.php:803 widgets/related/related.php:1125
+#: widgets/related/related.php:1160
+#: widgets/return-to-shop/return-to-shop.php:95
+#: widgets/return-to-shop/return-to-shop.php:173
+#: widgets/up-sells/up-sells.php:1106 widgets/up-sells/up-sells.php:1141
+#: widgets/view-single-product/view-single-product.php:102
+#: widgets/view-single-product/view-single-product.php:180
+msgid "Text Color"
+msgstr "Цвет текста"
+
+#: widgets/archive-products/archive-products.php:583
+#: widgets/deal-products/deal-products.php:335
+msgid "Height"
+msgstr "Высота"
+
+#: widgets/add-to-cart/add-to-cart.php:493
+#: widgets/add-to-cart/add-to-cart.php:527
+#: widgets/add-to-cart/add-to-cart.php:728
+#: widgets/add-to-cart/add-to-cart.php:762
+#: widgets/add-to-cart/add-to-cart.php:947
+#: widgets/add-to-cart/add-to-cart.php:1025
+#: widgets/add-to-cart/add-to-cart.php:1058
+#: widgets/add-to-cart/add-to-cart.php:2095
+#: widgets/add-to-cart/add-to-cart.php:2130
+#: widgets/add-to-cart/add-to-cart.php:2317
+#: widgets/add-to-cart/add-to-cart.php:2352
+#: widgets/advanced-search/advanced-search.php:482
+#: widgets/archive-products/archive-products.php:448
+#: widgets/archive-products/archive-products.php:559
+#: widgets/archive-products/archive-products.php:1412
+#: widgets/archive-products/archive-products.php:1793
+#: widgets/archive-products/archive-products.php:1834
+#: widgets/archive-view-mode/archive-view-mode.php:120
+#: widgets/archive-view-mode/archive-view-mode.php:156
+#: widgets/cart-table/cart-table.php:86 widgets/cart-table/cart-table.php:579
+#: widgets/cart-table/cart-table.php:615
+#: widgets/cross-sells/cross-sells.php:478
+#: widgets/cross-sells/cross-sells.php:689
+#: widgets/cross-sells/cross-sells.php:1116
+#: widgets/cross-sells/cross-sells.php:1151
+#: widgets/cross-sells/cross-sells.php:1380
+#: widgets/cross-sells/cross-sells.php:1414
+#: widgets/deal-products/deal-products.php:273
+#: widgets/filter-orderby/filter-orderby.php:87
+#: widgets/filter-orderby/filter-orderby.php:127
+#: widgets/filterable-product-list/filterable-product-list.php:819
+#: widgets/filterable-product-list/filterable-product-list.php:1491
+#: widgets/product-category-lists/product-category-lists.php:204
+#: widgets/product-category-lists/product-category-lists.php:246
+#: widgets/product-category-lists/product-category-lists.php:625
+#: widgets/product-image/product-image.php:585
+#: widgets/product-list/product-list.php:617
+#: widgets/product-list/product-list.php:1597
+#: widgets/product-list/product-list.php:1636
+#: widgets/product-price/product-price.php:238
+#: widgets/recently-viewed-products/recently-viewed-products.php:671
+#: widgets/recently-viewed-products/recently-viewed-products.php:709
+#: widgets/related/related.php:500 widgets/related/related.php:711
+#: widgets/related/related.php:1138 widgets/related/related.php:1173
+#: widgets/related/related.php:1419 widgets/related/related.php:1453
+#: widgets/return-to-shop/return-to-shop.php:108
+#: widgets/return-to-shop/return-to-shop.php:187
+#: widgets/up-sells/up-sells.php:477 widgets/up-sells/up-sells.php:688
+#: widgets/up-sells/up-sells.php:1119 widgets/up-sells/up-sells.php:1154
+#: widgets/up-sells/up-sells.php:1383 widgets/up-sells/up-sells.php:1417
+#: widgets/view-single-product/view-single-product.php:115
+#: widgets/view-single-product/view-single-product.php:194
+msgid "Background Color"
+msgstr "Цвет фона"
+
+#: utils/controls-helper.php:30 widgets/add-to-cart/add-to-cart.php:371
+#: widgets/add-to-cart/add-to-cart.php:1246
+#: widgets/advanced-search/advanced-search.php:565
+#: widgets/archive-products/archive-products.php:427
+#: widgets/archive-products/archive-products.php:1534
+#: widgets/archive-products/archive-products.php:1723
+#: widgets/archive-view-mode/archive-view-mode.php:85
+#: widgets/breadcrumbs/breadcrumbs.php:120
+#: widgets/checkout-form-billing/checkout-form-billing.php:328
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:260
+#: widgets/cross-sells/cross-sells.php:374
+#: widgets/cross-sells/cross-sells.php:610
+#: widgets/empty-cart-message/empty-cart-message.php:100
+#: widgets/filter-products-per-page/filter-products-per-page.php:103
+#: widgets/filterable-product-list/filterable-product-list.php:353
+#: widgets/filterable-product-list/filterable-product-list.php:794
+#: widgets/filterable-product-list/filterable-product-list.php:1625
+#: widgets/product-category-lists/product-category-lists.php:123
+#: widgets/product-description/product-description.php:89
+#: widgets/product-excerpt/product-excerpt.php:96
+#: widgets/product-image/product-image.php:62
+#: widgets/product-list/product-list.php:455
+#: widgets/product-list/product-list.php:604
+#: widgets/product-meta/product-meta.php:125
+#: widgets/product-price/product-price.php:41
+#: widgets/product-rating/product-rating.php:206
+#: widgets/product-review/product-review.php:629
+#: widgets/product-tabs/product-tabs.php:1540 widgets/related/related.php:373
+#: widgets/related/related.php:632 widgets/return-to-shop/return-to-shop.php:41
+#: widgets/up-sells/up-sells.php:372 widgets/up-sells/up-sells.php:609
+#: widgets/view-single-product/view-single-product.php:48
+msgid "Right"
+msgstr "Справа"
+
+#: utils/controls-helper.php:26 widgets/add-to-cart/add-to-cart.php:367
+#: widgets/add-to-cart/add-to-cart.php:1242
+#: widgets/archive-products/archive-products.php:423
+#: widgets/archive-products/archive-products.php:1719
+#: widgets/archive-view-mode/archive-view-mode.php:81
+#: widgets/breadcrumbs/breadcrumbs.php:116
+#: widgets/cross-sells/cross-sells.php:370
+#: widgets/deal-products/deal-products.php:374
+#: widgets/empty-cart-message/empty-cart-message.php:96
+#: widgets/filter-products-per-page/filter-products-per-page.php:99
+#: widgets/filterable-product-list/filterable-product-list.php:349
+#: widgets/filterable-product-list/filterable-product-list.php:790
+#: widgets/product-category-lists/product-category-lists.php:119
+#: widgets/product-description/product-description.php:85
+#: widgets/product-excerpt/product-excerpt.php:92
+#: widgets/product-list/product-list.php:463
+#: widgets/product-list/product-list.php:493
+#: widgets/product-list/product-list.php:600
+#: widgets/product-meta/product-meta.php:121
+#: widgets/product-price/product-price.php:37
+#: widgets/product-rating/product-rating.php:202
+#: widgets/product-review/product-review.php:625
+#: widgets/product-tabs/product-tabs.php:1536 widgets/related/related.php:369
+#: widgets/return-to-shop/return-to-shop.php:37
+#: widgets/up-sells/up-sells.php:368
+#: widgets/view-single-product/view-single-product.php:44
+msgid "Center"
+msgstr "По центру"
+
+#: utils/controls-helper.php:22 widgets/add-to-cart/add-to-cart.php:363
+#: widgets/add-to-cart/add-to-cart.php:1238
+#: widgets/advanced-search/advanced-search.php:561
+#: widgets/archive-products/archive-products.php:419
+#: widgets/archive-products/archive-products.php:1530
+#: widgets/archive-products/archive-products.php:1715
+#: widgets/archive-view-mode/archive-view-mode.php:77
+#: widgets/breadcrumbs/breadcrumbs.php:112
+#: widgets/checkout-form-billing/checkout-form-billing.php:324
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:256
+#: widgets/cross-sells/cross-sells.php:366
+#: widgets/cross-sells/cross-sells.php:606
+#: widgets/empty-cart-message/empty-cart-message.php:92
+#: widgets/filter-products-per-page/filter-products-per-page.php:95
+#: widgets/filterable-product-list/filterable-product-list.php:345
+#: widgets/filterable-product-list/filterable-product-list.php:786
+#: widgets/filterable-product-list/filterable-product-list.php:1621
+#: widgets/product-category-lists/product-category-lists.php:115
+#: widgets/product-description/product-description.php:81
+#: widgets/product-excerpt/product-excerpt.php:88
+#: widgets/product-image/product-image.php:61
+#: widgets/product-list/product-list.php:451
+#: widgets/product-list/product-list.php:596
+#: widgets/product-meta/product-meta.php:117
+#: widgets/product-price/product-price.php:33
+#: widgets/product-rating/product-rating.php:198
+#: widgets/product-review/product-review.php:621
+#: widgets/product-tabs/product-tabs.php:1532 widgets/related/related.php:365
+#: widgets/related/related.php:628 widgets/return-to-shop/return-to-shop.php:33
+#: widgets/up-sells/up-sells.php:364 widgets/up-sells/up-sells.php:605
+#: widgets/view-single-product/view-single-product.php:40
+msgid "Left"
+msgstr "Слева"
+
+#: widgets/cross-sells/cross-sells.php:362 widgets/related/related.php:361
+#: widgets/up-sells/up-sells.php:360
+msgid "Text Align"
+msgstr "Выравнивание текста"
+
+#: modules/wishlist/screens/default.php:6
+msgid "Products"
+msgstr "Товары"
+
+#: widgets/cross-sells/cross-sells.php:341
+#: widgets/deal-products/deal-products.php:37
+#: widgets/filterable-product-list/filterable-product-list.php:65
+#: widgets/product-list/product-list.php:44
+#: widgets/recently-viewed-products/recently-viewed-products.php:40
+#: widgets/related/related.php:340 widgets/up-sells/up-sells.php:339
+msgid "ASC"
+msgstr "УВЕЛ"
+
+#: widgets/cross-sells/cross-sells.php:340
+#: widgets/deal-products/deal-products.php:35
+#: widgets/deal-products/deal-products.php:38
+#: widgets/filterable-product-list/filterable-product-list.php:66
+#: widgets/product-list/product-list.php:45
+#: widgets/recently-viewed-products/recently-viewed-products.php:41
+#: widgets/related/related.php:339 widgets/up-sells/up-sells.php:338
+msgid "DESC"
+msgstr "УМЕН"
+
+#: widgets/cross-sells/cross-sells.php:336
+#: widgets/deal-products/deal-products.php:33
+#: widgets/filterable-product-list/filterable-product-list.php:61
+#: widgets/product-list/product-list.php:40
+#: widgets/recently-viewed-products/recently-viewed-products.php:36
+#: widgets/related/related.php:335 widgets/up-sells/up-sells.php:334
+msgid "Order"
+msgstr "Порядок"
+
+#: widgets/cross-sells/cross-sells.php:328 widgets/related/related.php:327
+#: widgets/up-sells/up-sells.php:326
+msgid "Modified Date"
+msgstr "Дата изменения"
+
+#: widgets/cross-sells/cross-sells.php:327 widgets/related/related.php:326
+#: widgets/up-sells/up-sells.php:325
+msgid "Menu Order"
+msgstr "Порядок меню"
+
+#: widgets/cross-sells/cross-sells.php:326 widgets/related/related.php:325
+#: widgets/up-sells/up-sells.php:324
+msgid "Random"
+msgstr "Случайно"
+
+#: core/register/widget-list.php:188
+#: widgets/archive-products/archive-products.php:100
+#: widgets/archive-products/archive-products.php:1309
+#: widgets/cross-sells/cross-sells.php:325
+#: widgets/cross-sells/cross-sells.php:851
+#: widgets/filterable-product-list/filterable-product-list.php:179
+#: widgets/filterable-product-list/filterable-product-list.php:284
+#: widgets/product-list/product-list.php:92
+#: widgets/product-rating/product-rating.php:21 widgets/related/related.php:324
+#: widgets/related/related.php:873 widgets/up-sells/up-sells.php:323
+#: widgets/up-sells/up-sells.php:851
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: widgets/cross-sells/cross-sells.php:324 widgets/related/related.php:323
+#: widgets/up-sells/up-sells.php:322
+msgid "Popularity"
+msgstr "Популярность"
+
+#: widgets/add-to-cart/add-to-cart.php:1445
+#: widgets/cart-table/screens/cart.php:20
+#: widgets/cart-table/screens/cart.php:103
+#: widgets/cross-sells/cross-sells.php:323
+#: widgets/cross-sells/cross-sells.php:921
+#: widgets/filterable-product-list/filterable-product-list.php:295
+#: widgets/product-list/product-list.php:479
+#: widgets/product-price/product-price.php:20 widgets/related/related.php:322
+#: widgets/related/related.php:943 widgets/up-sells/up-sells.php:321
+#: widgets/up-sells/up-sells.php:924
+msgid "Price"
+msgstr "Цена"
+
+#: widgets/cross-sells/cross-sells.php:321
+#: widgets/deal-products/deal-products.php:53
+#: widgets/filterable-product-list/filterable-product-list.php:81
+#: widgets/product-list/product-list.php:60
+#: widgets/recently-viewed-products/recently-viewed-products.php:56
+#: widgets/related/related.php:320 widgets/up-sells/up-sells.php:319
+msgid "Date"
+msgstr "Дата"
+
+#: widgets/cross-sells/cross-sells.php:317
+#: widgets/deal-products/deal-products.php:46
+#: widgets/filterable-product-list/filterable-product-list.php:74
+#: widgets/product-list/product-list.php:53
+#: widgets/recently-viewed-products/recently-viewed-products.php:49
+#: widgets/related/related.php:316 widgets/up-sells/up-sells.php:315
+msgid "Order By"
+msgstr "Сортировать по"
+
+#: widgets/cross-sells/cross-sells.php:309 widgets/related/related.php:308
+#: widgets/up-sells/up-sells.php:307
+msgid "Advanced"
+msgstr "Расширенные"
+
+#: widgets/cross-sells/cross-sells.php:205 widgets/related/related.php:205
+#: widgets/up-sells/up-sells.php:204
+msgid "Show Dots"
+msgstr "Показывать точки"
+
+#: widgets/cross-sells/cross-sells.php:190 widgets/related/related.php:190
+#: widgets/up-sells/up-sells.php:189
+msgid "Show Arrows"
+msgstr "Показывать стрелки"
+
+#: widgets/cross-sells/cross-sells.php:176 widgets/related/related.php:176
+#: widgets/up-sells/up-sells.php:175
+msgid "Slide Speed"
+msgstr "Скорость прокрутки слайда"
+
+#: widgets/cross-sells/cross-sells.php:164 widgets/related/related.php:164
+#: widgets/up-sells/up-sells.php:163
+msgid "Autoplay"
+msgstr "Автозапуск"
+
+#: widgets/cross-sells/cross-sells.php:152 widgets/related/related.php:152
+#: widgets/up-sells/up-sells.php:151
+msgid "Loop"
+msgstr "Цикл"
+
+#: widgets/cross-sells/cross-sells.php:145 widgets/related/related.php:145
+#: widgets/up-sells/up-sells.php:144
+msgid "This value will be the number of slides to show in viewport."
+msgstr "Это значение будет количеством слайдов для показа в окне просмотра."
+
+#: widgets/cross-sells/cross-sells.php:104
+#: widgets/filterable-product-list/filterable-product-list.php:44
+#: widgets/related/related.php:104 widgets/up-sells/up-sells.php:103
+msgid "Columns"
+msgstr "Колонки"
+
+#: widgets/cross-sells/cross-sells.php:129 widgets/related/related.php:129
+#: widgets/up-sells/up-sells.php:128
+msgid "Slider Controls"
+msgstr "Элементы управления слайдером"
+
+#: widgets/cross-sells/cross-sells.php:76 widgets/related/related.php:76
+#: widgets/up-sells/up-sells.php:75
+msgid "Cart Button"
+msgstr "Кнопка корзины"
+
+#: widgets/archive-products/archive-products.php:871
+#: widgets/filterable-product-list/filterable-product-list.php:192
+msgid "Regular Price"
+msgstr "Обычная цена"
+
+#: widgets/advanced-search/advanced-search.php:104
+#: widgets/advanced-search/advanced-search.php:117
+#: widgets/advanced-search/advanced-search.php:147
+#: widgets/archive-products/archive-products.php:64
+#: widgets/archive-products/archive-products.php:79
+#: widgets/archive-products/archive-products.php:91
+#: widgets/archive-products/archive-products.php:103
+#: widgets/archive-products/archive-products.php:118
+#: widgets/archive-products/archive-products.php:133
+#: widgets/archive-products/archive-products.php:147
+#: widgets/archive-products/archive-products.php:157
+#: widgets/archive-products/archive-products.php:574
+#: widgets/archive-products/archive-products.php:1459
+#: widgets/checkout-payment/checkout-payment.php:318
+#: widgets/cross-sells/cross-sells.php:49
+#: widgets/cross-sells/cross-sells.php:64
+#: widgets/cross-sells/cross-sells.php:79
+#: widgets/cross-sells/cross-sells.php:192
+#: widgets/cross-sells/cross-sells.php:207
+#: widgets/deal-products/deal-products.php:161
+#: widgets/deal-products/deal-products.php:199
+#: widgets/deal-products/deal-products.php:211
+#: widgets/deal-products/deal-products.php:223
+#: widgets/filterable-product-list/filterable-product-list.php:144
+#: widgets/filterable-product-list/filterable-product-list.php:158
+#: widgets/filterable-product-list/filterable-product-list.php:170
+#: widgets/filterable-product-list/filterable-product-list.php:182
+#: widgets/filterable-product-list/filterable-product-list.php:195
+#: widgets/filterable-product-list/filterable-product-list.php:209
+#: widgets/filterable-product-list/filterable-product-list.php:223
+#: widgets/filterable-product-list/filterable-product-list.php:1550
+#: widgets/product-categories/product-categories.php:47
+#: widgets/product-category-lists/product-category-lists.php:63
+#: widgets/product-category-lists/product-category-lists.php:75
+#: widgets/product-category-lists/product-category-lists.php:87
+#: widgets/product-image/product-image.php:113
+#: widgets/product-image/product-image.php:633
+#: widgets/product-meta/product-meta.php:33
+#: widgets/product-meta/product-meta.php:49
+#: widgets/product-meta/product-meta.php:67
+#: widgets/product-sku/product-sku.php:46
+#: widgets/product-tags/product-tags.php:46 widgets/related/related.php:49
+#: widgets/related/related.php:64 widgets/related/related.php:79
+#: widgets/related/related.php:192 widgets/related/related.php:207
+#: widgets/up-sells/up-sells.php:48 widgets/up-sells/up-sells.php:63
+#: widgets/up-sells/up-sells.php:78 widgets/up-sells/up-sells.php:191
+#: widgets/up-sells/up-sells.php:206
+msgid "Hide"
+msgstr "Скрыть"
+
+#: widgets/advanced-search/advanced-search.php:103
+#: widgets/advanced-search/advanced-search.php:116
+#: widgets/advanced-search/advanced-search.php:146
+#: widgets/archive-products/archive-products.php:63
+#: widgets/archive-products/archive-products.php:78
+#: widgets/archive-products/archive-products.php:90
+#: widgets/archive-products/archive-products.php:102
+#: widgets/archive-products/archive-products.php:117
+#: widgets/archive-products/archive-products.php:132
+#: widgets/archive-products/archive-products.php:146
+#: widgets/archive-products/archive-products.php:156
+#: widgets/archive-products/archive-products.php:573
+#: widgets/archive-products/archive-products.php:1458
+#: widgets/checkout-payment/checkout-payment.php:317
+#: widgets/cross-sells/cross-sells.php:48
+#: widgets/cross-sells/cross-sells.php:63
+#: widgets/cross-sells/cross-sells.php:78
+#: widgets/cross-sells/cross-sells.php:193
+#: widgets/cross-sells/cross-sells.php:208
+#: widgets/deal-products/deal-products.php:160
+#: widgets/deal-products/deal-products.php:198
+#: widgets/deal-products/deal-products.php:210
+#: widgets/deal-products/deal-products.php:222
+#: widgets/filterable-product-list/filterable-product-list.php:143
+#: widgets/filterable-product-list/filterable-product-list.php:157
+#: widgets/filterable-product-list/filterable-product-list.php:169
+#: widgets/filterable-product-list/filterable-product-list.php:181
+#: widgets/filterable-product-list/filterable-product-list.php:194
+#: widgets/filterable-product-list/filterable-product-list.php:208
+#: widgets/filterable-product-list/filterable-product-list.php:222
+#: widgets/filterable-product-list/filterable-product-list.php:1549
+#: widgets/product-categories/product-categories.php:46
+#: widgets/product-category-lists/product-category-lists.php:62
+#: widgets/product-category-lists/product-category-lists.php:74
+#: widgets/product-category-lists/product-category-lists.php:86
+#: widgets/product-image/product-image.php:112
+#: widgets/product-image/product-image.php:632
+#: widgets/product-meta/product-meta.php:32
+#: widgets/product-meta/product-meta.php:48
+#: widgets/product-meta/product-meta.php:66
+#: widgets/product-sku/product-sku.php:45
+#: widgets/product-tags/product-tags.php:45 widgets/related/related.php:48
+#: widgets/related/related.php:63 widgets/related/related.php:78
+#: widgets/related/related.php:193 widgets/related/related.php:208
+#: widgets/up-sells/up-sells.php:47 widgets/up-sells/up-sells.php:62
+#: widgets/up-sells/up-sells.php:77 widgets/up-sells/up-sells.php:192
+#: widgets/up-sells/up-sells.php:207
+msgid "Show"
+msgstr "Показать"
+
+#: widgets/add-to-cart/add-to-cart.php:119
+#: widgets/add-to-cart/add-to-cart.php:150
+#: widgets/add-to-cart/add-to-cart.php:179
+#: widgets/archive-products/archive-products.php:299
+#: widgets/cart-table/cart-table.php:44 widgets/cart-table/cart-table.php:59
+#: widgets/checkout-form-billing/checkout-form-billing.php:37
+#: widgets/checkout-form-billing/checkout-form-billing.php:142
+#: widgets/checkout-form-billing/checkout-form-billing.php:156
+#: widgets/checkout-form-billing/checkout-form-billing.php:170
+#: widgets/checkout-form-billing/checkout-form-billing.php:184
+#: widgets/checkout-form-billing/checkout-form-billing.php:198
+#: widgets/checkout-form-billing/checkout-form-billing.php:212
+#: widgets/checkout-form-billing/checkout-form-billing.php:226
+#: widgets/checkout-form-billing/checkout-form-billing.php:241
+#: widgets/checkout-form-billing/checkout-form-billing.php:255
+#: widgets/checkout-form-billing/checkout-form-billing.php:269
+#: widgets/checkout-form-billing/checkout-form-billing.php:283
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:114
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:128
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:142
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:156
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:170
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:184
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:198
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:213
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:227
+#: widgets/cross-sells/cross-sells.php:36
+#: widgets/cross-sells/cross-sells.php:155
+#: widgets/cross-sells/cross-sells.php:167
+#: widgets/filterable-product-list/filterable-product-list.php:236
+#: widgets/filterable-product-list/filterable-product-list.php:525
+#: widgets/filterable-product-list/filterable-product-list.php:636
+#: widgets/product-list/product-list.php:219
+#: widgets/product-list/product-list.php:234
+#: widgets/product-list/product-list.php:249
+#: widgets/product-list/product-list.php:435
+#: widgets/product-list/product-list.php:512
+#: widgets/product-list/product-list.php:537
+#: widgets/product-list/product-list.php:569
+#: widgets/product-tabs/product-tabs.php:268
+#: widgets/recently-viewed-products/recently-viewed-products.php:105
+#: widgets/recently-viewed-products/recently-viewed-products.php:120
+#: widgets/recently-viewed-products/recently-viewed-products.php:366
+#: widgets/recently-viewed-products/recently-viewed-products.php:394
+#: widgets/related/related.php:36 widgets/related/related.php:155
+#: widgets/related/related.php:167 widgets/up-sells/up-sells.php:35
+#: widgets/up-sells/up-sells.php:154 widgets/up-sells/up-sells.php:166
+msgid "No"
+msgstr "Нет"
+
+#: widgets/add-to-cart/add-to-cart.php:118
+#: widgets/add-to-cart/add-to-cart.php:149
+#: widgets/add-to-cart/add-to-cart.php:178
+#: widgets/archive-products/archive-products.php:298
+#: widgets/cart-table/cart-table.php:43 widgets/cart-table/cart-table.php:58
+#: widgets/checkout-form-billing/checkout-form-billing.php:36
+#: widgets/checkout-form-billing/checkout-form-billing.php:141
+#: widgets/checkout-form-billing/checkout-form-billing.php:155
+#: widgets/checkout-form-billing/checkout-form-billing.php:169
+#: widgets/checkout-form-billing/checkout-form-billing.php:183
+#: widgets/checkout-form-billing/checkout-form-billing.php:197
+#: widgets/checkout-form-billing/checkout-form-billing.php:211
+#: widgets/checkout-form-billing/checkout-form-billing.php:225
+#: widgets/checkout-form-billing/checkout-form-billing.php:240
+#: widgets/checkout-form-billing/checkout-form-billing.php:254
+#: widgets/checkout-form-billing/checkout-form-billing.php:268
+#: widgets/checkout-form-billing/checkout-form-billing.php:282
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:113
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:127
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:141
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:155
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:169
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:183
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:197
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:212
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:226
+#: widgets/cross-sells/cross-sells.php:35
+#: widgets/cross-sells/cross-sells.php:154
+#: widgets/cross-sells/cross-sells.php:166
+#: widgets/filterable-product-list/filterable-product-list.php:235
+#: widgets/filterable-product-list/filterable-product-list.php:524
+#: widgets/filterable-product-list/filterable-product-list.php:635
+#: widgets/product-list/product-list.php:218
+#: widgets/product-list/product-list.php:233
+#: widgets/product-list/product-list.php:248
+#: widgets/product-list/product-list.php:434
+#: widgets/product-list/product-list.php:511
+#: widgets/product-list/product-list.php:536
+#: widgets/product-list/product-list.php:568
+#: widgets/product-tabs/product-tabs.php:267
+#: widgets/recently-viewed-products/recently-viewed-products.php:104
+#: widgets/recently-viewed-products/recently-viewed-products.php:119
+#: widgets/recently-viewed-products/recently-viewed-products.php:365
+#: widgets/recently-viewed-products/recently-viewed-products.php:393
+#: widgets/related/related.php:35 widgets/related/related.php:154
+#: widgets/related/related.php:166 widgets/up-sells/up-sells.php:34
+#: widgets/up-sells/up-sells.php:153 widgets/up-sells/up-sells.php:165
+msgid "Yes"
+msgstr "Да"
+
+#: widgets/cross-sells/cross-sells.php:33 widgets/related/related.php:33
+#: widgets/up-sells/up-sells.php:32
+msgid "Enable Slider"
+msgstr "Включить слайдер"
+
+#: widgets/cross-sells/cross-sells.php:91 widgets/related/related.php:91
+#: widgets/up-sells/up-sells.php:90
+msgid "Products to Show"
+msgstr "Товары для показа"
+
+#: widgets/archive-products/archive-products.php:53
+#: widgets/cross-sells/cross-sells.php:25 widgets/related/related.php:25
+#: widgets/up-sells/up-sells.php:24
+msgid "Content"
+msgstr "Контент"
+
+#: widgets/cross-sells/cross-sells.php:1525
+#: widgets/filter-products-per-page/filter-products-per-page.php:128
+#: widgets/related/related.php:1564 widgets/up-sells/up-sells.php:1528
+msgid "Active Color"
+msgstr "Активный цвет"
+
+#: widgets/filter-products-per-page/filter-products-per-page.php:66
+msgid "Spacing (px)"
+msgstr "Расстояние (px)"
+
+#: widgets/filter-orderby/filter-orderby.php:34
+#: widgets/product-category-lists/product-category-lists.php:141
+msgid "List"
+msgstr "Список"
+
+#: widgets/additional-information/additional-information.php:176
+#: widgets/product-meta/product-meta.php:179
+#: widgets/product-tabs/product-tabs.php:557
+msgid "Value"
+msgstr "Значение"
+
+#: widgets/archive-title/archive-title.php:21
+#: widgets/checkout-shipping-methods/checkout-shipping-methods.php:25
+#: widgets/cross-sells/cross-sells.php:322
+#: widgets/cross-sells/cross-sells.php:762
+#: widgets/deal-products/deal-products.php:51
+#: widgets/filterable-product-list/filterable-product-list.php:79
+#: widgets/filterable-product-list/filterable-product-list.php:276
+#: widgets/product-category-lists/product-category-lists.php:319
+#: widgets/product-list/product-list.php:58
+#: widgets/product-list/product-list.php:401
+#: widgets/recently-viewed-products/recently-viewed-products.php:54
+#: widgets/related/related.php:321 widgets/related/related.php:784
+#: widgets/up-sells/up-sells.php:320 widgets/up-sells/up-sells.php:762
+msgid "Title"
+msgstr "Заголовок"
+
+#: core/register/widget-list.php:58
+#: widgets/filter-products-per-page/filter-products-per-page-config.php:15
+#: widgets/filter-products-per-page/filter-products-per-page.php:21
+msgid "Products Per Page Filter"
+msgstr "Фильтр товаров на странице"
+
+#: core/register/widget-list.php:153
+#: widgets/product-review/product-review-config.php:15
+msgid "Product Review"
+msgstr "Обзор товара"
+
+#: widgets/advanced-search/advanced-search.php:1091
+#: widgets/archive-products/archive-products.php:1920
+#: widgets/cart-table/cart-table.php:705 widgets/cart-table/cart-table.php:732
+#: widgets/cart-totals/cart-totals.php:656
+#: widgets/checkout-coupon-form/checkout-coupon-form.php:591
+#: widgets/checkout-form-additional/checkout-form-additional.php:360
+#: widgets/checkout-payment/checkout-payment.php:542
+#: widgets/checkout-review-order/checkout-review-order.php:442
+#: widgets/checkout-shipping-methods/checkout-shipping-methods.php:270
+#: widgets/cross-sells/cross-sells.php:1578
+#: widgets/deal-products/deal-products.php:1274
+#: widgets/filterable-product-list/filterable-product-list.php:2282
+#: widgets/product-list/product-list.php:1822
+#: widgets/product-review/product-review.php:819
+#: widgets/product-tabs/product-tabs.php:1730 widgets/related/related.php:1617
+#: widgets/up-sells/up-sells.php:1581
+msgid "This font family is set for this specific widget."
+msgstr "Это семейство шрифтов установлено для данного определенного виджета."
+
+#: widgets/advanced-search/advanced-search.php:1090
+#: widgets/archive-products/archive-products.php:1919
+#: widgets/cart-table/cart-table.php:704 widgets/cart-table/cart-table.php:731
+#: widgets/cart-totals/cart-totals.php:655
+#: widgets/checkout-coupon-form/checkout-coupon-form.php:590
+#: widgets/checkout-form-additional/checkout-form-additional.php:359
+#: widgets/checkout-payment/checkout-payment.php:541
+#: widgets/checkout-review-order/checkout-review-order.php:441
+#: widgets/checkout-shipping-methods/checkout-shipping-methods.php:269
+#: widgets/cross-sells/cross-sells.php:1577
+#: widgets/deal-products/deal-products.php:1273
+#: widgets/filterable-product-list/filterable-product-list.php:2281
+#: widgets/product-list/product-list.php:1821
+#: widgets/product-review/product-review.php:818
+#: widgets/product-tabs/product-tabs.php:1729 widgets/related/related.php:1616
+#: widgets/up-sells/up-sells.php:1580
+msgid "Font Family"
+msgstr "Семейство шрифтов"
+
+#: widgets/add-to-cart/add-to-cart.php:507
+#: widgets/add-to-cart/add-to-cart.php:742
+#: widgets/add-to-cart/add-to-cart.php:1038
+#: widgets/add-to-cart/add-to-cart.php:2110
+#: widgets/add-to-cart/add-to-cart.php:2332
+#: widgets/archive-products/archive-products.php:1265
+#: widgets/archive-products/archive-products.php:1815
+#: widgets/cart-table/cart-table.php:593
+#: widgets/cart-totals/cart-totals.php:550
+#: widgets/checkout-coupon-form/checkout-coupon-form.php:466
+#: widgets/checkout-payment/checkout-payment.php:470
+#: widgets/cross-sells/cross-sells.php:1131
+#: widgets/cross-sells/cross-sells.php:1394
+#: widgets/filterable-product-list/filterable-product-list.php:434
+#: widgets/filterable-product-list/filterable-product-list.php:2197
+#: widgets/product-category-lists/product-category-lists.php:239
+#: widgets/product-category-lists/product-category-lists.php:605
+#: widgets/product-list/product-list.php:1018
+#: widgets/product-list/product-list.php:1134
+#: widgets/product-list/product-list.php:1612
+#: widgets/product-review/product-review.php:686
+#: widgets/product-tabs/product-tabs.php:1597
+#: widgets/recently-viewed-products/recently-viewed-products.php:686
+#: widgets/related/related.php:1153 widgets/related/related.php:1433
+#: widgets/return-to-shop/return-to-shop.php:166
+#: widgets/up-sells/up-sells.php:1134 widgets/up-sells/up-sells.php:1397
+#: widgets/view-single-product/view-single-product.php:173
+msgid "Hover"
+msgstr "При наведении"
+
+#: widgets/checkout-payment/checkout-payment.php:307
+#: widgets/product-category-lists/product-category-lists.php:509
+#: widgets/return-to-shop/return-to-shop.php:21
+#: widgets/view-single-product/view-single-product.php:19
+msgid "Button"
+msgstr "Кнопка"
+
+#: widgets/cart-totals/cart-totals.php:398
+#: widgets/checkout-form-billing/checkout-form-billing.php:541
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:461
+msgid "Focus"
+msgstr "Фокус"
+
+#: widgets/add-to-cart/add-to-cart.php:473
+#: widgets/add-to-cart/add-to-cart.php:708
+#: widgets/add-to-cart/add-to-cart.php:1005
+#: widgets/add-to-cart/add-to-cart.php:2075
+#: widgets/add-to-cart/add-to-cart.php:2297
+#: widgets/archive-products/archive-products.php:1230
+#: widgets/archive-products/archive-products.php:1775
+#: widgets/archive-view-mode/archive-view-mode.php:100
+#: widgets/cart-table/cart-table.php:559
+#: widgets/cart-totals/cart-totals.php:350
+#: widgets/cart-totals/cart-totals.php:515
+#: widgets/checkout-coupon-form/checkout-coupon-form.php:431
+#: widgets/checkout-form-billing/checkout-form-billing.php:455
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:392
+#: widgets/checkout-payment/checkout-payment.php:435
+#: widgets/cross-sells/cross-sells.php:1096
+#: widgets/cross-sells/cross-sells.php:1360
+#: widgets/filter-orderby/filter-orderby.php:70
+#: widgets/filterable-product-list/filterable-product-list.php:412
+#: widgets/filterable-product-list/filterable-product-list.php:2162
+#: widgets/product-category-lists/product-category-lists.php:197
+#: widgets/product-category-lists/product-category-lists.php:570
+#: widgets/product-list/product-list.php:996
+#: widgets/product-list/product-list.php:1112
+#: widgets/product-list/product-list.php:1576
+#: widgets/product-review/product-review.php:651
+#: widgets/product-tabs/product-tabs.php:1562
+#: widgets/recently-viewed-products/recently-viewed-products.php:650
+#: widgets/related/related.php:1118 widgets/related/related.php:1399
+#: widgets/return-to-shop/return-to-shop.php:88
+#: widgets/up-sells/up-sells.php:1099 widgets/up-sells/up-sells.php:1363
+#: widgets/view-single-product/view-single-product.php:95
+msgid "Normal"
+msgstr "Обычный"
+
+#: widgets/additional-information/additional-information.php:132
+#: widgets/additional-information/additional-information.php:197
+#: widgets/archive-products/archive-products.php:1079
+#: widgets/archive-products/archive-products.php:1250
+#: widgets/archive-products/archive-products.php:1285
+#: widgets/cart-table/cart-table.php:195 widgets/cart-table/cart-table.php:484
+#: widgets/cart-totals/cart-totals.php:535
+#: widgets/cart-totals/cart-totals.php:569
+#: widgets/checkout-coupon-form/checkout-coupon-form.php:68
+#: widgets/checkout-coupon-form/checkout-coupon-form.php:451
+#: widgets/checkout-coupon-form/checkout-coupon-form.php:486
+#: widgets/checkout-form-billing/checkout-form-billing.php:475
+#: widgets/checkout-form-billing/checkout-form-billing.php:563
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:413
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:481
+#: widgets/checkout-payment/checkout-payment.php:455
+#: widgets/checkout-payment/checkout-payment.php:490
+#: widgets/deal-products/deal-products.php:510
+#: widgets/deal-products/deal-products.php:673
+#: widgets/deal-products/deal-products.php:817
+#: widgets/empty-cart-message/empty-cart-message.php:42
+#: widgets/filterable-product-list/filterable-product-list.php:1371
+#: widgets/filterable-product-list/filterable-product-list.php:2182
+#: widgets/filterable-product-list/filterable-product-list.php:2217
+#: widgets/product-list/product-list.php:1436
+#: widgets/product-review/product-review.php:671
+#: widgets/product-review/product-review.php:706
+#: widgets/product-tabs/product-tabs.php:516
+#: widgets/product-tabs/product-tabs.php:579
+#: widgets/product-tabs/product-tabs.php:856
+#: widgets/product-tabs/product-tabs.php:1582
+#: widgets/product-tabs/product-tabs.php:1617
+msgid "Background"
+msgstr "Фон"
+
+#: widgets/cart-totals/cart-totals.php:275
+#: widgets/checkout-form-billing/checkout-form-billing.php:445
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:382
+msgid "Input"
+msgstr "Ввод"
+
+#: widgets/filterable-product-list/filterable-product-list.php:1206
+#: widgets/product-list/product-list.php:1229
+#: widgets/product-rating/product-rating.php:52
+msgid "Empty Star Color"
+msgstr "Цвет пустой звезды"
+
+#: widgets/advanced-search/advanced-search.php:878
+#: widgets/filterable-product-list/filterable-product-list.php:1193
+#: widgets/product-list/product-list.php:1216
+#: widgets/product-rating/product-rating.php:37
+msgid "Star Color"
+msgstr "Цвет звезды"
+
+#: widgets/archive-products/archive-products.php:533
+#: widgets/archive-products/archive-products.php:606
+#: widgets/archive-products/archive-products.php:695
+#: widgets/archive-products/archive-products.php:796
+#: widgets/archive-products/archive-products.php:915
+#: widgets/archive-products/archive-products.php:1003
+#: widgets/archive-products/archive-products.php:1035
+#: widgets/archive-products/archive-products.php:1149
+#: widgets/archive-products/archive-products.php:1488
+#: widgets/archive-products/archive-products.php:1679
+#: widgets/cart-totals/cart-totals.php:307
+#: widgets/checkout-form-additional/checkout-form-additional.php:263
+#: widgets/checkout-form-billing/checkout-form-billing.php:589
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:286
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:542
+#: widgets/checkout-payment/checkout-payment.php:354
+#: widgets/deal-products/deal-products.php:253
+#: widgets/deal-products/deal-products.php:411
+#: widgets/deal-products/deal-products.php:863
+#: widgets/filter-orderby/filter-orderby.php:166
+#: widgets/filterable-product-list/filterable-product-list.php:1579
+#: widgets/filterable-product-list/filterable-product-list.php:2074
+#: widgets/product-meta/product-meta.php:138
+#: widgets/return-to-shop/return-to-shop.php:267
+#: widgets/view-single-product/view-single-product.php:274
+msgid "Padding"
+msgstr "Внутренний отступ"
+
+#: widgets/add-to-cart/add-to-cart.php:1992
+#: widgets/advanced-search/advanced-search.php:255
+#: widgets/advanced-search/advanced-search.php:986
+#: widgets/archive-products/archive-products.php:1806
+#: widgets/archive-view-mode/archive-view-mode.php:187
+#: widgets/cart-totals/cart-totals.php:212
+#: widgets/cart-totals/cart-totals.php:388
+#: widgets/cart-totals/cart-totals.php:433
+#: widgets/checkout-form-billing/checkout-form-billing.php:512
+#: widgets/checkout-form-billing/checkout-form-billing.php:577
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:427
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:495
+#: widgets/checkout-payment/checkout-payment.php:261
+#: widgets/cross-sells/cross-sells.php:1200
+#: widgets/cross-sells/cross-sells.php:1441
+#: widgets/filterable-product-list/filterable-product-list.php:590
+#: widgets/filterable-product-list/filterable-product-list.php:743
+#: widgets/filterable-product-list/filterable-product-list.php:866
+#: widgets/filterable-product-list/filterable-product-list.php:1385
+#: widgets/filterable-product-list/filterable-product-list.php:1958
+#: widgets/filterable-product-list/filterable-product-list.php:2255
+#: widgets/product-list/product-list.php:696
+#: widgets/product-list/product-list.php:915
+#: widgets/product-list/product-list.php:1727
+#: widgets/recently-viewed-products/recently-viewed-products.php:353
+#: widgets/recently-viewed-products/recently-viewed-products.php:606
+#: widgets/recently-viewed-products/recently-viewed-products.php:800
+#: widgets/related/related.php:1222 widgets/related/related.php:1480
+#: widgets/return-to-shop/return-to-shop.php:123
+#: widgets/return-to-shop/return-to-shop.php:202
+#: widgets/up-sells/up-sells.php:1203 widgets/up-sells/up-sells.php:1444
+#: widgets/view-single-product/view-single-product.php:130
+#: widgets/view-single-product/view-single-product.php:209
+msgid "Border"
+msgstr "Граница"
+
+#: widgets/archive-products/archive-products.php:1169
+#: widgets/archive-products/archive-products.php:1367
+#: widgets/checkout-form-billing/checkout-form-billing.php:89
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:66
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:362
+msgid "Margin"
+msgstr "Отступ"
+
+#: widgets/add-to-cart/add-to-cart.php:331
+#: widgets/add-to-cart/add-to-cart.php:438
+#: widgets/add-to-cart/add-to-cart.php:673
+#: widgets/add-to-cart/add-to-cart.php:911
+#: widgets/add-to-cart/add-to-cart.php:1285
+#: widgets/add-to-cart/add-to-cart.php:1387
+#: widgets/add-to-cart/add-to-cart.php:1464
+#: widgets/additional-information/additional-information.php:60
+#: widgets/advanced-search/advanced-search.php:336
+#: widgets/advanced-search/advanced-search.php:510
+#: widgets/advanced-search/advanced-search.php:758
+#: widgets/advanced-search/advanced-search.php:831
+#: widgets/archive-products/archive-products.php:670
+#: widgets/archive-products/archive-products.php:768
+#: widgets/archive-products/archive-products.php:847
+#: widgets/archive-products/archive-products.php:900
+#: widgets/archive-products/archive-products.php:965
+#: widgets/archive-products/archive-products.php:1207
+#: widgets/archive-products/archive-products.php:1333
+#: widgets/archive-products/archive-products.php:1437
+#: widgets/archive-products/archive-products.php:1747
+#: widgets/archive-title/archive-title.php:82
+#: widgets/cart-table/cart-table.php:128 widgets/cart-table/cart-table.php:277
+#: widgets/cart-table/cart-table.php:538 widgets/cart-totals/cart-totals.php:47
+#: widgets/cart-totals/cart-totals.php:151
+#: widgets/cart-totals/cart-totals.php:284
+#: widgets/cart-totals/cart-totals.php:472
+#: widgets/checkout-coupon-form/checkout-coupon-form.php:93
+#: widgets/checkout-coupon-form/checkout-coupon-form.php:210
+#: widgets/checkout-coupon-form/checkout-coupon-form.php:277
+#: widgets/checkout-coupon-form/checkout-coupon-form.php:400
+#: widgets/checkout-form-additional/checkout-form-additional.php:57
+#: widgets/checkout-form-additional/checkout-form-additional.php:123
+#: widgets/checkout-form-additional/checkout-form-additional.php:217
+#: widgets/checkout-form-billing/checkout-form-billing.php:65
+#: widgets/checkout-form-billing/checkout-form-billing.php:403
+#: widgets/checkout-form-billing/checkout-form-billing.php:487
+#: widgets/checkout-form-billing/checkout-form-billing.php:635
+#: widgets/checkout-form-billing/checkout-form-billing.php:674
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:45
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:340
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:520
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:590
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:629
+#: widgets/checkout-payment/checkout-payment.php:102
+#: widgets/checkout-payment/checkout-payment.php:137
+#: widgets/checkout-payment/checkout-payment.php:406
+#: widgets/checkout-review-order/checkout-review-order.php:73
+#: widgets/checkout-review-order/checkout-review-order.php:232
+#: widgets/checkout-review-order/checkout-review-order.php:375
+#: widgets/checkout-shipping-methods/checkout-shipping-methods.php:58
+#: widgets/checkout-shipping-methods/checkout-shipping-methods.php:139
+#: widgets/cross-sells/cross-sells.php:503
+#: widgets/cross-sells/cross-sells.php:795
+#: widgets/cross-sells/cross-sells.php:969
+#: widgets/deal-products/deal-products.php:537
+#: widgets/deal-products/deal-products.php:700
+#: widgets/deal-products/deal-products.php:760
+#: widgets/deal-products/deal-products.php:802
+#: widgets/deal-products/deal-products.php:984
+#: widgets/deal-products/deal-products.php:1066
+#: widgets/deal-products/deal-products.php:1108
+#: widgets/deal-products/deal-products.php:1164
+#: widgets/filterable-product-list/filterable-product-list.php:967
+#: widgets/filterable-product-list/filterable-product-list.php:1076
+#: widgets/filterable-product-list/filterable-product-list.php:1248
+#: widgets/filterable-product-list/filterable-product-list.php:1332
+#: widgets/filterable-product-list/filterable-product-list.php:1516
+#: widgets/filterable-product-list/filterable-product-list.php:1744
+#: widgets/filterable-product-list/filterable-product-list.php:1788
+#: widgets/filterable-product-list/filterable-product-list.php:1897
+#: widgets/filterable-product-list/filterable-product-list.php:2129
+#: widgets/product-categories/product-categories.php:147
+#: widgets/product-category-lists/product-category-lists.php:362
+#: widgets/product-category-lists/product-category-lists.php:461
+#: widgets/product-image/product-image.php:608
+#: widgets/product-list/product-list.php:796
+#: widgets/product-list/product-list.php:972
+#: widgets/product-list/product-list.php:1089
+#: widgets/product-list/product-list.php:1271
+#: widgets/product-list/product-list.php:1364
+#: widgets/product-list/product-list.php:1470
+#: widgets/product-list/product-list.php:1654
+#: widgets/product-meta/product-meta.php:233
+#: widgets/product-price/product-price.php:67
+#: widgets/product-rating/product-rating.php:134
+#: widgets/product-review/product-review.php:60
+#: widgets/product-review/product-review.php:196
+#: widgets/product-review/product-review.php:222
+#: widgets/product-review/product-review.php:251
+#: widgets/product-review/product-review.php:366
+#: widgets/product-review/product-review.php:462
+#: widgets/product-review/product-review.php:588
+#: widgets/product-sku/product-sku.php:134
+#: widgets/product-stock/product-stock.php:85
+#: widgets/product-tabs/product-tabs.php:50
+#: widgets/product-tabs/product-tabs.php:310
+#: widgets/product-tabs/product-tabs.php:420
+#: widgets/product-tabs/product-tabs.php:642
+#: widgets/product-tabs/product-tabs.php:704
+#: widgets/product-tabs/product-tabs.php:766
+#: widgets/product-tabs/product-tabs.php:828
+#: widgets/product-tabs/product-tabs.php:974
+#: widgets/product-tabs/product-tabs.php:1110
+#: widgets/product-tabs/product-tabs.php:1136
+#: widgets/product-tabs/product-tabs.php:1162
+#: widgets/product-tabs/product-tabs.php:1277
+#: widgets/product-tabs/product-tabs.php:1373
+#: widgets/product-tabs/product-tabs.php:1499
+#: widgets/product-tags/product-tags.php:142
+#: widgets/product-title/product-title.php:84
+#: widgets/recently-viewed-products/recently-viewed-products.php:488
+#: widgets/recently-viewed-products/recently-viewed-products.php:726
+#: widgets/related/related.php:525 widgets/related/related.php:817
+#: widgets/related/related.php:991 widgets/return-to-shop/return-to-shop.php:65
+#: widgets/up-sells/up-sells.php:502 widgets/up-sells/up-sells.php:795
+#: widgets/up-sells/up-sells.php:972
+#: widgets/view-single-product/view-single-product.php:72
+msgid "Font Size (px)"
+msgstr "Размер шрифта (px)"
+
+#: widgets/add-to-cart/add-to-cart.php:323
+#: widgets/add-to-cart/add-to-cart.php:427
+#: widgets/add-to-cart/add-to-cart.php:662
+#: widgets/add-to-cart/add-to-cart.php:896
+#: widgets/add-to-cart/add-to-cart.php:1275
+#: widgets/add-to-cart/add-to-cart.php:1376
+#: widgets/add-to-cart/add-to-cart.php:1453
+#: widgets/additional-information/additional-information.php:52
+#: widgets/advanced-search/advanced-search.php:498
+#: widgets/archive-description/archive-description.php:48
+#: widgets/archive-products/archive-products.php:659
+#: widgets/archive-products/archive-products.php:757
+#: widgets/archive-products/archive-products.php:836
+#: widgets/archive-products/archive-products.php:960
+#: widgets/archive-products/archive-products.php:1426
+#: widgets/archive-products/archive-products.php:1742
+#: widgets/archive-result-count/archive-result-count.php:46
+#: widgets/archive-title/archive-title.php:71
+#: widgets/cart-table/cart-table.php:115 widgets/cart-table/cart-table.php:117
+#: widgets/cart-table/cart-table.php:266 widgets/cart-table/cart-table.php:527
+#: widgets/cart-totals/cart-totals.php:143
+#: widgets/cart-totals/cart-totals.php:464
+#: widgets/checkout-coupon-form/checkout-coupon-form.php:82
+#: widgets/checkout-coupon-form/checkout-coupon-form.php:199
+#: widgets/checkout-coupon-form/checkout-coupon-form.php:266
+#: widgets/checkout-coupon-form/checkout-coupon-form.php:389
+#: widgets/checkout-form-additional/checkout-form-additional.php:112
+#: widgets/checkout-review-order/checkout-review-order.php:62
+#: widgets/checkout-shipping-methods/checkout-shipping-methods.php:47
+#: widgets/cross-sells/cross-sells.php:492
+#: widgets/cross-sells/cross-sells.php:784
+#: widgets/cross-sells/cross-sells.php:1034
+#: widgets/deal-products/deal-products.php:525
+#: widgets/deal-products/deal-products.php:688
+#: widgets/empty-cart-message/empty-cart-message.php:56
+#: widgets/filterable-product-list/filterable-product-list.php:367
+#: widgets/filterable-product-list/filterable-product-list.php:952
+#: widgets/filterable-product-list/filterable-product-list.php:1061
+#: widgets/filterable-product-list/filterable-product-list.php:1317
+#: widgets/filterable-product-list/filterable-product-list.php:1505
+#: widgets/filterable-product-list/filterable-product-list.php:1771
+#: widgets/filterable-product-list/filterable-product-list.php:1882
+#: widgets/filterable-product-list/filterable-product-list.php:2114
+#: widgets/product-categories/product-categories.php:138
+#: widgets/product-category-lists/product-category-lists.php:354
+#: widgets/product-category-lists/product-category-lists.php:453
+#: widgets/product-description/product-description.php:45
+#: widgets/product-excerpt/product-excerpt.php:48
+#: widgets/product-image/product-image.php:599
+#: widgets/product-list/product-list.php:781
+#: widgets/product-list/product-list.php:957
+#: widgets/product-list/product-list.php:1074
+#: widgets/product-list/product-list.php:1349
+#: widgets/product-list/product-list.php:1453
+#: widgets/product-meta/product-meta.php:224
+#: widgets/product-rating/product-rating.php:120
+#: widgets/product-review/product-review.php:49
+#: widgets/product-review/product-review.php:355
+#: widgets/product-review/product-review.php:451
+#: widgets/product-sku/product-sku.php:125
+#: widgets/product-stock/product-stock.php:71
+#: widgets/product-tabs/product-tabs.php:38
+#: widgets/product-tabs/product-tabs.php:299
+#: widgets/product-tabs/product-tabs.php:412
+#: widgets/product-tabs/product-tabs.php:963
+#: widgets/product-tabs/product-tabs.php:1266
+#: widgets/product-tabs/product-tabs.php:1362
+#: widgets/product-tags/product-tags.php:134
+#: widgets/product-title/product-title.php:73
+#: widgets/recently-viewed-products/recently-viewed-products.php:473
+#: widgets/related/related.php:514 widgets/related/related.php:806
+#: widgets/related/related.php:1056
+#: widgets/return-to-shop/return-to-shop.php:55
+#: widgets/up-sells/up-sells.php:491 widgets/up-sells/up-sells.php:784
+#: widgets/up-sells/up-sells.php:1050
+#: widgets/view-single-product/view-single-product.php:62
+msgid "Typography"
+msgstr "Оформление"
+
+#: widgets/checkout-form-additional/checkout-form-additional.php:26
+#: widgets/product-review/product-review.php:27
+msgid "Heading"
+msgstr "Заголовок"
+
+#: core/register/module-list.php:19 modules/quick-view/quick-view.php:62
+msgid "Quick View"
+msgstr "Быстрый просмотр"
+
+#: modules/swatches/swatches.php:122
+msgid "Use image"
+msgstr "Использовать изображение"
+
+#: modules/swatches/swatches.php:121
+msgid "Choose an image"
+msgstr "Выбрать изображение"
+
+#: modules/swatches/attribute-hooks.php:190
+msgid "Upload image"
+msgstr "Загрузить изображение"
+
+#: modules/swatches/admin-product.php:185
+#: modules/swatches/attribute-hooks.php:68
+#: widgets/add-to-cart/add-to-cart.php:1267
+#: widgets/add-to-cart/add-to-cart.php:1912
+#: widgets/additional-information/additional-information.php:111
+#: widgets/checkout-form-billing/checkout-form-billing.php:368
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:306
+#: widgets/product-meta/product-meta.php:157
+#: widgets/product-tabs/product-tabs.php:494
+msgid "Label"
+msgstr "Ярлык"
+
+#: modules/swatches/admin-product.php:176
+#: modules/swatches/attribute-hooks.php:195
+msgid "Remove image"
+msgstr "Удалить изображение"
+
+#: modules/swatches/admin-product.php:172
+msgid "Upload/Add image"
+msgstr "Загрузить/Добавить изображение"
+
+#: modules/comparison/route.php:153 modules/swatches/admin-product.php:162
+#: widgets/add-to-cart/add-to-cart.php:1834
+#: widgets/cart-table/screens/cart.php:51
+#: widgets/cross-sells/cross-sells.php:681
+#: widgets/filterable-product-list/filterable-product-list.php:257
+#: widgets/product-image/product-image.php:131 widgets/related/related.php:703
+#: widgets/up-sells/up-sells.php:680
+msgid "Image"
+msgstr "Изображение"
+
+#: modules/swatches/admin-product.php:155
+#: modules/swatches/attribute-hooks.php:78
+#: widgets/add-to-cart/add-to-cart.php:480
+#: widgets/add-to-cart/add-to-cart.php:514
+#: widgets/add-to-cart/add-to-cart.php:715
+#: widgets/add-to-cart/add-to-cart.php:749
+#: widgets/add-to-cart/add-to-cart.php:934
+#: widgets/add-to-cart/add-to-cart.php:1012
+#: widgets/add-to-cart/add-to-cart.php:1045
+#: widgets/add-to-cart/add-to-cart.php:1307
+#: widgets/add-to-cart/add-to-cart.php:1409
+#: widgets/add-to-cart/add-to-cart.php:1757
+#: widgets/add-to-cart/add-to-cart.php:2082
+#: widgets/add-to-cart/add-to-cart.php:2117
+#: widgets/add-to-cart/add-to-cart.php:2304
+#: widgets/add-to-cart/add-to-cart.php:2339
+#: widgets/additional-information/additional-information.php:119
+#: widgets/additional-information/additional-information.php:184
+#: widgets/advanced-search/advanced-search.php:469
+#: widgets/advanced-search/advanced-search.php:1053
+#: widgets/archive-description/archive-description.php:34
+#: widgets/archive-products/archive-products.php:645
+#: widgets/archive-products/archive-products.php:731
+#: widgets/archive-products/archive-products.php:822
+#: widgets/archive-products/archive-products.php:947
+#: widgets/archive-products/archive-products.php:1066
+#: widgets/archive-products/archive-products.php:1237
+#: widgets/archive-products/archive-products.php:1272
+#: widgets/archive-products/archive-products.php:1320
+#: widgets/archive-products/archive-products.php:1399
+#: widgets/archive-products/archive-products.php:1623
+#: widgets/archive-result-count/archive-result-count.php:31
+#: widgets/archive-title/archive-title.php:57
+#: widgets/archive-view-mode/archive-view-mode.php:107
+#: widgets/archive-view-mode/archive-view-mode.php:142
+#: widgets/cart-table/cart-table.php:566 widgets/cart-table/cart-table.php:600
+#: widgets/cart-totals/cart-totals.php:126
+#: widgets/cart-totals/cart-totals.php:522
+#: widgets/cart-totals/cart-totals.php:557
+#: widgets/checkout-coupon-form/checkout-coupon-form.php:29
+#: widgets/checkout-coupon-form/checkout-coupon-form.php:185
+#: widgets/checkout-coupon-form/checkout-coupon-form.php:252
+#: widgets/checkout-coupon-form/checkout-coupon-form.php:438
+#: widgets/checkout-coupon-form/checkout-coupon-form.php:473
+#: widgets/checkout-form-additional/checkout-form-additional.php:45
+#: widgets/checkout-form-additional/checkout-form-additional.php:98
+#: widgets/checkout-form-additional/checkout-form-additional.php:179
+#: widgets/checkout-form-billing/checkout-form-billing.php:49
+#: widgets/checkout-form-billing/checkout-form-billing.php:376
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:32
+#: widgets/checkout-form-shipping/checkout-form-shipping.php:314
+#: widgets/checkout-payment/checkout-payment.php:442
+#: widgets/checkout-payment/checkout-payment.php:477
+#: widgets/cross-sells/cross-sells.php:465
+#: widgets/cross-sells/cross-sells.php:770
+#: widgets/cross-sells/cross-sells.php:859
+#: widgets/cross-sells/cross-sells.php:929
+#: widgets/cross-sells/cross-sells.php:1367
+#: widgets/cross-sells/cross-sells.php:1401
+#: widgets/cross-sells/cross-sells.php:1509
+#: widgets/deal-products/deal-products.php:497
+#: widgets/deal-products/deal-products.php:660
+#: widgets/empty-cart-message/empty-cart-message.php:29
+#: widgets/filter-products-per-page/filter-products-per-page.php:116
+#: widgets/filterable-product-list/filterable-product-list.php:419
+#: widgets/filterable-product-list/filterable-product-list.php:441
+#: widgets/filterable-product-list/filterable-product-list.php:994
+#: widgets/filterable-product-list/filterable-product-list.php:1102
+#: widgets/filterable-product-list/filterable-product-list.php:1358
+#: widgets/filterable-product-list/filterable-product-list.php:1478
+#: widgets/filterable-product-list/filterable-product-list.php:1923
+#: widgets/filterable-product-list/filterable-product-list.php:2021
+#: widgets/filterable-product-list/filterable-product-list.php:2169
+#: widgets/filterable-product-list/filterable-product-list.php:2204
+#: widgets/product-categories/product-categories.php:56
+#: widgets/product-categories/product-categories.php:102
+#: widgets/product-category-lists/product-category-lists.php:427
+#: widgets/product-category-lists/product-category-lists.php:577
+#: widgets/product-category-lists/product-category-lists.php:612
+#: widgets/product-description/product-description.php:31
+#: widgets/product-excerpt/product-excerpt.php:34
+#: widgets/product-image/product-image.php:572
+#: widgets/product-list/product-list.php:815
+#: widgets/product-list/product-list.php:1003
+#: widgets/product-list/product-list.php:1025
+#: widgets/product-list/product-list.php:1119
+#: widgets/product-list/product-list.php:1141
+#: widgets/product-list/product-list.php:1322
+#: widgets/product-list/product-list.php:1420
+#: widgets/product-list/product-list.php:1583
+#: widgets/product-list/product-list.php:1619
+#: widgets/product-price/product-price.php:108
+#: widgets/product-price/product-price.php:155
+#: widgets/product-price/product-price.php:225
+#: widgets/product-review/product-review.php:35
+#: widgets/product-review/product-review.php:328
+#: widgets/product-review/product-review.php:411
+#: widgets/product-review/product-review.php:658
+#: widgets/product-review/product-review.php:693
+#: widgets/product-sku/product-sku.php:55
+#: widgets/product-sku/product-sku.php:101
+#: widgets/product-stock/product-stock.php:142
+#: widgets/product-stock/product-stock.php:179
+#: widgets/product-stock/product-stock.php:216
+#: widgets/product-tabs/product-tabs.php:281
+#: widgets/product-tabs/product-tabs.php:503
+#: widgets/product-tabs/product-tabs.php:566
+#: widgets/product-tabs/product-tabs.php:617
+#: widgets/product-tabs/product-tabs.php:679
+#: widgets/product-tabs/product-tabs.php:741
+#: widgets/product-tabs/product-tabs.php:949
+#: widgets/product-tabs/product-tabs.php:1239
+#: widgets/product-tabs/product-tabs.php:1322
+#: widgets/product-tabs/product-tabs.php:1569
+#: widgets/product-tabs/product-tabs.php:1604
+#: widgets/product-tags/product-tags.php:55
+#: widgets/product-tags/product-tags.php:100
+#: widgets/recently-viewed-products/recently-viewed-products.php:508
+#: widgets/recently-viewed-products/recently-viewed-products.php:657
+#: widgets/recently-viewed-products/recently-viewed-products.php:693
+#: widgets/related/related.php:487 widgets/related/related.php:792
+#: widgets/related/related.php:881 widgets/related/related.php:951
+#: widgets/related/related.php:1406 widgets/related/related.php:1440
+#: widgets/related/related.php:1548 widgets/up-sells/up-sells.php:464
+#: widgets/up-sells/up-sells.php:770 widgets/up-sells/up-sells.php:859
+#: widgets/up-sells/up-sells.php:932 widgets/up-sells/up-sells.php:1370
+#: widgets/up-sells/up-sells.php:1404 widgets/up-sells/up-sells.php:1512
+msgid "Color"
+msgstr "Цвет"
+
+#: core/template-cpt.php:45 modules/swatches/admin-product.php:145
+msgid "Add New"
+msgstr "Добавить новый"
+
+#: modules/swatches/admin-product.php:144
+msgid "Cancel"
+msgstr "Отмена"
+
+#: modules/swatches/admin-product.php:131
+msgid "Slug"
+msgstr "Короткая ссылка"
+
+#: modules/swatches/admin-product.php:125
+#: widgets/deal-products/deal-products.php:52
+#: widgets/filterable-product-list/filterable-product-list.php:80
+#: widgets/product-list/product-list.php:59
+#: widgets/recently-viewed-products/recently-viewed-products.php:55
+msgid "Name"
+msgstr "Название"
+
+#: modules/swatches/admin-product.php:121
+msgid "Add new term"
+msgstr "Добавить новый термин"
+
+#: modules/swatches/admin-product.php:99
+msgid "Successfully added"
+msgstr "Успешно добавлено"
+
+#: modules/swatches/admin-product.php:83
+msgid "Term already exists"
+msgstr "Термин уже существует"
+
+#: modules/swatches/admin-product.php:79
+msgid "Taxonomy is not exists"
+msgstr "Таксономия не существует"
+
+#: modules/swatches/admin-product.php:75
+msgid "Insufficient data"
+msgstr "Недостаточно данных"
+
+#: modules/swatches/admin-product.php:71
+msgid "Request denied"
+msgstr "Запрос отклонен"
+
+#: modules/swatches/admin-product.php:54
+msgid "Add new"
+msgstr "Добавить новый"
+
+#: modules/swatches/admin-product.php:52
+msgid "Select none"
+msgstr "Отменить выбор"
+
+#: modules/swatches/admin-product.php:51
+msgid "Select all"
+msgstr "Выбрать все"
+
+#: modules/swatches/admin-product.php:37
+msgid "Select terms"
+msgstr "Выбрать термины"
+
+#: plugin.php:339
+msgid "Update Elementor"
+msgstr "Обновить Elementor"
+
+#: plugin.php:331 plugin.php:348
+msgid "ShopEngine requires Elementor version %1$s+, which is currently NOT RUNNING."
+msgstr "Для работы ShopEngine требуется Elementor версии %1$s+, который в настоящее время НЕ ЗАПУЩЕН."
+
+#: plugin.php:321
+msgid "Install Elementor"
+msgstr "Установить Elementor"
+
+#: plugin.php:316
+msgid "Activate Elementor"
+msgstr "Активировать Elementor"
+
+#: plugin.php:302
+msgid "ShopEngine requires woocommerce Plugin, which is currently NOT RUNNING."
+msgstr "Для работы ShopEngine требуется плагин WooCommerce, который в настоящее время НЕ ЗАПУЩЕН."
+
+#: plugin.php:292
+msgid "Install WooCommerce"
+msgstr "Установить WooCommerce"
+
+#: plugin.php:287
+msgid "Activate WooCommerce"
+msgstr "Активировать WooCommerce"
+
+#. Author URI of the plugin
+msgid "https://wpmet.com"
+msgstr "https://wpmet.com"
+
+#. Author of the plugin
+msgid "Wpmet"
+msgstr "Wpmet"
+
+#. Description of the plugin
+msgid "ShopEngine is the most-complete WooCommerce template builder for Elementor. It helps you build and customize the single product page, cart page, archive page, checkout page, order page, my account page, and thank-you page from scratch. It also packed with product comparison, wishlist, quick view, and variation swatches etc."
+msgstr "ShopEngine - это самый полный конструктор шаблонов WooCommerce для Elementor. Он поможет вам создать и настроить страницу товара, страницу корзины, страницу архива, страницу оформления заказа, страницу заказа, страницу аккаунта и страницу благодарности с нуля. Он также включает в себя сравнение товаров, список желаний, быстрый просмотр, шаблоны вариаций и т.д."
+
+#. Plugin URI of the plugin
+msgid "https://wpmet.com/plugin/shopengine"
+msgstr "https://wpmet.com/plugin/shopengine"
+
+#. Plugin Name of the plugin
+#: core/settings/base.php:108 core/settings/base.php:109
+msgid "ShopEngine"
+msgstr "ShopEngine"
