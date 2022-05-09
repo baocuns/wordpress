@@ -1,0 +1,51 @@
+@import "../../../base/less/mixins";
+@import "widget-mixins";
+
+.widget-function('generate_calls_to', .create_social_media_button_style);
+
+.sow-social-media-button {
+	.social-media-button-base();
+}
+
+.create_social_media_button_style( @name, @icon_color:'', @button_color:'', @icon_color_hover: '', @button_color_hover: '' ) {
+
+	.sow-social-media-button-@{name} {
+
+		& when( iscolor( @icon_color ) ) {
+			color: @icon_color !important;
+
+			&.ow-button-hover:focus,
+			&.ow-button-hover:hover {
+				& when not( iscolor( @icon_color_hover ) ) {
+					color: @icon_color !important;
+				}
+
+				& when( iscolor( @icon_color_hover ) ) {
+					color: @icon_color_hover !important;
+				}
+			}
+		}
+
+		& when( iscolor( @button_color ) ) {
+			background-color: @button_color;
+			border: 1px solid @button_color;
+
+			// Account for Twenty Fifteen link border-bottom override.
+			&:hover {
+				border-bottom: 1px solid @button_color;
+			}
+
+			&.ow-button-hover:hover {
+				& when not( iscolor( @button_color_hover ) ) {
+					background-color: lighten( @button_color, 4% );
+					border-bottom-color: lighten( @button_color, 4% );
+				}
+
+				& when( iscolor( @button_color_hover ) ) {
+					background-color: @button_color_hover;
+					border-color: @button_color_hover;
+				}
+			}
+		}
+	}
+}

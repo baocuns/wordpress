@@ -1,0 +1,1 @@
+!function(i){i(document).on("sowsetupformfield",".siteorigin-widget-field-type-image-size",(function(e){var t=i(this),n=t.find(".custom-size-wrapper");t.find("select.siteorigin-widget-input").on("change",(function(){"custom_size"==i(this).val()?n.show():n.hide()})).trigger("change")}))}(jQuery);

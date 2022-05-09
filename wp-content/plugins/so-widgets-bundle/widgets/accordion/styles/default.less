@@ -1,0 +1,160 @@
+@import "../../../base/less/mixins";
+
+@heading_background_color: default;
+@heading_background_hover_color: default;
+@title_color: default;
+@title_hover_color: default;
+@heading_title_align: left;
+@heading_title_font_family: default;
+@heading_title_font_weight: default;
+@heading_title_font_size: default;
+@heading_title_text_transform: default;
+@heading_border_color: default;
+@heading_border_hover_color: default;
+@has_heading_border_width: default;
+@heading_border_width: default;
+@heading_border_radius: default;
+@heading_padding: 15px 30px 15px 30px;
+@show_open_close_icon: true;
+@open_close_location: right;
+
+@panels_background_color: default;
+@panels_font_family: default;
+@panels_font_size: default;
+@panels_font_color: default;
+@panels_border_color: default;
+@has_panels_border_width: default;
+@panels_border_width: default;
+@panels_border_radius: default;
+@panels_padding: 15px 30px 15px 30px;
+@panels_margin_bottom: 10px;
+
+.sow-accordion {
+
+	.sow-accordion-panel {
+
+		.sow-accordion-panel-header {
+			background-color: @heading_background_color;
+			border-radius: @heading_border_radius;
+			color: @title_color;
+			cursor: pointer;
+			display: flex;
+			font-family: @heading_title_font_family;
+			font-size: @heading_title_font_size;
+			font-weight: @heading_title_font_weight;
+			padding: @heading_padding;
+			position: relative;
+			text-transform: @heading_title_text_transform;
+
+			& when ( @open_close_location = right ) {
+				flex-direction: row;
+			}
+
+			& when ( @open_close_location = left ) {
+				flex-direction: row-reverse;
+			}
+
+			& when( @has_heading_border_width = true ) {
+				border-color: @heading_border_color;
+				border-style: solid;
+				border-width: @heading_border_width;
+			}
+
+			&:hover {
+				background-color: @heading_background_hover_color;
+				color: @title_hover_color;
+				border-color: @heading_border_hover_color;
+			}
+
+			&:focus {
+				outline: 1px dotted #666;
+				outline: auto 5px -webkit-focus-ring-color;
+			}
+
+			.sow-accordion-title {
+				display: flex;
+				align-items: center;
+				& when ( @heading_title_align = center ) {
+					justify-content: center;
+				}
+
+				& when ( @heading_title_align = right ) {
+					justify-content: flex-end;
+				}
+
+				width: 100%;
+				& when ( @show_open_close_icon = true ) and ( @heading_title_align = @open_close_location ) {
+					margin-@{open_close_location}: 5px;
+				}
+			}
+
+			& when ( @show_open_close_icon = false ) {
+				.sow-accordion-open-close-button {
+						display: none;
+				}
+			}
+
+			.sow-accordion-icon-image {
+				width: auto;
+				height: @heading_title_font_size;
+				max-height: 1em; // Account for @heading_title_font_size not being set
+			}
+
+			.sow-accordion-title-icon-left > .sow-accordion-icon-image,
+			.sow-accordion-title-icon-left > span[data-sow-icon] {
+				margin-right: 5px;
+			}
+
+			.sow-accordion-title-icon-right > .sow-accordion-icon-image,
+			.sow-accordion-title-icon-right > span[data-sow-icon] {
+				margin-left: 5px;
+			}
+		}
+
+		&:not(.sow-accordion-panel-open) > .sow-accordion-panel-header-container > .sow-accordion-panel-header {
+			.sow-accordion-close-button {
+				display: none;
+			}
+		}
+
+		&.sow-accordion-panel-open > .sow-accordion-panel-header-container > .sow-accordion-panel-header {
+			.sow-accordion-open-button {
+				display: none;
+			}
+		}
+
+		.sow-accordion-panel-content {
+
+			.sow-accordion-panel-border {
+				background-color: @panels_background_color;
+				border-radius: @panels_border_radius;
+				& when ( @has_panels_border_width = true ) {
+					border-color: @panels_border_color;
+					border-style: solid;
+					border-width: @panels_border_width;
+				}
+				color: @panels_font_color;
+				font-family: @panels_font_family;
+				font-size: @panels_font_size;
+				overflow: auto;
+				padding: @panels_padding;
+
+				&:focus {
+					outline: 1px dotted #666;
+					outline: auto 5px -webkit-focus-ring-color;
+				}
+			}
+		}
+		margin-bottom: @panels_margin_bottom;
+
+		@media print {
+			.sow-accordion-open-close-button {
+				display: none;
+			}
+
+			.sow-accordion-panel-content {
+				display: block !important;
+			}
+		}
+	}
+}

@@ -1,0 +1,43 @@
+@title_alignment: default;
+@image_alignment: default;
+@image_display: block;
+@image_max_width: default;
+@image_height: default;
+@image_width: default;
+
+.widget-title {
+	text-align: @title_alignment;
+}
+
+.sow-image-container {
+	display: flex;
+	align-items: flex-start;
+
+	& when( @image_alignment = left ) {
+		justify-content: flex-start;
+	}
+	& when( @image_alignment = right ) {
+		justify-content: flex-end;
+	}
+	& when( @image_alignment = center ) {
+		justify-content: center;
+	}
+
+	> a {
+		display: inline-block;
+		width: @image_width;
+		max-width: @image_max_width;
+
+		@media screen and ( -ms-high-contrast: active ), screen and ( -ms-high-contrast: none ) {  
+			display: flex;
+		}
+	}
+
+	.so-widget-image {
+		display: block;
+		max-width: @image_max_width;
+		width: @image_width;
+		height: @image_height;
+	}
+}
+

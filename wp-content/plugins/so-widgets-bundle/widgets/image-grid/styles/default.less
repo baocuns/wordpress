@@ -1,0 +1,23 @@
+@padding: default;
+@alignment_horizontal: center;
+@alignment_vertical: end;
+
+.sow-image-grid-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: @alignment_horizontal;
+	align-items: @alignment_vertical;
+	line-height: 0;
+	text-align: center;
+
+	.sow-image-grid-image {
+		padding: @padding;
+		display: inline-block;
+
+		img {
+			opacity: 0;
+			max-width:100%;
+			height:auto;
+		}
+	}
+}
