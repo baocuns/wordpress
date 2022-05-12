@@ -1,5 +1,3 @@
-<!-- Css Styles -->
-
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 
@@ -15,12 +13,6 @@
 </head>
 
 <body <?php body_class(); ?>>
-
-    <!-- Page Preloder -->
-    <!-- <div id="preloder">
-    <div class="loader"></div>
-</div> -->
-
     <!-- Humberger Begin -->
     <div class="humberger__menu__overlay"></div>
     <div class="humberger__menu__wrapper">
@@ -131,7 +123,6 @@
                         <ul>
                             <?php
                             wp_nav_menu(array('theme_location' => 'header-menu'));
-
                             ?>
                         </ul>
                     </nav>

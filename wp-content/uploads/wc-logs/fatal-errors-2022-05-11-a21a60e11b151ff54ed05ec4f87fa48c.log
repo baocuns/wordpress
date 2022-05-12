@@ -1,0 +1,40 @@
+2022-05-11T06:38:10+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in C:\xampp\htdocs\wordpress\wp-content\themes\group4\index.php:159
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\group4\index.php on line 159
+
+2022-05-11T06:52:00+00:00 CRITICAL Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\xampp\htdocs\wordpress\wp-content\themes\group4\single.php:6
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\group4\single.php on line 6
+
+2022-05-11T06:53:53+00:00 CRITICAL Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\xampp\htdocs\wordpress\wp-content\themes\group4\single.php:6
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\group4\single.php on line 6
+
+2022-05-11T06:54:28+00:00 CRITICAL Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\xampp\htdocs\wordpress\wp-content\themes\group4\single.php:6
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\group4\single.php on line 6
+
+2022-05-11T06:55:07+00:00 CRITICAL Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\xampp\htdocs\wordpress\wp-content\themes\group4\single.php:6
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\group4\single.php on line 6
+

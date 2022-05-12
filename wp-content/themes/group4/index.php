@@ -77,6 +77,20 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
 //         echo the_title("<br>");
 //     endwhile;
 // endif;
+
+// wc
+// $args = array(
+//     'status' => 'publish',
+//     'orderby' => 'rand',
+//     'posts_per_page' => 5
+// );
+// $productsRandom = wc_get_products( $args );
+
+// foreach ($productsRandom as $key => $value) {
+//     echo $key . ':' . $value;
+//     echo '<br><br><br><br><br>';
+// }
+// exit;
 ?>
 
 <?php
@@ -107,8 +121,6 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
 //         var_dump($post);
 //     }
 // }
-
-
 // var_dump($products);
 ?>
 
@@ -116,14 +128,27 @@ Ngoài ra, ta có thể sử dụng template tags the_title để lấy thông t
 
 <?php
 // var_dump(get_terms( 'product_cat'));
+
+
+
 $args = array(
     'status' => 'publish'
 );
-$products = wc_get_products($args);
+$products = wc_get_products($args); //get all product
 
-// var_dump($products);
-// $product = get_page_by_title( 'banana', OBJECT, 'product' );
-// var_dump(get_permalink( $product->ID ));
+$argsRandom = array( //random
+    'status' => 'publish',
+    'orderby' => 'rand',
+    'posts_per_page' => 3
+);
+
+$prod_cat_args = array( 
+    'taxonomy'     => 'product_cat', //woocommerce
+    'orderby'      => 'name',
+    'empty'        => 0
+);
+
+$woo_categories = get_categories($prod_cat_args);//categories
 
 get_header();
 
@@ -136,31 +161,26 @@ get_header();
     <div class="container">
         <div class="row">
             <div class="categories__slider owl-carousel">
-                <div class="col-lg-3">
-                    <div class="categories__item set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/img/categories/cat-1.jpg">
-                        <h5><a href="#">Fresh Fruit</a></h5>
+                <?php
+                foreach ($woo_categories as $woo_cat) {
+                    $woo_cat_id = $woo_cat->term_id; //category ID
+                    $woo_cat_name = $woo_cat->name; //category name
+                    $woo_cat_slug = $woo_cat->slug; //category slug 
+                    $thumbnail_id = get_woocommerce_term_meta($woo_cat_id, 'thumbnail_id', true);
+                    $image = wp_get_attachment_url($thumbnail_id);
+                ?>
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="<?php echo $image; ?>">
+                            <h5>
+                                <a href="<?php echo get_term_link($woo_cat_slug, 'product_cat') ?>">
+                                    <?php echo $woo_cat_name ?>
+                                </a>
+                            </h5>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="categories__item set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/img/categories/cat-2.jpg">
-                        <h5><a href="#">Dried Fruit</a></h5>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="categories__item set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/img/categories/cat-3.jpg">
-                        <h5><a href="#">Vegetables</a></h5>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="categories__item set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/img/categories/cat-4.jpg">
-                        <h5><a href="#">drink fruits</a></h5>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="categories__item set-bg" data-setbg="<?php echo get_template_directory_uri(); ?>/img/categories/cat-5.jpg">
-                        <h5><a href="#">drink fruits</a></h5>
-                    </div>
-                </div>
+                <?php }
+                ?>
+
             </div>
         </div>
     </div>
@@ -187,28 +207,26 @@ get_header();
                 </div>
             </div>
         </div>
-
         <div class="row featured__filter">
             <?php
             foreach ($products as $key => $value) {
                 $img = $value->get_image_id();
-                $product = get_page_by_title( $value->name, OBJECT, 'product' );
+                $product = get_page_by_title($value->name, OBJECT, 'product');
             ?>
                 <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fresh-meat">
                     <!-- ?php echo get_template_directory_uri(); ?>/img/featured/feature-2.jpg -->
                     <div class="featured__item">
-                        
-                            <div class="featured__item__pic set-bg" data-setbg="<?php echo wp_get_attachment_url($img, 'full'); ?>">
-                                <ul class="featured__item__pic__hover">
-                                    <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                    <li><a href="<?php echo get_permalink( $product->ID ); ?>"><i class="fa fa-shopping-cart"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="featured__item__text">
-                                <h6><a href="<?php echo get_permalink( $product->ID ); ?>"><?php echo $value->name; ?></a></h6>
-                                <h5>$<?php echo $value->price; ?></h5>
-                            </div>
+                        <div class="featured__item__pic set-bg" data-setbg="<?php echo wp_get_attachment_url($img, 'full'); ?>">
+                            <ul class="featured__item__pic__hover">
+                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                <li><a href="<?php echo get_permalink($product->ID); ?>"><i class="fa fa-shopping-cart"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="featured__item__text">
+                            <h6><a href="<?php echo get_permalink($product->ID); ?>"><?php echo $value->name; ?></a></h6>
+                            <h5>$<?php echo $value->price; ?></h5>
+                        </div>
                     </div>
 
                 </div>
@@ -219,25 +237,6 @@ get_header();
 </section>
 <!-- Featured Section End -->
 
-<!-- Banner Begin -->
-<div class="banner">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-6">
-                <div class="banner__pic">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/banner/banner-1.jpg" alt="">
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-6">
-                <div class="banner__pic">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Banner End -->
-
 <!-- Latest Product Section Begin -->
 <section class="latest-product spad">
     <div class="container">
@@ -247,62 +246,38 @@ get_header();
                     <h4>Latest Products</h4>
                     <div class="latest-product__slider owl-carousel">
                         <div class="latest-prdouct__slider__item">
-                            <a href="#" class="latest-product__item">
-                                <div class="latest-product__item__pic">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/latest-product/lp-1.jpg" alt="">
-                                </div>
-                                <div class="latest-product__item__text">
-                                    <h6>Crab Pool Security</h6>
-                                    <span>$30.00</span>
-                                </div>
-                            </a>
-                            <a href="#" class="latest-product__item">
-                                <div class="latest-product__item__pic">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/latest-product/lp-2.jpg" alt="">
-                                </div>
-                                <div class="latest-product__item__text">
-                                    <h6>Crab Pool Security</h6>
-                                    <span>$30.00</span>
-                                </div>
-                            </a>
-                            <a href="#" class="latest-product__item">
-                                <div class="latest-product__item__pic">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/latest-product/lp-3.jpg" alt="">
-                                </div>
-                                <div class="latest-product__item__text">
-                                    <h6>Crab Pool Security</h6>
-                                    <span>$30.00</span>
-                                </div>
-                            </a>
+                            <!-- product -->
+                            <?php
+                            $productsRandom1 = wc_get_products($argsRandom);
+                            foreach ($productsRandom1 as $value) { ?>
+                                <a href="<?php echo get_permalink($value->id); ?>" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="<?php echo wp_get_attachment_url($value->image_id, 'full'); ?>" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6><?php echo $value->name; ?></h6>
+                                        <span>$ <?php echo $value->price; ?></span>
+                                    </div>
+                                </a>
+                            <?php }
+                            ?>
                         </div>
                         <div class="latest-prdouct__slider__item">
-                            <a href="#" class="latest-product__item">
-                                <div class="latest-product__item__pic">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/latest-product/lp-1.jpg" alt="">
-                                </div>
-                                <div class="latest-product__item__text">
-                                    <h6>Crab Pool Security</h6>
-                                    <span>$30.00</span>
-                                </div>
-                            </a>
-                            <a href="#" class="latest-product__item">
-                                <div class="latest-product__item__pic">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/latest-product/lp-2.jpg" alt="">
-                                </div>
-                                <div class="latest-product__item__text">
-                                    <h6>Crab Pool Security</h6>
-                                    <span>$30.00</span>
-                                </div>
-                            </a>
-                            <a href="#" class="latest-product__item">
-                                <div class="latest-product__item__pic">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/latest-product/lp-3.jpg" alt="">
-                                </div>
-                                <div class="latest-product__item__text">
-                                    <h6>Crab Pool Security</h6>
-                                    <span>$30.00</span>
-                                </div>
-                            </a>
+                            <!-- product -->
+                            <?php
+                            $productsRandom2 = wc_get_products($argsRandom);
+                            foreach ($productsRandom2 as $value) { ?>
+                                <a href="<?php echo get_permalink($value->id); ?>" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="<?php echo wp_get_attachment_url($value->image_id, 'full'); ?>" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6><?php echo $value->name; ?></h6>
+                                        <span>$ <?php echo $value->price; ?></span>
+                                    </div>
+                                </a>
+                            <?php }
+                            ?>
                         </div>
                     </div>
                 </div>
@@ -312,62 +287,38 @@ get_header();
                     <h4>Top Rated Products</h4>
                     <div class="latest-product__slider owl-carousel">
                         <div class="latest-prdouct__slider__item">
-                            <a href="#" class="latest-product__item">
-                                <div class="latest-product__item__pic">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/latest-product/lp-1.jpg" alt="">
-                                </div>
-                                <div class="latest-product__item__text">
-                                    <h6>Crab Pool Security</h6>
-                                    <span>$30.00</span>
-                                </div>
-                            </a>
-                            <a href="#" class="latest-product__item">
-                                <div class="latest-product__item__pic">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/latest-product/lp-2.jpg" alt="">
-                                </div>
-                                <div class="latest-product__item__text">
-                                    <h6>Crab Pool Security</h6>
-                                    <span>$30.00</span>
-                                </div>
-                            </a>
-                            <a href="#" class="latest-product__item">
-                                <div class="latest-product__item__pic">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/latest-product/lp-3.jpg" alt="">
-                                </div>
-                                <div class="latest-product__item__text">
-                                    <h6>Crab Pool Security</h6>
-                                    <span>$30.00</span>
-                                </div>
-                            </a>
+                            <!-- product -->
+                            <?php
+                            $productsRandom3 = wc_get_products($argsRandom);
+                            foreach ($productsRandom3 as $value) { ?>
+                                <a href="<?php echo get_permalink($value->id); ?>" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="<?php echo wp_get_attachment_url($value->image_id, 'full'); ?>" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6><?php echo $value->name; ?></h6>
+                                        <span>$ <?php echo $value->price; ?></span>
+                                    </div>
+                                </a>
+                            <?php }
+                            ?>
                         </div>
                         <div class="latest-prdouct__slider__item">
-                            <a href="#" class="latest-product__item">
-                                <div class="latest-product__item__pic">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/latest-product/lp-1.jpg" alt="">
-                                </div>
-                                <div class="latest-product__item__text">
-                                    <h6>Crab Pool Security</h6>
-                                    <span>$30.00</span>
-                                </div>
-                            </a>
-                            <a href="#" class="latest-product__item">
-                                <div class="latest-product__item__pic">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/latest-product/lp-2.jpg" alt="">
-                                </div>
-                                <div class="latest-product__item__text">
-                                    <h6>Crab Pool Security</h6>
-                                    <span>$30.00</span>
-                                </div>
-                            </a>
-                            <a href="#" class="latest-product__item">
-                                <div class="latest-product__item__pic">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/latest-product/lp-3.jpg" alt="">
-                                </div>
-                                <div class="latest-product__item__text">
-                                    <h6>Crab Pool Security</h6>
-                                    <span>$30.00</span>
-                                </div>
-                            </a>
+                            <!-- product -->
+                            <?php
+                            $productsRandom4 = wc_get_products($argsRandom);
+                            foreach ($productsRandom4 as $value) { ?>
+                                <a href="<?php echo get_permalink($value->id); ?>" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="<?php echo wp_get_attachment_url($value->image_id, 'full'); ?>" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6><?php echo $value->name; ?></h6>
+                                        <span>$ <?php echo $value->price; ?></span>
+                                    </div>
+                                </a>
+                            <?php }
+                            ?>
                         </div>
                     </div>
                 </div>
@@ -377,62 +328,38 @@ get_header();
                     <h4>Review Products</h4>
                     <div class="latest-product__slider owl-carousel">
                         <div class="latest-prdouct__slider__item">
-                            <a href="#" class="latest-product__item">
-                                <div class="latest-product__item__pic">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/latest-product/lp-1.jpg" alt="">
-                                </div>
-                                <div class="latest-product__item__text">
-                                    <h6>Crab Pool Security</h6>
-                                    <span>$30.00</span>
-                                </div>
-                            </a>
-                            <a href="#" class="latest-product__item">
-                                <div class="latest-product__item__pic">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/latest-product/lp-2.jpg" alt="">
-                                </div>
-                                <div class="latest-product__item__text">
-                                    <h6>Crab Pool Security</h6>
-                                    <span>$30.00</span>
-                                </div>
-                            </a>
-                            <a href="#" class="latest-product__item">
-                                <div class="latest-product__item__pic">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/latest-product/lp-3.jpg" alt="">
-                                </div>
-                                <div class="latest-product__item__text">
-                                    <h6>Crab Pool Security</h6>
-                                    <span>$30.00</span>
-                                </div>
-                            </a>
+                            <!-- product -->
+                            <?php
+                            $productsRandom5 = wc_get_products($argsRandom);
+                            foreach ($productsRandom5 as $value) { ?>
+                                <a href="<?php echo get_permalink($value->id); ?>" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="<?php echo wp_get_attachment_url($value->image_id, 'full'); ?>" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6><?php echo $value->name; ?></h6>
+                                        <span>$ <?php echo $value->price; ?></span>
+                                    </div>
+                                </a>
+                            <?php }
+                            ?>
                         </div>
                         <div class="latest-prdouct__slider__item">
-                            <a href="#" class="latest-product__item">
-                                <div class="latest-product__item__pic">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/latest-product/lp-1.jpg" alt="">
-                                </div>
-                                <div class="latest-product__item__text">
-                                    <h6>Crab Pool Security</h6>
-                                    <span>$30.00</span>
-                                </div>
-                            </a>
-                            <a href="#" class="latest-product__item">
-                                <div class="latest-product__item__pic">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/latest-product/lp-2.jpg" alt="">
-                                </div>
-                                <div class="latest-product__item__text">
-                                    <h6>Crab Pool Security</h6>
-                                    <span>$30.00</span>
-                                </div>
-                            </a>
-                            <a href="#" class="latest-product__item">
-                                <div class="latest-product__item__pic">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/latest-product/lp-3.jpg" alt="">
-                                </div>
-                                <div class="latest-product__item__text">
-                                    <h6>Crab Pool Security</h6>
-                                    <span>$30.00</span>
-                                </div>
-                            </a>
+                            <!-- product -->
+                            <?php
+                            $productsRandom6 = wc_get_products($argsRandom);
+                            foreach ($productsRandom6 as $value) { ?>
+                                <a href="<?php echo get_permalink($value->id); ?>" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="<?php echo wp_get_attachment_url($value->image_id, 'full'); ?>" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6><?php echo $value->name; ?></h6>
+                                        <span>$ <?php echo $value->price; ?></span>
+                                    </div>
+                                </a>
+                            <?php }
+                            ?>
                         </div>
                     </div>
                 </div>
